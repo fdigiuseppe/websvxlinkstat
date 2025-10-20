@@ -262,6 +262,17 @@ def index():
     """Pagina principale con form di upload"""
     return render_template('index.html')
 
+@app.route('/health')
+def health():
+    """Health check endpoint per monitoring"""
+    from datetime import datetime
+    return {
+        'status': 'healthy',
+        'service': 'SVXLink Log Analyzer',
+        'version': '1.0.0',
+        'timestamp': datetime.now().isoformat()
+    }
+
 @app.route('/upload', methods=['POST'])
 def upload_file():
     """Gestisce l'upload e l'analisi del file"""
@@ -335,4 +346,17 @@ def api_analyze():
         return {'error': f'Errore durante l\'analisi: {str(e)}'}, 500
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    import os
+    
+    # Configurazione per environment
+    debug_mode = os.environ.get('FLASK_ENV', 'production') == 'development'
+    host = os.environ.get('FLASK_HOST', '0.0.0.0')
+    port = int(os.environ.get('FLASK_PORT', 5000))
+    
+    print(f"🚀 Starting SVXLink Log Analyzer...")
+    print(f"📡 Host: {host}")
+    print(f"🔌 Port: {port}")
+    print(f"🛠️ Debug: {debug_mode}")
+    print(f"🌐 URL: http://{host}:{port}")
+    
+    app.run(debug=debug_mode, host=host, port=port)
