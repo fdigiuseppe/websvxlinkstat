@@ -1,0 +1,14 @@
+# Docker Compose override per development
+services:
+  svxlink-analyzer:
+    environment:
+      - FLASK_ENV=development
+      - FLASK_DEBUG=1
+    volumes:
+      # Mount del codice per development
+      - .:/app
+      - /app/__pycache__  # Exclude pycache
+    ports:
+      - "5000:5000"
+      - "5678:5678"  # Debug port
+    command: python app.py

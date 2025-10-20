@@ -17,11 +17,39 @@ Una web application in Python Flask che analizza i file di log SVXLink per forni
 
 ## Installazione
 
+### Metodo 1: Installazione Tradizionale
+
 1. Clona o scarica il repository
 2. Installa le dipendenze:
 ```bash
 pip install -r requirements.txt
 ```
+
+### Metodo 2: Docker (Raccomandato) 🐳
+
+**Quick Start con Docker Compose:**
+```bash
+# Clona il repository
+git clone <repository-url>
+cd websvxlinkstat
+
+# Avvia con Docker
+docker-compose up -d
+
+# Accedi all'applicazione
+# http://localhost:5000
+```
+
+**Oppure con Docker direttamente:**
+```bash
+# Build dell'immagine
+docker build -t svxlink-analyzer .
+
+# Esecuzione
+docker run -d -p 5000:5000 svxlink-analyzer
+```
+
+📖 **Documentazione Docker completa**: Vedi [DOCKER-README.md](DOCKER-README.md)
 
 ## Utilizzo
 
@@ -137,7 +165,18 @@ websvxlinkstat/
 │   ├── index.html        # Pagina di upload
 │   └── results.html      # Pagina risultati
 ├── requirements.txt      # Dipendenze Python
-└── README.md            # Documentazione
+├── README.md            # Documentazione principale
+├── DOCKER-README.md     # Documentazione Docker
+├── Dockerfile           # Definizione container Docker
+├── docker-compose.yml   # Orchestrazione container
+├── docker-compose.dev.yml # Override per development
+├── docker-entrypoint.sh # Script avvio container
+├── .dockerignore        # Files esclusi da Docker
+├── .env.example         # Template configurazione
+├── Makefile            # Automazione comandi
+├── setup.sh            # Setup automatico (Linux/Mac)
+├── setup.bat           # Setup automatico (Windows)
+└── logs/               # Directory per log files
 ```
 
 ## Tecnologie Utilizzate
@@ -146,6 +185,8 @@ websvxlinkstat/
 - **Frontend**: HTML5, CSS3, JavaScript, Bootstrap 5
 - **Grafici**: Chart.js
 - **Icons**: Font Awesome
+- **Containerizzazione**: Docker & Docker Compose
+- **Build Tools**: Makefile per automazione
 
 ## Funzionalità Avanzate
 
@@ -160,6 +201,16 @@ websvxlinkstat/
 - Analisi dettagliata eventi log
 - **Tabelle riassuntive TG** con durate totali, numero QSO e durate medie
 - Calcolo automatico durate basato su eventi "Talker start/stop"
+
+### 🐳 Docker Features
+- **Containerizzazione completa** con Docker e Docker Compose
+- **Setup automatico** con script `setup.sh` / `setup.bat`
+- **Makefile** per automazione comandi Docker
+- **Multi-stage build** ottimizzato per produzione
+- **Health checks** automatici per monitoring
+- **Configurazione environment** con file `.env`
+- **Modalità development** con hot-reload
+- **Sicurezza**: Utente non-root, immagine minimal
 
 ## Limiti
 
