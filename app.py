@@ -438,10 +438,11 @@ class SVXLinkLogAnalyzer:
                 'unique_tones': len(self.ctcss_tones),
                 'ctcss_list': sorted_ctcss
             },
-            'tg': {
+            'talk_groups': {
                 'total_selections': sum(self.talk_groups.values()),
                 'unique_tgs': len(self.talk_groups),
-                'tg_list': sorted_tg
+                'tg_list': sorted_tg,
+                'tg_durations': []  # Placeholder per compatibilità
             },
             'qso': {
                 'total_qso': len(self.qso_sessions),
