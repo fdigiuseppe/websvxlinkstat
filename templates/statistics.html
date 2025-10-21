@@ -261,12 +261,10 @@
         });
         
         function initializePage() {
-            // Imposta date di default (ultimi 30 giorni)
-            const today = new Date();
-            const thirtyDaysAgo = new Date(today.getTime() - (30 * 24 * 60 * 60 * 1000));
-            
-            document.getElementById('endDate').value = today.toISOString().split('T')[0];
-            document.getElementById('startDate').value = thirtyDaysAgo.toISOString().split('T')[0];
+            // Imposta date di default basate sui dati disponibili
+            // Dal 19 ottobre al 21 ottobre 2025 (date con dati reali)
+            document.getElementById('endDate').value = '2025-10-21';
+            document.getElementById('startDate').value = '2025-10-19';
             
             // Popola anni
             populateYears();
@@ -335,18 +333,23 @@
             }
             
             fetch(url)
-                .then(response => response.json())
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+                    return response.json();
+                })
                 .then(data => {
                     if (data.success) {
                         updateStatistics(data, viewType);
                     } else {
-                        console.error('Errore:', data.error);
+                        console.error('Errore API:', data.error);
                         alert('Errore nel caricamento delle statistiche: ' + data.error);
                     }
                 })
                 .catch(error => {
                     console.error('Errore fetch:', error);
-                    alert('Errore nella comunicazione con il server');
+                    alert('Errore nella comunicazione con il server: ' + error.message);
                 })
                 .finally(() => {
                     showLoading(false);
