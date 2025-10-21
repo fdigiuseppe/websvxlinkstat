@@ -59,7 +59,10 @@ class QSOEvent:
 class DatabaseManager:
     """Gestione database SQLite per statistiche SVXLink"""
     
-    def __init__(self, db_path: str = 'data/svxlink_stats.db'):
+    def __init__(self, db_path: str = None):
+        # Usa variabile d'ambiente se disponibile, altrimenti default
+        if db_path is None:
+            db_path = os.getenv('DATABASE_PATH', 'data/svxlink_stats.db')
         self.db_path = db_path
         self.ensure_db_directory()
         self.init_database()

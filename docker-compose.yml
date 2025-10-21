@@ -11,10 +11,10 @@ services:
       - FLASK_DEBUG=0
       - FLASK_HOST=0.0.0.0
       - FLASK_PORT=5000
-      - DATABASE_PATH=/app/data/svxlink_stats.db
+      - DATABASE_PATH=/app/data/db/svxlink_stats.db
     volumes:
-      # Mount per i log files da processare
-      - ./data:/app/data
+      # Mount per i log files da processare (solo i file .txt)
+      - ./data:/app/data:ro
       # Volume persistente per database SQLite
       - svxlink_db:/app/data/db
       # Mount per logs applicazione (opzionale)
