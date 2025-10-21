@@ -165,11 +165,16 @@ class LogProcessor:
             print(f"❌ Errore processando {file_path.name}: {e}")
             return False
     
-    def process_all_files(self) -> Dict[str, int]:
+    def process_all_files(self, force: bool = False) -> Dict[str, int]:
         """Processa tutti i file non ancora elaborati"""
         print("🔄 Cercando file da processare...")
         
-        unprocessed_files = self.get_unprocessed_files()
+        if force:
+            # Se force=True, processa tutti i file nella cartella
+            unprocessed_files = list(self.data_dir.glob("svxlink_log_*.txt"))
+            print(f"🔧 Modalità forzata: processamento di tutti i {len(unprocessed_files)} file")
+        else:
+            unprocessed_files = self.get_unprocessed_files()
         
         if not unprocessed_files:
             print("✅ Nessun file nuovo da processare")
