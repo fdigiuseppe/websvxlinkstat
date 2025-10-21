@@ -32,6 +32,11 @@ app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024  # 16MB max file size
 # Le inizializzazioni di log_processor e scheduler saranno fatte dopo 
 # la definizione della classe SVXLinkLogAnalyzer per evitare importazioni circolari
 
+# Inizializza variabili globali
+db_manager = None
+log_processor = None  
+scheduler = None
+
 class SVXLinkLogAnalyzer:
     def __init__(self):
         self.transmissions = []
@@ -462,16 +467,62 @@ def analyze_log_content(content):
 # Ora possiamo importare e inizializzare i moduli che dipendono da SVXLinkLogAnalyzer
 if DB_AVAILABLE:
     try:
-        from log_processor import LogProcessor
-        from scheduler import init_scheduler, get_scheduler
-        
+        # Prova ad inizializzare il DatabaseManager
         db_manager = DatabaseManager()
-        log_processor = LogProcessor()
-        scheduler = init_scheduler()
-        print("✅ Database, Log Processor e Scheduler inizializzati")
+        print("✅ Database Manager inizializzato")
+        
+        # Prova ad importare e inizializzare log processor (opzionale per statistiche automatiche)
+        try:
+            from log_processor import LogProcessor
+            log_processor = LogProcessor()
+            print("✅ Log Processor inizializzato")
+        except Exception as lp_error:
+            print(f"⚠️ Log Processor non disponibile: {lp_error}")
+            log_processor = None
+        
+        # Prova ad importare scheduler (opzionale per processamento automatico)
+        try:
+            from scheduler import init_scheduler, get_scheduler
+            scheduler = init_scheduler()
+            print("✅ Scheduler inizializzato")
+        except Exception as scheduler_error:
+            print(f"⚠️ Scheduler non disponibile: {scheduler_error}")
+            scheduler = None
+        
+        print("✅ Database inizializzato - funzionalità base disponibili")
+        
     except Exception as e:
         print(f"⚠️ Errore inizializzazione database: {e}")
+        import traceback
+        print(f"Traceback: {traceback.format_exc()}")
         DB_AVAILABLE = False
+        db_manager = None
+        log_processor = None
+        scheduler = None
+
+# Imposta funzioni per verificare la disponibilità dei moduli
+def is_database_available():
+    """Verifica se il database è disponibile e funzionante"""
+    global db_manager, DB_AVAILABLE
+    if not DB_AVAILABLE or db_manager is None:
+        return False
+    try:
+        # Test semplice per verificare che il database funzioni
+        db_manager.get_date_range_stats()
+        return True
+    except Exception as e:
+        print(f"⚠️ Database non funzionante: {e}")
+        return False
+
+def is_log_processor_available():
+    """Verifica se il log processor è disponibile"""
+    global log_processor
+    return log_processor is not None
+
+def is_scheduler_available():
+    """Verifica se lo scheduler è disponibile"""
+    global scheduler  
+    return scheduler is not None
 
 @app.route('/')
 def index():
@@ -568,7 +619,7 @@ def api_analyze():
 @app.route('/statistics')
 def statistics():
     """Pagina principale delle statistiche storiche"""
-    if not DB_AVAILABLE:
+    if not is_database_available():
         flash('Database non disponibile. Funzionalità statistiche non attive.', 'warning')
         return redirect(url_for('index'))
     
@@ -589,7 +640,7 @@ def statistics():
 @app.route('/api/statistics/daily')
 def api_daily_statistics():
     """API per statistiche giornaliere"""
-    if not DB_AVAILABLE:
+    if not is_database_available():
         return jsonify({'error': 'Database non disponibile'}), 503
     
     try:
@@ -678,8 +729,11 @@ def api_yearly_statistics():
 @app.route('/api/statistics/process')
 def api_process_logs():
     """API per processare nuovi file log"""
-    if not DB_AVAILABLE:
+    if not is_database_available():
         return jsonify({'error': 'Database non disponibile'}), 503
+    
+    if not is_log_processor_available():
+        return jsonify({'error': 'Log processor non disponibile - funzionalità automatiche disabilitate'}), 503
     
     try:
         # Processa file non elaborati
@@ -718,17 +772,30 @@ def api_available_dates():
 @app.route('/api/statistics/scheduler')
 def api_scheduler_status():
     """API per stato dello scheduler"""
-    if not DB_AVAILABLE:
+    if not is_database_available():
         return jsonify({'error': 'Database non disponibile'}), 503
     
+    if not is_scheduler_available():
+        return jsonify({
+            'success': True,
+            'running': False,
+            'scheduler_available': False,
+            'message': 'Scheduler non disponibile - funzionalità automatiche disabilitate'
+        })
+    
     try:
-        scheduler = get_scheduler()
+        scheduler_obj = get_scheduler()
+        processor_summary = {}
+        
+        if is_log_processor_available():
+            processor_summary = log_processor.get_processing_summary()
         
         return jsonify({
             'success': True,
-            'running': scheduler.running,
-            'next_jobs': scheduler.get_next_runs(),
-            'processor_summary': log_processor.get_processing_summary()
+            'running': scheduler_obj.running if scheduler_obj else False,
+            'scheduler_available': True,
+            'next_jobs': scheduler_obj.get_next_runs() if scheduler_obj else [],
+            'processor_summary': processor_summary
         })
         
     except Exception as e:
@@ -737,12 +804,15 @@ def api_scheduler_status():
 @app.route('/api/statistics/force-process', methods=['POST'])
 def api_force_process():
     """API per forzare processamento immediato"""
-    if not DB_AVAILABLE:
+    if not is_database_available():
         return jsonify({'error': 'Database non disponibile'}), 503
     
+    if not is_scheduler_available():
+        return jsonify({'error': 'Scheduler non disponibile - funzionalità automatiche disabilitate'}), 503
+    
     try:
-        scheduler = get_scheduler()
-        result = scheduler.force_process()
+        scheduler_obj = get_scheduler()
+        result = scheduler_obj.force_process()
         
         return jsonify({
             'success': True,
@@ -753,6 +823,16 @@ def api_force_process():
         
     except Exception as e:
         return jsonify({'error': str(e)}), 500
+
+@app.route('/status')
+def status():
+    """Mostra lo stato dell'applicazione"""
+    return {
+        'database': "✅ Disponibile" if is_database_available() else "❌ Non disponibile",
+        'log_processor': "✅ Disponibile" if is_log_processor_available() else "❌ Non disponibile", 
+        'scheduler': "✅ Disponibile" if is_scheduler_available() else "❌ Non disponibile",
+        'db_available': is_database_available()
+    }
 
 if __name__ == '__main__':
     import os

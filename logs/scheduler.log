@@ -36,3 +36,19 @@
 2025-10-21 19:20:29,706 - INFO - 127.0.0.1 - - [21/Oct/2025 19:20:29] "GET / HTTP/1.1" 200 -
 2025-10-21 19:21:29,063 - INFO - 127.0.0.1 - - [21/Oct/2025 19:21:29] "[32mGET /statistics HTTP/1.1[0m" 302 -
 2025-10-21 19:21:29,089 - INFO - 127.0.0.1 - - [21/Oct/2025 19:21:29] "GET / HTTP/1.1" 200 -
+2025-10-21 19:31:03,428 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.193:5000
+2025-10-21 19:31:03,433 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-21 19:33:44,595 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.193:5000
+2025-10-21 19:33:44,595 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-21 19:34:00,481 - INFO - 127.0.0.1 - - [21/Oct/2025 19:34:00] "[33mGET /status HTTP/1.1[0m" 404 -
+2025-10-21 19:34:05,232 - INFO - 127.0.0.1 - - [21/Oct/2025 19:34:05] "[33mGET /status HTTP/1.1[0m" 404 -
+2025-10-21 19:34:10,578 - INFO - 127.0.0.1 - - [21/Oct/2025 19:34:10] "GET / HTTP/1.1" 200 -
+2025-10-21 19:34:15,259 - INFO - 127.0.0.1 - - [21/Oct/2025 19:34:15] "[32mGET /statistics HTTP/1.1[0m" 302 -
+2025-10-21 19:34:25,626 - INFO - 127.0.0.1 - - [21/Oct/2025 19:34:25] "GET /?id=2def3b2d-e2f2-425c-bf74-569a199ca0fd&vscodeBrowserReqId=1761068065315 HTTP/1.1" 200 -
+2025-10-21 19:34:30,539 - INFO - 127.0.0.1 - - [21/Oct/2025 19:34:30] "[35m[1mGET /api/statistics/scheduler HTTP/1.1[0m" 503 -
