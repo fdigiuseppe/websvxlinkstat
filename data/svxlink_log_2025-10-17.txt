@@ -1,0 +1,2859 @@
+Fri Oct 17 00:00:06 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 00:00:15 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 00:01:09 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 00:01:20 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 00:01:39 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 00:01:41 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 00:01:45 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 00:02:09 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 00:02:11 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 00:02:17 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 00:02:54 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 00:02:56 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 00:03:05 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 00:03:09 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 00:03:43 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 00:03:45 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 00:03:47 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 00:03:53 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 00:04:17 2025: ReflectorLogic: Node left: Terni-HS
+Fri Oct 17 00:05:08 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 00:05:11 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 00:05:17 2025: ReflectorLogic: Node joined: Terni-HS
+Fri Oct 17 00:05:48 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 00:05:48 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 00:06:24 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 00:06:30 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 00:06:56 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 00:07:08 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 00:08:01 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 00:08:05 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 00:08:30 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 00:08:34 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 00:09:06 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 00:09:06 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 00:09:22 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 00:09:32 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 00:09:36 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 00:09:41 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 00:10:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 00:10:00 2025: Playing short voice ID
+Fri Oct 17 00:10:00 2025: Playing short announce
+Fri Oct 17 00:10:00 2025: Playing short CW ID
+Fri Oct 17 00:10:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 00:10:16 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 00:10:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 00:10:19 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 00:12:04 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 00:12:19 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 00:13:45 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 00:13:47 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 00:14:43 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 00:14:45 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 00:15:10 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 00:15:15 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 00:16:31 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 00:16:37 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 00:16:53 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Fri Oct 17 00:16:53 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+40]=-4)
+Fri Oct 17 00:16:53 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 00:16:54 2025: Voter: The squelch is CLOSED (Rx1[85.4:-12]=-2)
+Fri Oct 17 00:17:01 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 00:17:08 2025: ReflectorLogic: Selecting TG #0
+Fri Oct 17 00:17:16 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 00:17:34 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 00:18:27 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 00:18:28 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 00:18:53 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 00:18:56 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 00:20:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 00:20:00 2025: Playing short voice ID
+Fri Oct 17 00:20:00 2025: Playing short announce
+Fri Oct 17 00:20:00 2025: Playing short CW ID
+Fri Oct 17 00:20:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 00:20:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 00:20:52 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 00:21:26 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 00:21:39 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 00:21:41 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 00:22:26 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 00:22:30 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 00:24:35 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 00:24:39 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 00:24:41 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 00:24:43 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 00:25:46 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 00:25:50 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 00:25:59 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 00:26:05 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 00:26:26 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 00:26:29 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 00:26:52 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 00:27:07 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 00:27:35 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 00:27:39 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 00:28:05 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 00:28:29 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 00:29:04 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 00:29:05 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 00:29:05 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 00:29:17 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 00:29:51 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 00:30:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 00:30:00 2025: Playing short voice ID
+Fri Oct 17 00:30:00 2025: Playing short announce
+Fri Oct 17 00:30:00 2025: Playing short CW ID
+Fri Oct 17 00:30:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 00:30:01 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 00:30:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 00:30:50 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 00:30:54 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 00:31:19 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 00:31:20 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 00:31:36 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 00:31:39 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 00:32:53 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 00:32:55 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 00:33:51 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 00:33:54 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 00:34:59 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 00:35:07 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 00:35:53 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 00:36:08 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 00:37:42 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 00:37:44 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 00:37:45 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 00:37:48 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 00:38:58 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 00:39:06 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 00:40:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 00:40:00 2025: Playing short voice ID
+Fri Oct 17 00:40:00 2025: Playing short announce
+Fri Oct 17 00:40:00 2025: Playing short CW ID
+Fri Oct 17 00:40:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 00:40:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 00:40:38 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 00:40:38 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 00:40:52 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 00:40:55 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 00:40:57 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 00:41:00 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 00:41:26 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 00:41:49 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 00:42:14 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 00:42:17 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 00:42:18 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 00:42:21 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 00:43:06 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 00:43:11 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 00:44:18 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 00:44:21 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 00:45:06 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 00:45:16 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 00:46:22 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 00:46:36 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 00:47:02 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 00:47:08 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 00:47:25 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 00:47:25 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 00:47:26 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 00:47:29 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 00:47:52 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 00:48:41 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 00:48:43 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 00:49:10 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 00:49:38 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 00:49:40 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 00:50:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 00:50:00 2025: Playing short voice ID
+Fri Oct 17 00:50:00 2025: Playing short announce
+Fri Oct 17 00:50:00 2025: Playing short CW ID
+Fri Oct 17 00:50:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 00:50:04 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 00:50:08 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 00:50:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 00:50:40 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 00:50:42 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 00:51:04 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 00:51:11 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 00:52:57 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 00:52:58 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 00:52:59 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 00:53:02 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 00:53:14 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 00:53:35 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 00:55:10 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 00:55:14 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 00:59:10 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 00:59:49 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 01:00:00 2025: RepeaterLogic: Sending long identification...
+Fri Oct 17 01:00:00 2025: Playing long announce
+Fri Oct 17 01:00:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 01:00:04 2025: ReflectorLogic: Node left: Monti-Tiburtini
+Fri Oct 17 01:00:15 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 01:00:49 2025: ReflectorLogic: Node left: Terni-HS
+Fri Oct 17 01:01:05 2025: ReflectorLogic: Node joined: Monti-Tiburtini
+Fri Oct 17 01:01:49 2025: ReflectorLogic: Node joined: Terni-HS
+Fri Oct 17 01:02:21 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 01:02:22 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 01:02:47 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 01:02:51 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 01:03:10 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 01:03:15 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 01:03:41 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 01:03:42 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 01:04:08 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 01:04:10 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 01:04:56 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 01:04:56 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 01:04:57 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 01:04:59 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 01:05:52 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 01:05:56 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 01:06:22 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 01:06:28 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 01:07:10 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 01:07:38 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 01:09:15 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 01:09:15 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 01:09:15 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 01:09:16 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 01:09:18 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 01:09:39 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 01:10:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 01:10:00 2025: Playing short voice ID
+Fri Oct 17 01:10:00 2025: Playing short announce
+Fri Oct 17 01:10:00 2025: Playing short CW ID
+Fri Oct 17 01:10:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 01:10:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 01:10:25 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 01:10:48 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 01:11:01 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 01:11:05 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 01:11:27 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 01:11:52 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 01:13:02 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 01:13:08 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 01:14:12 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 01:14:14 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 01:14:14 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 01:14:17 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 01:14:42 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 01:14:57 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 01:16:45 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 01:16:47 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 01:17:20 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 01:17:24 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 01:17:33 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 01:18:07 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 01:18:11 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 01:18:15 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 01:19:07 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 01:19:10 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 01:20:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 01:20:00 2025: Playing short voice ID
+Fri Oct 17 01:20:00 2025: Playing short announce
+Fri Oct 17 01:20:00 2025: Playing short CW ID
+Fri Oct 17 01:20:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 01:20:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 01:20:37 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 01:20:38 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 01:21:23 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 01:21:28 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 01:22:23 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 01:22:24 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 01:22:25 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 01:22:26 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 01:23:01 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 01:23:05 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 01:23:11 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 01:23:17 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 01:23:52 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 01:23:56 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 01:24:32 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 01:24:35 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 01:24:39 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 01:24:39 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 01:26:20 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 01:26:27 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 01:27:28 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 01:27:40 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 01:28:21 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 01:28:27 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 01:29:53 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 01:29:53 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 01:29:53 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 01:29:55 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 01:30:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 01:30:00 2025: Playing short voice ID
+Fri Oct 17 01:30:00 2025: Playing short announce
+Fri Oct 17 01:30:00 2025: Playing short CW ID
+Fri Oct 17 01:30:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 01:30:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 01:30:20 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 01:30:24 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 01:31:00 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 01:31:07 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 01:32:07 2025: ReflectorLogic: Node left: IR6UCX
+Fri Oct 17 01:32:11 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 01:32:18 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 01:32:43 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 01:32:48 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 01:33:04 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 01:33:05 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 01:34:11 2025: ReflectorLogic: Node joined: IR6UCX
+Fri Oct 17 01:34:56 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 01:34:59 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 01:35:10 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 01:35:15 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 01:35:40 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 01:35:40 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 01:37:15 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 01:37:17 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 01:37:20 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 01:37:21 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 01:38:15 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 01:38:18 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 01:40:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 01:40:00 2025: Playing short voice ID
+Fri Oct 17 01:40:00 2025: Playing short announce
+Fri Oct 17 01:40:00 2025: Playing short CW ID
+Fri Oct 17 01:40:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 01:40:03 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 01:40:04 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 01:40:07 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 01:40:12 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 01:40:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 01:40:37 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 01:40:42 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 01:41:58 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 01:41:58 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 01:41:58 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 01:42:00 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 01:42:55 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 01:42:59 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 01:43:03 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 01:43:12 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 01:43:34 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 01:43:36 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 01:43:38 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 01:43:54 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 01:43:54 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 01:44:10 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 01:44:49 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 01:44:52 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 01:44:55 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 01:45:10 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 01:46:19 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 01:46:24 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 01:46:25 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 01:46:35 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 01:47:00 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 01:47:00 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 01:47:20 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 01:47:23 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 01:47:25 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 01:47:51 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 01:48:52 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 01:48:52 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 01:49:29 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 01:49:31 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 01:49:46 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 01:50:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 01:50:00 2025: Playing short voice ID
+Fri Oct 17 01:50:00 2025: Playing short announce
+Fri Oct 17 01:50:00 2025: Playing short CW ID
+Fri Oct 17 01:50:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 01:50:08 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 01:50:10 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 01:50:11 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 01:50:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 01:51:05 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 01:51:07 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 01:53:06 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 01:53:10 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 01:54:02 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 01:54:03 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 01:54:36 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 01:54:37 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 01:56:33 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 01:56:37 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 01:57:12 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 01:57:13 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 01:57:15 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 01:57:18 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 01:57:30 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 01:57:31 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 01:57:43 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 01:57:43 2025: ReflectorLogic: Node left: IR8UCO
+Fri Oct 17 01:57:44 2025: ReflectorLogic: Node joined: IR8UCO
+Fri Oct 17 01:57:49 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 01:58:49 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 01:58:52 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 01:59:17 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 01:59:34 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 01:59:47 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 01:59:47 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 01:59:49 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 01:59:52 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 02:00:00 2025: RepeaterLogic: Sending long identification...
+Fri Oct 17 02:00:00 2025: Playing long announce
+Fri Oct 17 02:00:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 02:00:15 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 02:00:27 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 02:00:27 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 02:00:38 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 02:00:43 2025: ReflectorLogic: Node left: IR8UCO
+Fri Oct 17 02:00:45 2025: ReflectorLogic: Node joined: IR8UCO
+Fri Oct 17 02:00:50 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 02:02:05 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 02:02:10 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 02:02:54 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 02:03:03 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 02:03:39 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 02:04:14 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 02:04:39 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 02:04:39 2025: ReflectorLogic: Node left: IR8UCO
+Fri Oct 17 02:04:40 2025: ReflectorLogic: Node joined: IR8UCO
+Fri Oct 17 02:04:45 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 02:07:00 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 02:07:12 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 02:07:27 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 02:07:28 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 02:08:03 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 02:08:16 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 02:08:38 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 02:08:39 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 02:09:53 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 02:09:55 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 02:09:56 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 02:10:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 02:10:00 2025: Playing short voice ID
+Fri Oct 17 02:10:00 2025: Playing short announce
+Fri Oct 17 02:10:00 2025: Playing short CW ID
+Fri Oct 17 02:10:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 02:10:01 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 02:10:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 02:10:38 2025: ReflectorLogic: Node left: IR9ZYA
+Fri Oct 17 02:12:10 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 02:12:18 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 02:12:41 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 02:12:44 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 02:13:02 2025: ReflectorLogic: Node joined: IR9ZYA
+Fri Oct 17 02:13:06 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 02:13:09 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 02:14:02 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 02:14:03 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 02:15:01 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 02:15:01 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 02:15:17 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 02:15:17 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 02:15:20 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 02:15:20 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 02:15:39 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 02:15:57 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 02:16:22 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 02:16:58 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 02:17:13 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 02:17:14 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 02:17:15 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 02:17:16 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 02:17:44 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 02:17:44 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 02:18:09 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 02:18:11 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 02:18:11 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 02:18:16 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 02:18:35 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 02:18:52 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 02:19:16 2025: ReflectorLogic: Node left: IR6UCX
+Fri Oct 17 02:19:33 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 02:19:39 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 02:19:54 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 02:19:56 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 02:20:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 02:20:00 2025: Playing short voice ID
+Fri Oct 17 02:20:00 2025: Playing short announce
+Fri Oct 17 02:20:00 2025: Playing short CW ID
+Fri Oct 17 02:20:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 02:20:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 02:20:22 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 02:20:31 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 02:20:33 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 02:20:36 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 02:21:01 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 02:21:08 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 02:22:14 2025: ReflectorLogic: Node joined: IR6UCX
+Fri Oct 17 02:22:36 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 02:22:39 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 02:23:29 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 02:23:34 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 02:24:09 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 02:24:28 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 02:24:30 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 02:24:37 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 02:25:14 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 02:25:16 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 02:25:16 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 02:25:16 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 02:25:34 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 02:25:36 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 02:26:01 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 02:26:03 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 02:26:47 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 02:26:47 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 02:27:48 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 02:27:53 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 02:28:05 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 02:28:13 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 02:28:39 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 02:28:43 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 02:29:07 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 02:29:45 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 02:30:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 02:30:00 2025: Playing short voice ID
+Fri Oct 17 02:30:00 2025: Playing short announce
+Fri Oct 17 02:30:00 2025: Playing short CW ID
+Fri Oct 17 02:30:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 02:30:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 02:30:50 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 02:30:50 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 02:30:55 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 02:31:18 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 02:31:53 2025: ReflectorLogic: Node left: IR8UCO
+Fri Oct 17 02:32:00 2025: ReflectorLogic: Node joined: IR8UCO
+Fri Oct 17 02:32:53 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 02:33:02 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 02:33:29 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 02:33:29 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 02:33:29 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 02:33:30 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 02:35:58 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 02:36:03 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 02:36:47 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 02:36:49 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 02:36:52 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 02:37:00 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 02:38:15 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 02:38:17 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 02:38:19 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 02:38:19 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 02:38:54 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 02:38:59 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 02:39:33 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 02:39:35 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 02:40:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 02:40:00 2025: Playing short voice ID
+Fri Oct 17 02:40:00 2025: Playing short announce
+Fri Oct 17 02:40:00 2025: Playing short CW ID
+Fri Oct 17 02:40:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 02:40:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 02:40:19 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 02:40:29 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 02:42:24 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 02:42:51 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 02:44:46 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 02:44:47 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 02:44:49 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 02:44:52 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 02:46:18 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 02:46:21 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 02:46:23 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 02:46:24 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 02:46:46 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 02:46:48 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 02:48:41 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 02:48:44 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 02:48:45 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 02:48:46 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 02:49:42 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 02:49:52 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 02:49:53 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 02:49:55 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 02:50:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 02:50:00 2025: Playing short voice ID
+Fri Oct 17 02:50:00 2025: Playing short announce
+Fri Oct 17 02:50:00 2025: Playing short CW ID
+Fri Oct 17 02:50:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 02:50:12 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 02:50:14 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 02:50:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 02:50:28 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 02:50:32 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 02:52:10 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 02:52:14 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 02:52:40 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 02:53:08 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 02:54:32 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 02:54:34 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 02:55:09 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 02:55:10 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 02:55:12 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 02:55:23 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 02:56:58 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 02:58:06 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 02:58:20 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 02:58:21 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 02:58:24 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 02:58:26 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 02:59:41 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 02:59:42 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 02:59:44 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 02:59:46 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 03:00:00 2025: RepeaterLogic: Sending long identification...
+Fri Oct 17 03:00:00 2025: Playing long announce
+Fri Oct 17 03:00:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 03:00:15 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 03:00:31 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 03:00:35 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 03:01:23 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:01:31 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:01:51 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 03:01:53 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 03:01:56 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:02:09 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:02:44 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:02:53 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:03:47 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 03:03:49 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:03:50 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 03:03:59 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:04:28 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 03:04:31 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:04:32 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 03:04:35 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:05:11 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:05:16 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:06:21 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:06:37 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:07:17 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 03:07:21 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 03:07:42 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:07:44 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:08:03 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:08:03 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:08:29 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:08:30 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:10:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 03:10:00 2025: Playing short voice ID
+Fri Oct 17 03:10:00 2025: Playing short announce
+Fri Oct 17 03:10:00 2025: Playing short CW ID
+Fri Oct 17 03:10:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 03:10:05 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:10:15 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:10:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 03:10:42 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:10:43 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:11:28 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:11:48 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:12:03 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:12:03 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 03:12:08 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 03:12:09 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:12:34 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:12:39 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:14:33 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:14:35 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:14:51 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:14:56 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:16:12 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:16:12 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:17:08 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:17:10 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:17:46 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:17:49 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:19:49 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 03:19:53 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 03:19:55 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:20:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 03:20:00 2025: Playing short voice ID
+Fri Oct 17 03:20:00 2025: Playing short announce
+Fri Oct 17 03:20:00 2025: Playing short CW ID
+Fri Oct 17 03:20:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 03:20:01 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:20:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 03:20:36 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:20:37 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:23:51 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 03:23:52 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:23:55 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 03:23:57 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:24:21 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 03:24:24 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:24:26 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:24:27 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 03:24:45 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 03:24:48 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 03:24:51 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:24:56 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:25:24 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:25:27 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:27:14 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 03:27:15 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:27:15 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:27:18 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 03:28:16 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 03:28:16 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 03:28:19 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:28:22 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:29:32 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 03:29:34 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 03:29:37 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:29:41 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:30:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 03:30:00 2025: Playing short voice ID
+Fri Oct 17 03:30:00 2025: Playing short announce
+Fri Oct 17 03:30:00 2025: Playing short CW ID
+Fri Oct 17 03:30:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 03:30:00 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:30:16 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:30:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 03:32:52 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:32:57 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:33:22 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 03:33:23 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 03:33:26 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:33:29 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:33:55 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:33:58 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:36:42 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:36:44 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:37:21 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:37:22 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:37:59 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 03:37:59 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 03:38:02 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:38:03 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:39:08 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 03:39:10 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:39:12 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 03:39:14 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:39:38 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 03:39:39 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:39:42 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:39:43 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 03:40:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 03:40:00 2025: Playing short voice ID
+Fri Oct 17 03:40:00 2025: Playing short announce
+Fri Oct 17 03:40:00 2025: Playing short CW ID
+Fri Oct 17 03:40:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 03:40:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 03:40:38 2025: ReflectorLogic: Node left: IR8UCO
+Fri Oct 17 03:40:42 2025: ReflectorLogic: Node joined: IR8UCO
+Fri Oct 17 03:40:42 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:40:49 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:41:20 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:41:38 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:41:59 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 03:41:59 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:42:01 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 03:42:04 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:42:54 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:42:57 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:43:22 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:43:25 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:44:48 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:44:57 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:46:29 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:46:29 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:46:55 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:46:56 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:47:37 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 03:47:40 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 03:48:04 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:48:09 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:48:27 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:48:39 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:49:15 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:49:15 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:49:51 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:49:52 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:50:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 03:50:00 2025: Playing short voice ID
+Fri Oct 17 03:50:00 2025: Playing short announce
+Fri Oct 17 03:50:00 2025: Playing short CW ID
+Fri Oct 17 03:50:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 03:50:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 03:50:25 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 03:50:27 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:50:31 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 03:50:31 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:52:23 2025: ReflectorLogic: Node left: IR8UCO
+Fri Oct 17 03:52:25 2025: ReflectorLogic: Node joined: IR8UCO
+Fri Oct 17 03:52:30 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:52:30 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:52:56 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:53:06 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:53:17 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:53:20 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:53:45 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:53:46 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:54:41 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:54:44 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:55:10 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:55:18 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:56:13 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:56:18 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:57:26 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 03:57:31 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 03:57:33 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:57:38 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:57:46 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 03:57:50 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 03:58:32 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:58:35 2025: ReflectorLogic: Node left: IR8UCO
+Fri Oct 17 03:58:38 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:58:40 2025: ReflectorLogic: Node joined: IR8UCO
+Fri Oct 17 03:59:06 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:59:06 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 03:59:47 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 03:59:48 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:00:00 2025: RepeaterLogic: Sending long identification...
+Fri Oct 17 04:00:00 2025: Playing long announce
+Fri Oct 17 04:00:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 04:00:15 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 04:00:48 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:00:55 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:01:39 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:01:50 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:02:24 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:02:30 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:04:01 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 04:04:06 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 04:04:06 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:04:31 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:05:02 2025: ReflectorLogic: Node left: TRANI
+Fri Oct 17 04:05:59 2025: ReflectorLogic: Node joined: TRANI
+Fri Oct 17 04:06:59 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:07:04 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:07:39 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:07:45 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:08:31 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:08:33 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:09:06 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:09:10 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:09:35 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:09:37 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:10:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 04:10:00 2025: Playing short voice ID
+Fri Oct 17 04:10:00 2025: Playing short announce
+Fri Oct 17 04:10:00 2025: Playing short CW ID
+Fri Oct 17 04:10:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 04:10:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 04:11:48 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:12:10 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:12:11 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 04:12:14 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 04:12:35 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:12:41 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:13:06 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:13:10 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:13:55 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:13:57 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:14:18 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:14:24 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:14:36 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:14:40 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:15:05 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:15:13 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:15:44 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:15:48 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:16:53 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:16:56 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:17:24 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:17:29 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:17:53 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:18:01 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:18:38 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 04:18:41 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 04:18:48 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:19:12 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:20:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 04:20:00 2025: Playing short voice ID
+Fri Oct 17 04:20:00 2025: Playing short announce
+Fri Oct 17 04:20:00 2025: Playing short CW ID
+Fri Oct 17 04:20:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 04:20:04 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:20:07 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:20:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 04:21:42 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:21:45 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:22:52 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:22:56 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:24:07 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:24:12 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:24:31 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:24:34 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:24:58 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:25:05 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:26:01 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:26:27 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:28:02 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:28:25 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:28:38 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:28:38 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:29:25 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:29:33 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:30:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 04:30:00 2025: Playing short voice ID
+Fri Oct 17 04:30:00 2025: Playing short announce
+Fri Oct 17 04:30:00 2025: Playing short CW ID
+Fri Oct 17 04:30:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 04:30:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 04:30:29 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:30:31 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:31:26 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:31:41 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 04:31:44 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 04:31:47 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:32:03 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 04:32:06 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:32:08 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 04:32:09 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:34:45 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:34:47 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:35:55 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:35:59 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:36:46 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:36:52 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:37:09 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 04:37:10 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 04:37:11 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:37:11 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:37:37 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:37:46 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:38:13 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:38:13 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 04:38:13 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 04:38:16 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:38:51 2025: ReflectorLogic: Node left: IR8UCO
+Fri Oct 17 04:38:52 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:38:55 2025: ReflectorLogic: Node joined: IR8UCO
+Fri Oct 17 04:39:01 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:39:23 2025: ReflectorLogic: UDP frame(s) lost. Expected seq=9365 but received 9366. Resetting next expected sequence number to 9367
+Fri Oct 17 04:39:26 2025: ReflectorLogic: Node left: IR8UCO
+Fri Oct 17 04:39:28 2025: ReflectorLogic: Node joined: IR8UCO
+Fri Oct 17 04:39:46 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 04:39:48 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:39:51 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 04:40:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 04:40:00 2025: Playing short voice ID
+Fri Oct 17 04:40:00 2025: Playing short announce
+Fri Oct 17 04:40:00 2025: Playing short CW ID
+Fri Oct 17 04:40:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 04:40:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 04:40:25 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:41:00 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:41:01 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:41:46 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 04:41:50 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 04:41:55 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:42:00 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:42:45 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:43:09 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:44:15 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 04:44:19 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 04:44:19 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:44:21 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:44:46 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:44:47 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:45:22 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 04:45:22 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:45:25 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 04:45:28 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:46:02 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 04:46:07 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 04:46:12 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:46:27 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:46:52 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:46:56 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:47:14 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 04:47:14 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:47:16 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:47:18 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 04:47:56 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 04:47:56 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 04:47:58 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:48:07 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:48:31 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:48:32 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:49:08 2025: ReflectorLogic: Node left: IR8UCO
+Fri Oct 17 04:49:08 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:49:10 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:49:12 2025: ReflectorLogic: Node joined: IR8UCO
+Fri Oct 17 04:49:53 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:50:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 04:50:00 2025: Playing short voice ID
+Fri Oct 17 04:50:00 2025: Playing short announce
+Fri Oct 17 04:50:00 2025: Playing short CW ID
+Fri Oct 17 04:50:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 04:50:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 04:50:24 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:50:39 2025: ReflectorLogic: Node left: IR8UCO
+Fri Oct 17 04:50:42 2025: ReflectorLogic: Node joined: IR8UCO
+Fri Oct 17 04:51:12 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:51:16 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:52:03 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:52:07 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:52:32 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 04:52:38 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 04:52:42 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:52:43 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:53:39 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:53:42 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:54:36 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 04:54:42 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 04:54:45 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:55:00 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 04:55:04 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 04:55:22 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 04:55:25 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:55:26 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 04:57:00 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:57:01 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:57:47 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:57:52 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:58:02 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 04:58:04 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 04:58:26 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:58:41 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 04:58:45 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 04:58:55 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 04:59:15 2025: ReflectorLogic: Node left: Terni-HS
+Fri Oct 17 04:59:30 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 04:59:32 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 04:59:34 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 04:59:39 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 05:00:00 2025: RepeaterLogic: Sending long identification...
+Fri Oct 17 05:00:00 2025: Playing long announce
+Fri Oct 17 05:00:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 05:00:09 2025: ReflectorLogic: Node joined: Terni-HS
+Fri Oct 17 05:00:15 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 05:00:38 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 05:00:41 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 05:00:49 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 05:00:50 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 05:01:15 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 05:01:16 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 05:02:22 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 05:02:22 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 05:02:23 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 05:02:32 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 05:03:22 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 05:03:35 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 05:04:18 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 05:04:27 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 05:04:57 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 05:04:58 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 05:05:43 2025: ReflectorLogic: Node left: IR8UCO
+Fri Oct 17 05:05:44 2025: ReflectorLogic: Node joined: IR8UCO
+Fri Oct 17 05:05:54 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 05:05:56 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 05:06:42 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 05:06:48 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 05:06:49 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 05:06:55 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 05:07:06 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 05:07:10 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 05:07:28 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 05:07:31 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 05:07:47 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 05:07:49 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 05:07:51 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 05:07:52 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 05:10:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 05:10:00 2025: Playing short voice ID
+Fri Oct 17 05:10:00 2025: Playing short announce
+Fri Oct 17 05:10:00 2025: Playing short CW ID
+Fri Oct 17 05:10:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 05:10:16 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 05:10:17 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 05:10:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 05:11:03 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 05:11:09 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 05:12:04 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 05:12:29 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 05:13:13 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 05:13:14 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 05:13:37 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 05:13:37 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 05:13:38 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 05:13:43 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 05:14:00 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 05:14:00 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 05:14:05 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 05:14:08 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 05:14:24 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 05:14:36 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 05:15:03 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 05:15:05 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 05:15:10 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 05:15:14 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 05:17:09 2025: ReflectorLogic: Node left: IR8UCO
+Fri Oct 17 05:17:12 2025: ReflectorLogic: Node joined: IR8UCO
+Fri Oct 17 05:17:31 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 05:17:40 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 05:17:43 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 05:17:44 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 05:18:19 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 05:18:20 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 05:18:21 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 05:18:29 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 05:19:26 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 05:19:28 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 05:19:33 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 05:19:45 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 05:19:55 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 05:19:56 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 05:20:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 05:20:00 2025: Playing short voice ID
+Fri Oct 17 05:20:00 2025: Playing short announce
+Fri Oct 17 05:20:00 2025: Playing short CW ID
+Fri Oct 17 05:20:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 05:20:12 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 05:20:13 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 05:20:14 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 05:20:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 05:20:35 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 05:22:39 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 05:22:46 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 05:23:30 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 05:23:35 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 05:23:51 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 05:23:55 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 05:24:00 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 05:24:03 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 05:24:49 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 05:24:55 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 05:25:06 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 05:25:25 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 05:26:13 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 05:26:34 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 05:26:50 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 05:26:53 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 05:26:55 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 05:26:56 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 05:27:28 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 05:27:58 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 05:28:42 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 05:28:48 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 05:29:43 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 05:29:43 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 05:29:45 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 05:29:48 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 05:30:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 05:30:00 2025: Playing short voice ID
+Fri Oct 17 05:30:00 2025: Playing short announce
+Fri Oct 17 05:30:00 2025: Playing short CW ID
+Fri Oct 17 05:30:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 05:30:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 05:30:23 2025: ReflectorLogic: Node left: IR8UCO
+Fri Oct 17 05:30:26 2025: ReflectorLogic: Node joined: IR8UCO
+Fri Oct 17 05:30:39 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 05:30:42 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 05:31:27 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 05:31:28 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 05:31:29 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 05:31:32 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 05:32:37 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 05:32:41 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 05:34:07 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 05:34:07 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 05:34:12 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 05:34:12 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 05:34:39 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 05:34:56 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 05:35:51 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 05:35:52 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 05:35:53 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 05:35:55 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 05:37:10 2025: ReflectorLogic: Node left: IR8UCO
+Fri Oct 17 05:37:12 2025: ReflectorLogic: Node joined: IR8UCO
+Fri Oct 17 05:37:12 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 05:37:12 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 05:37:12 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 05:37:13 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 05:37:30 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 05:37:30 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 05:37:31 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 05:37:32 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 05:38:10 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 05:38:15 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 05:39:19 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 05:39:23 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 05:39:31 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 05:39:35 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 05:39:59 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 05:40:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 05:40:00 2025: Playing short voice ID
+Fri Oct 17 05:40:00 2025: Playing short announce
+Fri Oct 17 05:40:00 2025: Playing short CW ID
+Fri Oct 17 05:40:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 05:40:01 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 05:40:03 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 05:40:03 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 05:40:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 05:40:38 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 05:40:50 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 05:42:25 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 05:42:45 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 05:43:50 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 05:43:52 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 05:43:53 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 05:44:17 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 05:44:51 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 05:44:52 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 05:45:01 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 05:45:03 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 05:45:26 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 05:45:28 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 05:46:54 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 05:46:55 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 05:46:56 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 05:47:38 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 05:49:54 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 05:50:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 05:50:00 2025: Playing short voice ID
+Fri Oct 17 05:50:00 2025: Playing short announce
+Fri Oct 17 05:50:00 2025: Playing short CW ID
+Fri Oct 17 05:50:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 05:50:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 05:50:28 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 05:52:23 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 05:52:36 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 05:52:37 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 05:52:42 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 05:53:03 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 05:53:10 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 05:53:25 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 05:53:40 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 05:55:25 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 05:55:56 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 05:57:50 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 05:57:52 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 05:57:54 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 05:58:03 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 05:58:40 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 05:58:42 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 05:58:42 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 05:58:43 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 05:59:41 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 05:59:56 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:00:00 2025: RepeaterLogic: Sending long identification...
+Fri Oct 17 06:00:00 2025: Playing long announce
+Fri Oct 17 06:00:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 06:00:15 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 06:00:34 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:00:53 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:00:57 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 06:01:01 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 06:03:28 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:03:31 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:03:58 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:03:59 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 06:04:00 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 06:04:07 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:04:31 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 06:04:31 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:04:33 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 06:04:36 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:04:52 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:05:33 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:06:06 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:06:20 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:08:19 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:08:33 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 06:08:36 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 06:08:50 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:10:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 06:10:00 2025: Playing short voice ID
+Fri Oct 17 06:10:00 2025: Playing short announce
+Fri Oct 17 06:10:00 2025: Playing short CW ID
+Fri Oct 17 06:10:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 06:10:16 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:10:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 06:10:22 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:10:57 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:10:59 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:11:33 2025: ReflectorLogic: Node left: IR8UCO
+Fri Oct 17 06:11:38 2025: ReflectorLogic: Node joined: IR8UCO
+Fri Oct 17 06:11:44 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:11:48 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:12:33 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:12:41 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:13:09 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:13:10 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:13:31 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 06:13:36 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 06:13:46 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:14:00 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:15:24 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 06:15:25 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:15:27 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 06:15:52 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 06:15:54 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 06:16:03 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:16:28 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:16:41 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:17:26 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:17:33 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:18:08 2025: ReflectorLogic: Node left: IR8UCO
+Fri Oct 17 06:18:12 2025: ReflectorLogic: Node joined: IR8UCO
+Fri Oct 17 06:18:29 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 06:18:34 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 06:18:38 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:18:51 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 06:18:51 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 06:18:55 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:19:20 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:19:21 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 06:19:22 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 06:19:23 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:19:37 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 06:19:41 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 06:19:41 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:19:44 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:20:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 06:20:00 2025: Playing short voice ID
+Fri Oct 17 06:20:00 2025: Playing short announce
+Fri Oct 17 06:20:00 2025: Playing short CW ID
+Fri Oct 17 06:20:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 06:20:07 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 06:20:11 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 06:20:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 06:20:19 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:20:22 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:20:57 2025: ReflectorLogic: Node left: IR8UCO
+Fri Oct 17 06:21:00 2025: ReflectorLogic: Node joined: IR8UCO
+Fri Oct 17 06:21:12 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:21:22 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:21:47 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:21:49 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:22:08 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:22:10 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:23:08 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 06:23:10 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:23:11 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 06:23:19 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:24:06 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 06:24:09 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:24:09 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:24:09 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 06:24:34 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 06:24:37 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 06:24:44 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:25:11 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:25:35 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:25:36 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 06:25:37 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 06:25:41 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:26:26 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:26:54 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 06:26:56 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 06:27:10 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:27:42 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 06:27:43 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 06:27:46 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:27:52 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:28:09 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 06:28:13 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 06:28:29 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:28:33 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:29:40 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:29:53 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:30:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 06:30:00 2025: Playing short voice ID
+Fri Oct 17 06:30:00 2025: Playing short announce
+Fri Oct 17 06:30:00 2025: Playing short CW ID
+Fri Oct 17 06:30:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 06:30:09 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:30:12 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:30:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 06:30:37 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:30:42 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:31:27 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 06:31:29 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 06:32:34 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 06:32:37 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:32:37 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 06:32:44 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:33:28 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:33:29 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 06:33:30 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 06:33:33 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:34:19 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:34:34 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 06:34:36 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:34:40 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 06:35:56 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 06:35:57 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 06:37:01 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:37:02 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:37:57 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:38:04 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 06:38:05 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:38:09 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 06:38:30 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:38:35 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:39:32 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:39:34 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:40:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 06:40:00 2025: Playing short voice ID
+Fri Oct 17 06:40:00 2025: Playing short announce
+Fri Oct 17 06:40:00 2025: Playing short CW ID
+Fri Oct 17 06:40:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 06:40:09 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:40:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 06:40:25 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:41:48 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:41:53 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:42:19 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:42:24 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:42:39 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:42:45 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:43:19 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:43:28 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:44:50 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:44:54 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:45:29 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:45:41 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:46:07 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:46:09 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:46:49 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:47:07 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 06:47:12 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 06:47:18 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:47:57 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 06:48:02 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:48:10 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 06:48:12 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:48:26 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 06:48:32 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 06:48:37 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:48:42 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:49:37 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 06:49:40 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:49:40 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 06:50:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 06:50:00 2025: Playing short voice ID
+Fri Oct 17 06:50:00 2025: Playing short announce
+Fri Oct 17 06:50:00 2025: Playing short CW ID
+Fri Oct 17 06:50:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 06:50:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 06:50:57 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:52:02 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 06:52:06 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 06:52:12 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:52:23 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:52:48 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:52:51 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:53:37 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 06:53:40 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 06:53:48 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:53:53 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:54:29 2025: ReflectorLogic: Node left: IR8UCO
+Fri Oct 17 06:54:29 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:54:30 2025: ReflectorLogic: Node joined: IR8UCO
+Fri Oct 17 06:54:31 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:54:46 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:54:48 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:55:16 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:55:25 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:56:03 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 06:56:04 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 06:56:05 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:56:11 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:56:47 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:56:54 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:57:21 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 06:57:21 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 06:57:22 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:57:38 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 06:57:39 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 06:57:40 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:58:17 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:58:28 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:59:12 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:59:13 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 06:59:28 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 06:59:32 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 06:59:34 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 06:59:37 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 07:00:00 2025: RepeaterLogic: Sending long identification...
+Fri Oct 17 07:00:00 2025: Playing long announce
+Fri Oct 17 07:00:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 07:00:01 2025: ReflectorLogic: Node joined: IR3UI
+Fri Oct 17 07:00:15 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 07:00:26 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 07:00:47 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 07:00:50 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 07:01:15 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 07:01:19 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 07:01:24 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 07:01:26 2025: ReflectorLogic: Node left: IR8UCO
+Fri Oct 17 07:01:29 2025: ReflectorLogic: Node joined: IR8UCO
+Fri Oct 17 07:01:51 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 07:01:58 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 07:02:17 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 07:02:19 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 07:02:25 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 07:02:26 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 07:03:11 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 07:03:13 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 07:04:20 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 07:04:22 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 07:04:22 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 07:04:26 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 07:04:38 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 07:04:40 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 07:05:05 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 07:05:11 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 07:05:45 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 07:05:56 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 07:06:42 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 07:06:50 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 07:07:05 2025: ReflectorLogic: Node left: IR8UCO
+Fri Oct 17 07:07:09 2025: ReflectorLogic: Node joined: IR8UCO
+Fri Oct 17 07:07:45 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 07:07:46 2025: ReflectorLogic: Node left: IR3UI
+Fri Oct 17 07:07:51 2025: ReflectorLogic: Node joined: IR3UI
+Fri Oct 17 07:08:12 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 07:08:38 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 07:08:40 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 07:08:42 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 07:08:42 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 07:09:27 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 07:09:29 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 07:10:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 07:10:00 2025: Playing short voice ID
+Fri Oct 17 07:10:00 2025: Playing short announce
+Fri Oct 17 07:10:00 2025: Playing short CW ID
+Fri Oct 17 07:10:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 07:10:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 07:10:25 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 07:10:39 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 07:10:54 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 07:10:54 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 07:10:57 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 07:10:59 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 07:11:17 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 07:11:20 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 07:11:23 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 07:11:25 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 07:11:41 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 07:11:43 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 07:12:08 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Fri Oct 17 07:12:08 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+52]=41)
+Fri Oct 17 07:12:08 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 07:12:09 2025: Voter: The squelch is CLOSED (Rx1[85.4:-2]=-8)
+Fri Oct 17 07:12:16 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 07:12:23 2025: ReflectorLogic: Selecting TG #0
+Fri Oct 17 07:12:25 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Fri Oct 17 07:12:27 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Fri Oct 17 07:12:27 2025: Voter: The squelch is OPEN (Rx1[85.4+0.1:+35]=40)
+Fri Oct 17 07:12:27 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 07:12:27 2025: ReflectorLogic: Selecting TG #61100
+Fri Oct 17 07:12:27 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Fri Oct 17 07:12:27 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Fri Oct 17 07:12:28 2025: Voter: The squelch is CLOSED (Rx1[85.4:-7]=-8)
+Fri Oct 17 07:12:37 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 07:12:39 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 07:12:40 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 07:12:42 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 07:12:42 2025: ReflectorLogic: Selecting TG #0
+Fri Oct 17 07:12:43 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 07:12:43 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 07:13:05 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 07:13:51 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 07:14:27 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 07:14:28 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 07:14:29 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 07:15:19 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 07:15:22 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 07:15:56 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 07:16:17 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 07:16:45 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 07:16:47 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 07:17:16 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 07:17:29 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 07:17:47 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 07:17:48 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 07:17:52 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 07:18:00 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 07:18:18 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 07:18:19 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 07:18:55 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 07:19:00 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 07:19:40 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 07:19:46 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 07:20:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 07:20:00 2025: Playing short voice ID
+Fri Oct 17 07:20:00 2025: Playing short announce
+Fri Oct 17 07:20:00 2025: Playing short CW ID
+Fri Oct 17 07:20:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 07:20:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 07:20:43 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 07:20:44 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 07:21:10 2025: ReflectorLogic: Node left: IR8UCO
+Fri Oct 17 07:21:10 2025: ReflectorLogic: Node joined: IR8UCO
+Fri Oct 17 07:22:10 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 07:22:15 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 07:22:19 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 07:22:50 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 07:23:36 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 07:24:05 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 07:24:47 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 07:24:49 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 07:24:50 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 07:24:59 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 07:26:26 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 07:26:42 2025: ReflectorLogic: Node left: IR8UCO
+Fri Oct 17 07:26:42 2025: ReflectorLogic: Node joined: IR8UCO
+Fri Oct 17 07:26:43 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 07:27:02 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 07:27:05 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 07:28:01 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 07:28:03 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 07:28:07 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 07:28:10 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 07:29:26 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 07:29:29 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 07:30:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 07:30:00 2025: Playing short voice ID
+Fri Oct 17 07:30:00 2025: Playing short announce
+Fri Oct 17 07:30:00 2025: Playing short CW ID
+Fri Oct 17 07:30:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 07:30:01 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 07:30:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 07:30:50 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 07:30:52 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 07:30:58 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 07:31:37 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 07:31:41 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 07:32:39 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 07:32:42 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 07:32:43 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 07:32:43 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 07:33:11 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 07:33:11 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 07:33:34 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 07:33:37 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 07:34:01 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 07:34:03 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 07:34:20 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 07:34:23 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 07:34:23 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 07:34:36 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 07:35:01 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 07:35:05 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 07:35:32 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 07:35:47 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 07:35:58 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 07:36:03 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 07:36:42 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 07:36:43 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 07:38:38 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 07:38:40 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 07:38:43 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 07:38:46 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 07:39:21 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 07:39:37 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 07:40:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 07:40:00 2025: Playing short voice ID
+Fri Oct 17 07:40:00 2025: Playing short announce
+Fri Oct 17 07:40:00 2025: Playing short CW ID
+Fri Oct 17 07:40:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 07:40:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 07:40:24 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 07:40:25 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 07:40:25 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 07:40:33 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 07:41:08 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 07:41:17 2025: ReflectorLogic: Node left: IR8UCO
+Fri Oct 17 07:41:20 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 07:41:22 2025: ReflectorLogic: Node joined: IR8UCO
+Fri Oct 17 07:41:49 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 07:42:10 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 07:42:25 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 07:42:29 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 07:42:35 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 07:43:26 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 07:44:02 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 07:44:02 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 07:44:30 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 07:44:34 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 07:45:27 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 07:45:32 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 07:46:28 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 07:46:42 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 07:46:43 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 07:47:08 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 07:48:06 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 07:48:12 2025: ReflectorLogic: Node joined: IR3-TETRA
+Fri Oct 17 07:49:35 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Fri Oct 17 07:49:35 2025: Voter: The squelch is OPEN (Rx1[85.4+0.2:+38]=13)
+Fri Oct 17 07:49:35 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 07:49:36 2025: Voter: The squelch is CLOSED (Rx1[85.4:0]=-7)
+Fri Oct 17 07:49:43 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 07:49:50 2025: ReflectorLogic: Selecting TG #0
+Fri Oct 17 07:50:36 2025: ReflectorLogic: Node left: IR3-TETRA
+Fri Oct 17 07:56:13 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Fri Oct 17 07:56:13 2025: Voter: The squelch is OPEN (Rx1[85.4+0.0:+50]=71)
+Fri Oct 17 07:56:13 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 07:56:14 2025: ReflectorLogic: Selecting TG #61100
+Fri Oct 17 07:56:14 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Fri Oct 17 07:56:15 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Fri Oct 17 07:56:16 2025: Voter: The squelch is CLOSED (Rx1[85.4:-6]=-5)
+Fri Oct 17 07:56:27 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 07:56:30 2025: ReflectorLogic: Selecting TG #0
+Fri Oct 17 07:56:31 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 07:56:31 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 08:00:00 2025: RepeaterLogic: Sending long identification...
+Fri Oct 17 08:00:00 2025: Playing long announce
+Fri Oct 17 08:00:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 08:00:15 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 08:10:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 08:10:00 2025: Playing short voice ID
+Fri Oct 17 08:10:00 2025: Playing short announce
+Fri Oct 17 08:10:00 2025: Playing short CW ID
+Fri Oct 17 08:10:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 08:10:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 08:12:31 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Fri Oct 17 08:12:31 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+54]=27)
+Fri Oct 17 08:12:31 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 08:12:32 2025: ReflectorLogic: Selecting TG #61100
+Fri Oct 17 08:12:32 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Fri Oct 17 08:12:35 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Fri Oct 17 08:12:35 2025: Voter: The squelch is CLOSED (Rx1[85.4:-9]=-4)
+Fri Oct 17 08:12:46 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 08:12:49 2025: ReflectorLogic: Selecting TG #0
+Fri Oct 17 08:12:50 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 08:12:50 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 08:20:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 08:20:00 2025: Playing short voice ID
+Fri Oct 17 08:20:00 2025: Playing short announce
+Fri Oct 17 08:20:00 2025: Playing short CW ID
+Fri Oct 17 08:20:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 08:20:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 08:26:29 2025: ReflectorLogic: Node left: IR9ZYA
+Fri Oct 17 08:30:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 08:30:00 2025: Playing short voice ID
+Fri Oct 17 08:30:00 2025: Playing short announce
+Fri Oct 17 08:30:00 2025: Playing short CW ID
+Fri Oct 17 08:30:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 08:30:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 08:31:31 2025: ReflectorLogic: Node joined: IR9ZYA
+Fri Oct 17 08:32:58 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Fri Oct 17 08:32:59 2025: Voter: The squelch is OPEN (Rx1[85.4-0.1:+46]=51)
+Fri Oct 17 08:32:59 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 08:32:59 2025: Voter: The squelch is CLOSED (Rx1[85.4:3]=-11)
+Fri Oct 17 08:33:06 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 08:33:13 2025: ReflectorLogic: Selecting TG #0
+Fri Oct 17 08:40:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 08:40:00 2025: Playing short voice ID
+Fri Oct 17 08:40:00 2025: Playing short announce
+Fri Oct 17 08:40:00 2025: Playing short CW ID
+Fri Oct 17 08:40:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 08:40:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 08:50:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 08:50:00 2025: Playing short voice ID
+Fri Oct 17 08:50:00 2025: Playing short announce
+Fri Oct 17 08:50:00 2025: Playing short CW ID
+Fri Oct 17 08:50:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 08:50:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 09:00:00 2025: RepeaterLogic: Sending long identification...
+Fri Oct 17 09:00:00 2025: Playing long announce
+Fri Oct 17 09:00:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 09:00:15 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 09:10:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 09:10:00 2025: Playing short voice ID
+Fri Oct 17 09:10:00 2025: Playing short announce
+Fri Oct 17 09:10:00 2025: Playing short CW ID
+Fri Oct 17 09:10:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 09:10:11 2025: ReflectorLogic: Node left: Terni-HS
+Fri Oct 17 09:10:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 09:10:55 2025: ReflectorLogic: Node joined: Terni-HS
+Fri Oct 17 09:16:16 2025: ReflectorLogic: Node left: IR9ZYA
+Fri Oct 17 09:19:16 2025: ReflectorLogic: Node joined: IR9ZYA
+Fri Oct 17 09:20:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 09:20:00 2025: Playing short voice ID
+Fri Oct 17 09:20:00 2025: Playing short announce
+Fri Oct 17 09:20:00 2025: Playing short CW ID
+Fri Oct 17 09:20:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 09:20:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 09:22:26 2025: ReflectorLogic: Node left: IR6UDH
+Fri Oct 17 09:22:28 2025: ReflectorLogic: Node joined: IR6UDH
+Fri Oct 17 09:30:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 09:30:00 2025: Playing short voice ID
+Fri Oct 17 09:30:00 2025: Playing short announce
+Fri Oct 17 09:30:00 2025: Playing short CW ID
+Fri Oct 17 09:30:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 09:30:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 09:37:20 2025: ReflectorLogic: Node left: IR4ZZJ
+Fri Oct 17 09:37:47 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Fri Oct 17 09:37:47 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+51]=17)
+Fri Oct 17 09:37:47 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 09:37:48 2025: Voter: The squelch is CLOSED (Rx1[85.4:3]=-12)
+Fri Oct 17 09:37:54 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 09:38:02 2025: ReflectorLogic: Selecting TG #0
+Fri Oct 17 09:38:21 2025: ReflectorLogic: Node joined: IR4ZZJ
+Fri Oct 17 09:40:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 09:40:00 2025: Playing short voice ID
+Fri Oct 17 09:40:00 2025: Playing short announce
+Fri Oct 17 09:40:00 2025: Playing short CW ID
+Fri Oct 17 09:40:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 09:40:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 09:45:16 2025: ReflectorLogic: Node left: IR4C
+Fri Oct 17 09:46:23 2025: ReflectorLogic: Node joined: IR4C
+Fri Oct 17 09:50:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 09:50:00 2025: Playing short voice ID
+Fri Oct 17 09:50:00 2025: Playing short announce
+Fri Oct 17 09:50:00 2025: Playing short CW ID
+Fri Oct 17 09:50:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 09:50:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 09:56:37 2025: ReflectorLogic: Node left: IR4C
+Fri Oct 17 09:57:02 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Fri Oct 17 09:57:02 2025: Voter: The squelch is OPEN (Rx1[85.4+0.0:+50]=42)
+Fri Oct 17 09:57:02 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 09:57:03 2025: Voter: The squelch is CLOSED (Rx1[85.4:-4]=-6)
+Fri Oct 17 09:57:04 2025: Voter: The squelch is OPEN (Rx1[85.4+0.2:+35]=13)
+Fri Oct 17 09:57:05 2025: ReflectorLogic: Selecting TG #61100
+Fri Oct 17 09:57:05 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Fri Oct 17 09:57:10 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Fri Oct 17 09:57:10 2025: Voter: The squelch is CLOSED (Rx1[85.4:0]=-4)
+Fri Oct 17 09:57:22 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 09:57:25 2025: ReflectorLogic: Selecting TG #0
+Fri Oct 17 09:57:26 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 09:57:26 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 09:57:33 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Fri Oct 17 09:57:33 2025: Voter: The squelch is OPEN (Rx1[85.4+0.0:+51]=41)
+Fri Oct 17 09:57:33 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 09:57:33 2025: Voter: The squelch is CLOSED (Rx1[85.4:-4]=-9)
+Fri Oct 17 09:57:34 2025: Voter: The squelch is OPEN (Rx1[85.4+0.2:+32]=12)
+Fri Oct 17 09:57:35 2025: ReflectorLogic: Node joined: IR4C
+Fri Oct 17 09:57:35 2025: ReflectorLogic: Selecting TG #61100
+Fri Oct 17 09:57:35 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Fri Oct 17 09:57:39 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Fri Oct 17 09:57:40 2025: Voter: The squelch is CLOSED (Rx1[85.4:-9]=-9)
+Fri Oct 17 09:57:49 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 09:57:54 2025: ReflectorLogic: Selecting TG #0
+Fri Oct 17 09:57:55 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 09:57:55 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 10:00:00 2025: RepeaterLogic: Sending long identification...
+Fri Oct 17 10:00:00 2025: Playing long announce
+Fri Oct 17 10:00:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 10:00:06 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Fri Oct 17 10:00:06 2025: Voter: The squelch is OPEN (Rx1[85.4-0.1:+45]=39)
+Fri Oct 17 10:00:07 2025: ReflectorLogic: Selecting TG #61100
+Fri Oct 17 10:00:08 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Fri Oct 17 10:00:10 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Fri Oct 17 10:00:18 2025: Voter: The squelch is CLOSED (Rx1[85.4:0]=-8)
+Fri Oct 17 10:00:23 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 10:00:24 2025: ReflectorLogic: Selecting TG #0
+Fri Oct 17 10:00:25 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 10:00:25 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 10:00:35 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Fri Oct 17 10:00:35 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+49]=61)
+Fri Oct 17 10:00:35 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 10:00:36 2025: ReflectorLogic: Selecting TG #61100
+Fri Oct 17 10:00:36 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Fri Oct 17 10:00:37 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Fri Oct 17 10:00:37 2025: Voter: The squelch is CLOSED (Rx1[85.4:2]=-12)
+Fri Oct 17 10:00:46 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 10:00:51 2025: ReflectorLogic: Selecting TG #0
+Fri Oct 17 10:00:52 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 10:00:52 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 10:10:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 10:10:00 2025: Playing short voice ID
+Fri Oct 17 10:10:00 2025: Playing short announce
+Fri Oct 17 10:10:00 2025: Playing short CW ID
+Fri Oct 17 10:10:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 10:10:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 10:12:16 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Fri Oct 17 10:12:16 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+49]=13)
+Fri Oct 17 10:12:16 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 10:12:17 2025: ReflectorLogic: Selecting TG #61100
+Fri Oct 17 10:12:17 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Fri Oct 17 10:12:17 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Fri Oct 17 10:12:17 2025: Voter: The squelch is CLOSED (Rx1[85.4:-2]=-10)
+Fri Oct 17 10:12:28 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 10:12:31 2025: ReflectorLogic: Selecting TG #0
+Fri Oct 17 10:12:32 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 10:12:32 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 10:20:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 10:20:00 2025: Playing short voice ID
+Fri Oct 17 10:20:00 2025: Playing short announce
+Fri Oct 17 10:20:00 2025: Playing short CW ID
+Fri Oct 17 10:20:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 10:20:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 10:30:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 10:30:00 2025: Playing short voice ID
+Fri Oct 17 10:30:00 2025: Playing short announce
+Fri Oct 17 10:30:00 2025: Playing short CW ID
+Fri Oct 17 10:30:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 10:30:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 10:34:21 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 10:34:22 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 10:38:54 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Fri Oct 17 10:38:54 2025: Voter: The squelch is OPEN (Rx1[85.4+0.1:+44]=38)
+Fri Oct 17 10:38:54 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 10:38:54 2025: Voter: The squelch is CLOSED (Rx1[85.4:2]=-9)
+Fri Oct 17 10:38:57 2025: Voter: The squelch is OPEN (Rx1[85.4+0.1:+39]=17)
+Fri Oct 17 10:38:57 2025: ReflectorLogic: Selecting TG #61100
+Fri Oct 17 10:38:57 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Fri Oct 17 10:39:02 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Fri Oct 17 10:39:02 2025: Voter: The squelch is CLOSED (Rx1[85.4:-10]=-3)
+Fri Oct 17 10:39:13 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 10:39:16 2025: ReflectorLogic: Selecting TG #0
+Fri Oct 17 10:39:17 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 10:39:17 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 10:39:52 2025: ReflectorLogic: Node left: Terni-HS
+Fri Oct 17 10:41:22 2025: ReflectorLogic: Node joined: Terni-HS
+Fri Oct 17 10:42:57 2025: ReflectorLogic: Node left: IR4C
+Fri Oct 17 10:43:52 2025: ReflectorLogic: Node joined: IR4C
+Fri Oct 17 10:47:17 2025: ReflectorLogic: Node left: IR4C
+Fri Oct 17 10:47:42 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Fri Oct 17 10:47:42 2025: Voter: The squelch is OPEN (Rx1[85.4+0.1:+47]=38)
+Fri Oct 17 10:47:42 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 10:47:43 2025: Voter: The squelch is CLOSED (Rx1[85.4:-12]=-10)
+Fri Oct 17 10:47:44 2025: Voter: The squelch is OPEN (Rx1[85.4-0.1:+33]=14)
+Fri Oct 17 10:47:45 2025: ReflectorLogic: Selecting TG #61100
+Fri Oct 17 10:47:45 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Fri Oct 17 10:47:49 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Fri Oct 17 10:47:49 2025: Voter: The squelch is CLOSED (Rx1[85.4:1]=-9)
+Fri Oct 17 10:47:59 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Fri Oct 17 10:47:59 2025: Voter: The squelch is OPEN (Rx1[85.4-0.1:+45]=46)
+Fri Oct 17 10:47:59 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Fri Oct 17 10:47:59 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Fri Oct 17 10:48:00 2025: Voter: The squelch is CLOSED (Rx1[85.4:-9]=-6)
+Fri Oct 17 10:48:05 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 10:48:14 2025: ReflectorLogic: Selecting TG #0
+Fri Oct 17 10:48:15 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 10:48:15 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 10:48:16 2025: ReflectorLogic: Node joined: IR4C
+Fri Oct 17 10:50:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 10:50:00 2025: Playing short voice ID
+Fri Oct 17 10:50:00 2025: Playing short announce
+Fri Oct 17 10:50:00 2025: Playing short CW ID
+Fri Oct 17 10:50:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 10:50:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 11:00:00 2025: RepeaterLogic: Sending long identification...
+Fri Oct 17 11:00:00 2025: Playing long announce
+Fri Oct 17 11:00:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 11:00:15 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 11:05:22 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Fri Oct 17 11:05:22 2025: Voter: The squelch is OPEN (Rx1[85.4+0.1:+46]=50)
+Fri Oct 17 11:05:22 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 11:05:22 2025: Voter: The squelch is CLOSED (Rx1[85.4:4]=-8)
+Fri Oct 17 11:05:24 2025: Voter: The squelch is OPEN (Rx1[85.4+0.1:+40]=21)
+Fri Oct 17 11:05:25 2025: ReflectorLogic: Selecting TG #61100
+Fri Oct 17 11:05:25 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Fri Oct 17 11:05:30 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Fri Oct 17 11:05:30 2025: Voter: The squelch is CLOSED (Rx1[85.4:-10]=-6)
+Fri Oct 17 11:05:42 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 11:05:45 2025: ReflectorLogic: Selecting TG #0
+Fri Oct 17 11:05:46 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 11:05:46 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 11:07:00 2025: ReflectorLogic: Node left: IR8DY
+Fri Oct 17 11:08:00 2025: ReflectorLogic: Node joined: IR8DY
+Fri Oct 17 11:08:38 2025: ReflectorLogic: Node left: IR8DY
+Fri Oct 17 11:09:12 2025: ReflectorLogic: Node left: IR9ZYA
+Fri Oct 17 11:09:44 2025: ReflectorLogic: Node joined: IR8DY
+Fri Oct 17 11:10:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 11:10:00 2025: Playing short voice ID
+Fri Oct 17 11:10:00 2025: Playing short announce
+Fri Oct 17 11:10:00 2025: Playing short CW ID
+Fri Oct 17 11:10:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 11:10:10 2025: ReflectorLogic: Node left: IR8DY
+Fri Oct 17 11:10:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 11:11:10 2025: ReflectorLogic: Node joined: IR8DY
+Fri Oct 17 11:12:25 2025: ReflectorLogic: Node joined: IR9ZYA
+Fri Oct 17 11:20:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 11:20:00 2025: Playing short voice ID
+Fri Oct 17 11:20:00 2025: Playing short announce
+Fri Oct 17 11:20:00 2025: Playing short CW ID
+Fri Oct 17 11:20:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 11:20:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 11:28:29 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 11:28:32 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 11:30:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 11:30:00 2025: Playing short voice ID
+Fri Oct 17 11:30:00 2025: Playing short announce
+Fri Oct 17 11:30:00 2025: Playing short CW ID
+Fri Oct 17 11:30:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 11:30:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 11:34:17 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 11:34:19 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 11:34:23 2025: ReflectorLogic: Node joined: IR7ZZO
+Fri Oct 17 11:40:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 11:40:00 2025: Playing short voice ID
+Fri Oct 17 11:40:00 2025: Playing short announce
+Fri Oct 17 11:40:00 2025: Playing short CW ID
+Fri Oct 17 11:40:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 11:40:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 11:42:31 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Fri Oct 17 11:42:31 2025: Voter: The squelch is OPEN (Rx1[85.4-0.1:+45]=42)
+Fri Oct 17 11:42:31 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 11:42:31 2025: Voter: The squelch is CLOSED (Rx1[85.4:-17]=-5)
+Fri Oct 17 11:42:38 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 11:42:40 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Fri Oct 17 11:42:40 2025: Voter: The squelch is OPEN (Rx1[85.4-0.1:+47]=70)
+Fri Oct 17 11:42:40 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 11:42:41 2025: ReflectorLogic: Selecting TG #61100
+Fri Oct 17 11:42:41 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Fri Oct 17 11:42:44 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Fri Oct 17 11:42:44 2025: Voter: The squelch is CLOSED (Rx1[85.4:-3]=-2)
+Fri Oct 17 11:42:53 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 11:42:58 2025: ReflectorLogic: Selecting TG #0
+Fri Oct 17 11:42:59 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 11:42:59 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 11:43:48 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Fri Oct 17 11:43:49 2025: Voter: The squelch is OPEN (Rx1[85.4+0.1:+45]=44)
+Fri Oct 17 11:43:49 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 11:43:49 2025: Voter: The squelch is CLOSED (Rx1[85.4:-4]=-4)
+Fri Oct 17 11:43:51 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+45]=28)
+Fri Oct 17 11:43:52 2025: ReflectorLogic: Selecting TG #61100
+Fri Oct 17 11:43:52 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Fri Oct 17 11:43:58 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Fri Oct 17 11:43:58 2025: Voter: The squelch is CLOSED (Rx1[85.4:4]=-5)
+Fri Oct 17 11:44:07 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 11:44:11 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Fri Oct 17 11:44:12 2025: Voter: The squelch is OPEN (Rx1[85.4+0.1:+48]=42)
+Fri Oct 17 11:44:12 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 11:44:12 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Fri Oct 17 11:44:12 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Fri Oct 17 11:44:12 2025: Voter: The squelch is CLOSED (Rx1[85.4:-1]=-6)
+Fri Oct 17 11:44:13 2025: Voter: The squelch is OPEN (Rx1[85.4+0.1:+47]=27)
+Fri Oct 17 11:44:13 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Fri Oct 17 11:44:39 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Fri Oct 17 11:44:39 2025: Voter: The squelch is CLOSED (Rx1[85.4:-12]=-5)
+Fri Oct 17 11:44:46 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 11:44:53 2025: ReflectorLogic: Selecting TG #0
+Fri Oct 17 11:44:54 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 11:44:54 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 11:50:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 11:50:00 2025: Playing short voice ID
+Fri Oct 17 11:50:00 2025: Playing short announce
+Fri Oct 17 11:50:00 2025: Playing short CW ID
+Fri Oct 17 11:50:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 11:50:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 11:59:25 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Fri Oct 17 11:59:25 2025: Voter: The squelch is OPEN (Rx1[85.4+0.1:+39]=31)
+Fri Oct 17 11:59:25 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 11:59:26 2025: Voter: The squelch is CLOSED (Rx1[85.4:-3]=-7)
+Fri Oct 17 11:59:33 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 11:59:40 2025: ReflectorLogic: Selecting TG #0
+Fri Oct 17 12:00:00 2025: RepeaterLogic: Sending long identification...
+Fri Oct 17 12:00:00 2025: Playing long announce
+Fri Oct 17 12:00:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 12:00:15 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 12:03:41 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Fri Oct 17 12:03:41 2025: Voter: The squelch is OPEN (Rx1[85.4+0.2:+38]=38)
+Fri Oct 17 12:03:41 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 12:03:41 2025: Voter: The squelch is CLOSED (Rx1[85.4:-8]=-13)
+Fri Oct 17 12:03:48 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 12:03:55 2025: ReflectorLogic: Selecting TG #0
+Fri Oct 17 12:04:33 2025: ReflectorLogic: Node left: Sezze
+Fri Oct 17 12:10:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 12:10:00 2025: Playing short voice ID
+Fri Oct 17 12:10:00 2025: Playing short announce
+Fri Oct 17 12:10:00 2025: Playing short CW ID
+Fri Oct 17 12:10:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 12:10:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 12:19:24 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Fri Oct 17 12:19:25 2025: Voter: The squelch is OPEN (Rx1[85.4-0.1:+36]=52)
+Fri Oct 17 12:19:25 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 12:19:25 2025: Voter: The squelch is CLOSED (Rx1[85.4:4]=-5)
+Fri Oct 17 12:19:32 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 12:19:37 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Fri Oct 17 12:19:37 2025: Voter: The squelch is OPEN (Rx1[85.4-0.1:+32]=54)
+Fri Oct 17 12:19:37 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 12:19:38 2025: Voter: The squelch is CLOSED (Rx1[85.4:-2]=-7)
+Fri Oct 17 12:19:43 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 12:19:50 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Fri Oct 17 12:19:51 2025: Voter: The squelch is OPEN (Rx1[85.4-0.2:+35]=71)
+Fri Oct 17 12:19:51 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 12:19:51 2025: Voter: The squelch is CLOSED (Rx1[85.4:-12]=-7)
+Fri Oct 17 12:19:56 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 12:20:05 2025: ReflectorLogic: Selecting TG #0
+Fri Oct 17 12:29:14 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Fri Oct 17 12:29:14 2025: Voter: The squelch is OPEN (Rx1[85.4-0.1:+34]=53)
+Fri Oct 17 12:29:14 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 12:29:15 2025: Voter: The squelch is CLOSED (Rx1[85.4:-4]=-9)
+Fri Oct 17 12:29:22 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 12:29:25 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Fri Oct 17 12:29:25 2025: Voter: The squelch is OPEN (Rx1[85.4-0.1:+37]=53)
+Fri Oct 17 12:29:25 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 12:29:26 2025: ReflectorLogic: Selecting TG #61100
+Fri Oct 17 12:29:26 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Fri Oct 17 12:29:26 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Fri Oct 17 12:29:26 2025: Voter: The squelch is CLOSED (Rx1[85.4:2]=-14)
+Fri Oct 17 12:29:35 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 12:29:41 2025: ReflectorLogic: Selecting TG #0
+Fri Oct 17 12:29:42 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 12:29:42 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 12:38:18 2025: ReflectorLogic: Node left: IR4C
+Fri Oct 17 12:39:16 2025: ReflectorLogic: Node joined: IR4C
+Fri Oct 17 12:40:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 12:40:00 2025: Playing short voice ID
+Fri Oct 17 12:40:00 2025: Playing short announce
+Fri Oct 17 12:40:00 2025: Playing short CW ID
+Fri Oct 17 12:40:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 12:40:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 12:43:32 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Fri Oct 17 12:43:33 2025: Voter: The squelch is OPEN (Rx1[85.4-0.3:+35]=53)
+Fri Oct 17 12:43:33 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 12:43:33 2025: Voter: The squelch is CLOSED (Rx1[85.4:-4]=-4)
+Fri Oct 17 12:43:40 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 12:43:48 2025: ReflectorLogic: Selecting TG #0
+Fri Oct 17 12:43:50 2025: ReflectorLogic: Node joined: Sezze
+Fri Oct 17 12:50:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 12:50:00 2025: Playing short voice ID
+Fri Oct 17 12:50:00 2025: Playing short announce
+Fri Oct 17 12:50:00 2025: Playing short CW ID
+Fri Oct 17 12:50:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 12:50:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 13:00:00 2025: RepeaterLogic: Sending long identification...
+Fri Oct 17 13:00:00 2025: Playing long announce
+Fri Oct 17 13:00:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 13:00:08 2025: ReflectorLogic: Node left: Monti-Tiburtini
+Fri Oct 17 13:00:15 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 13:01:09 2025: ReflectorLogic: Node joined: Monti-Tiburtini
+Fri Oct 17 13:10:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 13:10:00 2025: Playing short voice ID
+Fri Oct 17 13:10:00 2025: Playing short announce
+Fri Oct 17 13:10:00 2025: Playing short CW ID
+Fri Oct 17 13:10:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 13:10:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 13:19:09 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Fri Oct 17 13:19:09 2025: Voter: The squelch is OPEN (Rx1[85.4+0.1:+33]=13)
+Fri Oct 17 13:19:09 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 13:19:09 2025: Voter: The squelch is CLOSED (Rx1[85.4:2]=-5)
+Fri Oct 17 13:19:16 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 13:19:24 2025: ReflectorLogic: Selecting TG #0
+Fri Oct 17 13:29:29 2025: ReflectorLogic: Node left: IR8UCO
+Fri Oct 17 13:29:37 2025: ReflectorLogic: Node joined: IR8UCO
+Fri Oct 17 13:30:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 13:30:00 2025: Playing short voice ID
+Fri Oct 17 13:30:00 2025: Playing short announce
+Fri Oct 17 13:30:00 2025: Playing short CW ID
+Fri Oct 17 13:30:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 13:30:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 13:40:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 13:40:00 2025: Playing short voice ID
+Fri Oct 17 13:40:00 2025: Playing short announce
+Fri Oct 17 13:40:00 2025: Playing short CW ID
+Fri Oct 17 13:40:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 13:40:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 13:44:08 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 13:44:10 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 13:50:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 13:50:00 2025: Playing short voice ID
+Fri Oct 17 13:50:00 2025: Playing short announce
+Fri Oct 17 13:50:00 2025: Playing short CW ID
+Fri Oct 17 13:50:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 13:50:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 13:53:13 2025: ReflectorLogic: Node left: IR7ZZO
+Fri Oct 17 13:54:29 2025: ReflectorLogic: Node joined: IR7ZZO
+Fri Oct 17 14:00:00 2025: RepeaterLogic: Sending long identification...
+Fri Oct 17 14:00:00 2025: Playing long announce
+Fri Oct 17 14:00:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 14:00:15 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 14:01:13 2025: ReflectorLogic: Node left: IR7ZZO
+Fri Oct 17 14:03:00 2025: ReflectorLogic: Node joined: IR7ZZO
+Fri Oct 17 14:10:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 14:10:00 2025: Playing short voice ID
+Fri Oct 17 14:10:00 2025: Playing short announce
+Fri Oct 17 14:10:00 2025: Playing short CW ID
+Fri Oct 17 14:10:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 14:10:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 14:14:05 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 14:14:09 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 14:20:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 14:20:00 2025: Playing short voice ID
+Fri Oct 17 14:20:00 2025: Playing short announce
+Fri Oct 17 14:20:00 2025: Playing short CW ID
+Fri Oct 17 14:20:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 14:20:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 14:21:51 2025: ReflectorLogic: Node left: IR7ZZO
+Fri Oct 17 14:24:03 2025: ReflectorLogic: Node joined: IR7ZZO
+Fri Oct 17 14:24:58 2025: ReflectorLogic: Node left: IR7ZZO
+Fri Oct 17 14:30:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 14:30:00 2025: Playing short voice ID
+Fri Oct 17 14:30:00 2025: Playing short announce
+Fri Oct 17 14:30:00 2025: Playing short CW ID
+Fri Oct 17 14:30:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 14:30:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 14:38:38 2025: ReflectorLogic: Node left: Terni-HS
+Fri Oct 17 14:39:38 2025: ReflectorLogic: Node joined: Terni-HS
+Fri Oct 17 14:40:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 14:40:00 2025: Playing short voice ID
+Fri Oct 17 14:40:00 2025: Playing short announce
+Fri Oct 17 14:40:00 2025: Playing short CW ID
+Fri Oct 17 14:40:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 14:40:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 14:44:17 2025: ReflectorLogic: Node joined: IR7ZZO
+Fri Oct 17 14:44:51 2025: ReflectorLogic: Node left: IR7ZZO
+Fri Oct 17 14:46:08 2025: ReflectorLogic: Node left: Terni-HS
+Fri Oct 17 14:47:08 2025: ReflectorLogic: Node joined: Terni-HS
+Fri Oct 17 14:47:14 2025: ReflectorLogic: Node joined: IR7ZZO
+Fri Oct 17 14:49:19 2025: ReflectorLogic: Node left: IR7ZZO
+Fri Oct 17 14:50:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 14:50:00 2025: Playing short voice ID
+Fri Oct 17 14:50:00 2025: Playing short announce
+Fri Oct 17 14:50:00 2025: Playing short CW ID
+Fri Oct 17 14:50:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 14:50:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 14:54:08 2025: ReflectorLogic: Node left: Terni-HS
+Fri Oct 17 14:55:08 2025: ReflectorLogic: Node joined: Terni-HS
+Fri Oct 17 14:56:13 2025: ReflectorLogic: Node left: Terni-HS
+Fri Oct 17 14:57:48 2025: ReflectorLogic: Node joined: Terni-HS
+Fri Oct 17 14:59:52 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Fri Oct 17 14:59:52 2025: Voter: The squelch is OPEN (Rx1[85.4-0.1:+46]=49)
+Fri Oct 17 14:59:52 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 14:59:52 2025: Voter: The squelch is CLOSED (Rx1[85.4:-13]=-5)
+Fri Oct 17 14:59:59 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 15:00:00 2025: RepeaterLogic: Sending long identification...
+Fri Oct 17 15:00:00 2025: Playing long announce
+Fri Oct 17 15:00:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 15:00:07 2025: ReflectorLogic: Selecting TG #0
+Fri Oct 17 15:00:15 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 15:10:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 15:10:00 2025: Playing short voice ID
+Fri Oct 17 15:10:00 2025: Playing short announce
+Fri Oct 17 15:10:00 2025: Playing short CW ID
+Fri Oct 17 15:10:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 15:10:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 15:20:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 15:20:00 2025: Playing short voice ID
+Fri Oct 17 15:20:00 2025: Playing short announce
+Fri Oct 17 15:20:00 2025: Playing short CW ID
+Fri Oct 17 15:20:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 15:20:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 15:27:29 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Fri Oct 17 15:27:29 2025: Voter: The squelch is OPEN (Rx1[85.4-0.3:+33]=52)
+Fri Oct 17 15:27:29 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 15:27:30 2025: Voter: The squelch is CLOSED (Rx1[85.4:-19]=-6)
+Fri Oct 17 15:27:37 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 15:27:44 2025: ReflectorLogic: Selecting TG #0
+Fri Oct 17 15:28:21 2025: Rx1: Muting 1750Hz tone burst
+Fri Oct 17 15:28:21 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Fri Oct 17 15:28:21 2025: Voter: The squelch is OPEN (Rx1[85.4-0.1:+34]=8)
+Fri Oct 17 15:28:21 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 15:28:22 2025: Voter: The squelch is CLOSED (Rx1[85.4:3]=12)
+Fri Oct 17 15:28:22 2025: Rx1: Muting 1750Hz tone burst
+Fri Oct 17 15:28:22 2025: Voter: The squelch is OPEN (Rx1[85.4-0.1:+37]=9)
+Fri Oct 17 15:28:22 2025: Rx1: Muting 1750Hz tone burst
+Fri Oct 17 15:28:23 2025: ReflectorLogic: Selecting TG #61100
+Fri Oct 17 15:28:23 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Fri Oct 17 15:28:23 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Fri Oct 17 15:28:23 2025: Voter: The squelch is CLOSED (Rx1[85.4:1]=-7)
+Fri Oct 17 15:28:32 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 15:28:37 2025: ReflectorLogic: Selecting TG #0
+Fri Oct 17 15:28:38 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 15:28:38 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 15:30:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 15:30:00 2025: Playing short voice ID
+Fri Oct 17 15:30:00 2025: Playing short announce
+Fri Oct 17 15:30:00 2025: Playing short CW ID
+Fri Oct 17 15:30:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 15:30:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 15:39:00 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 15:39:03 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 15:40:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 15:40:00 2025: Playing short voice ID
+Fri Oct 17 15:40:00 2025: Playing short announce
+Fri Oct 17 15:40:00 2025: Playing short CW ID
+Fri Oct 17 15:40:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 15:40:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 15:41:28 2025: ReflectorLogic: Node left: IR8UCO
+Fri Oct 17 15:41:32 2025: ReflectorLogic: Node joined: IR8UCO
+Fri Oct 17 15:50:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 15:50:00 2025: Playing short voice ID
+Fri Oct 17 15:50:00 2025: Playing short announce
+Fri Oct 17 15:50:00 2025: Playing short CW ID
+Fri Oct 17 15:50:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 15:50:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 16:00:00 2025: RepeaterLogic: Sending long identification...
+Fri Oct 17 16:00:00 2025: Playing long announce
+Fri Oct 17 16:00:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 16:00:15 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 16:10:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 16:10:00 2025: Playing short voice ID
+Fri Oct 17 16:10:00 2025: Playing short announce
+Fri Oct 17 16:10:00 2025: Playing short CW ID
+Fri Oct 17 16:10:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 16:10:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 16:20:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 16:20:00 2025: Playing short voice ID
+Fri Oct 17 16:20:00 2025: Playing short announce
+Fri Oct 17 16:20:00 2025: Playing short CW ID
+Fri Oct 17 16:20:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 16:20:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 16:30:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 16:30:00 2025: Playing short voice ID
+Fri Oct 17 16:30:00 2025: Playing short announce
+Fri Oct 17 16:30:00 2025: Playing short CW ID
+Fri Oct 17 16:30:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 16:30:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 16:40:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 16:40:00 2025: Playing short voice ID
+Fri Oct 17 16:40:00 2025: Playing short announce
+Fri Oct 17 16:40:00 2025: Playing short CW ID
+Fri Oct 17 16:40:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 16:40:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 16:50:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 16:50:00 2025: Playing short voice ID
+Fri Oct 17 16:50:00 2025: Playing short announce
+Fri Oct 17 16:50:00 2025: Playing short CW ID
+Fri Oct 17 16:50:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 16:50:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 16:59:52 2025: RepeaterLogic: 127.3 Hz CTCSS tone detected
+Fri Oct 17 16:59:52 2025: Voter: The squelch is OPEN (Rx1[127.3+0.2:+33]=29)
+Fri Oct 17 16:59:52 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 16:59:53 2025: Voter: The squelch is CLOSED (Rx1[127.3:-11]=-8)
+Fri Oct 17 16:59:59 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 17:00:00 2025: RepeaterLogic: Sending long identification...
+Fri Oct 17 17:00:00 2025: Playing long announce
+Fri Oct 17 17:00:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 17:00:07 2025: ReflectorLogic: Selecting TG #0
+Fri Oct 17 17:00:15 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 17:00:17 2025: RepeaterLogic: 127.3 Hz CTCSS tone detected
+Fri Oct 17 17:00:18 2025: Voter: The squelch is OPEN (Rx1[127.3+0.1:+32]=30)
+Fri Oct 17 17:00:18 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 17:00:18 2025: Voter: The squelch is CLOSED (Rx1[127.3:2]=-5)
+Fri Oct 17 17:00:23 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 17:00:32 2025: ReflectorLogic: Selecting TG #0
+Fri Oct 17 17:00:37 2025: RepeaterLogic: 127.3 Hz CTCSS tone detected
+Fri Oct 17 17:00:37 2025: Voter: The squelch is OPEN (Rx1[127.3+0.3:+32]=26)
+Fri Oct 17 17:00:37 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 17:00:38 2025: Voter: The squelch is CLOSED (Rx1[127.3:2]=-6)
+Fri Oct 17 17:00:43 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 17:00:52 2025: ReflectorLogic: Selecting TG #0
+Fri Oct 17 17:01:18 2025: RepeaterLogic: 127.3 Hz CTCSS tone detected
+Fri Oct 17 17:01:18 2025: Voter: The squelch is OPEN (Rx1[127.3+0.3:+33]=26)
+Fri Oct 17 17:01:18 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 17:01:19 2025: ReflectorLogic: Selecting TG #62
+Fri Oct 17 17:01:19 2025: ReflectorLogic: Talker start on TG #62: IR6A
+Fri Oct 17 17:01:19 2025: ReflectorLogic: Talker stop on TG #62: IR6A
+Fri Oct 17 17:01:19 2025: Voter: The squelch is CLOSED (Rx1[127.3:-14]=-2)
+Fri Oct 17 17:01:26 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 17:01:33 2025: ReflectorLogic: Selecting TG #0
+Fri Oct 17 17:01:34 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 17:01:34 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 17:01:44 2025: RepeaterLogic: 127.3 Hz CTCSS tone detected
+Fri Oct 17 17:01:45 2025: Voter: The squelch is OPEN (Rx1[127.3+0.3:+32]=10)
+Fri Oct 17 17:01:45 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 17:01:45 2025: Voter: The squelch is CLOSED (Rx1[127.3:5]=-5)
+Fri Oct 17 17:01:50 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 17:01:59 2025: ReflectorLogic: Selecting TG #0
+Fri Oct 17 17:10:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 17:10:00 2025: Playing short voice ID
+Fri Oct 17 17:10:00 2025: Playing short announce
+Fri Oct 17 17:10:00 2025: Playing short CW ID
+Fri Oct 17 17:10:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 17:10:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 17:11:38 2025: RepeaterLogic: 88.5 Hz CTCSS tone detected
+Fri Oct 17 17:11:39 2025: Voter: The squelch is OPEN (Rx1[88.5-0.0:+55]=23)
+Fri Oct 17 17:11:39 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 17:11:39 2025: ReflectorLogic: Selecting TG #222
+Fri Oct 17 17:11:39 2025: ReflectorLogic: Talker start on TG #222: IR6A
+Fri Oct 17 17:11:40 2025: ReflectorLogic: Talker stop on TG #222: IR6A
+Fri Oct 17 17:11:40 2025: Voter: The squelch is CLOSED (Rx1[88.5:-7]=-5)
+Fri Oct 17 17:11:48 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 17:11:55 2025: ReflectorLogic: Selecting TG #0
+Fri Oct 17 17:11:56 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 17:11:56 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 17:20:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 17:20:00 2025: Playing short voice ID
+Fri Oct 17 17:20:00 2025: Playing short announce
+Fri Oct 17 17:20:00 2025: Playing short CW ID
+Fri Oct 17 17:20:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 17:20:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 17:30:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 17:30:00 2025: Playing short voice ID
+Fri Oct 17 17:30:00 2025: Playing short announce
+Fri Oct 17 17:30:00 2025: Playing short CW ID
+Fri Oct 17 17:30:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 17:30:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 17:33:11 2025: ReflectorLogic: Node left: Terni-HS
+Fri Oct 17 17:33:56 2025: ReflectorLogic: Node joined: Terni-HS
+Fri Oct 17 17:40:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 17:40:00 2025: Playing short voice ID
+Fri Oct 17 17:40:00 2025: Playing short announce
+Fri Oct 17 17:40:00 2025: Playing short CW ID
+Fri Oct 17 17:40:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 17:40:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 17:42:30 2025: ReflectorLogic: Node left: Terni-HS
+Fri Oct 17 17:43:11 2025: ReflectorLogic: Node joined: Terni-HS
+Fri Oct 17 17:47:26 2025: ReflectorLogic: Node left: Monti-Tiburtini
+Fri Oct 17 17:48:26 2025: ReflectorLogic: Node joined: Monti-Tiburtini
+Fri Oct 17 17:50:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 17:50:00 2025: Playing short voice ID
+Fri Oct 17 17:50:00 2025: Playing short announce
+Fri Oct 17 17:50:00 2025: Playing short CW ID
+Fri Oct 17 17:50:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 17:50:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 17:55:06 2025: ReflectorLogic: Node left: IR6AL
+Fri Oct 17 17:56:08 2025: ReflectorLogic: Node joined: IR6AL
+Fri Oct 17 18:00:00 2025: RepeaterLogic: Sending long identification...
+Fri Oct 17 18:00:00 2025: Playing long announce
+Fri Oct 17 18:00:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 18:00:15 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 18:10:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 18:10:00 2025: Playing short voice ID
+Fri Oct 17 18:10:00 2025: Playing short announce
+Fri Oct 17 18:10:00 2025: Playing short CW ID
+Fri Oct 17 18:10:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 18:10:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 18:20:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 18:20:00 2025: Playing short voice ID
+Fri Oct 17 18:20:00 2025: Playing short announce
+Fri Oct 17 18:20:00 2025: Playing short CW ID
+Fri Oct 17 18:20:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 18:20:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 18:25:07 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Fri Oct 17 18:25:07 2025: Voter: The squelch is OPEN (Rx1[85.4+0.0:+49]=74)
+Fri Oct 17 18:25:07 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 18:25:07 2025: Voter: The squelch is CLOSED (Rx1[85.4:-1]=-4)
+Fri Oct 17 18:25:14 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 18:25:21 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Fri Oct 17 18:25:21 2025: Voter: The squelch is OPEN (Rx1[85.4+0.0:+51]=74)
+Fri Oct 17 18:25:21 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 18:25:21 2025: Voter: The squelch is CLOSED (Rx1[85.4:-4]=-7)
+Fri Oct 17 18:25:26 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 18:25:35 2025: ReflectorLogic: Selecting TG #0
+Fri Oct 17 18:27:57 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Fri Oct 17 18:27:58 2025: Voter: The squelch is OPEN (Rx1[85.4+0.0:+52]=64)
+Fri Oct 17 18:27:58 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 18:27:58 2025: Voter: The squelch is CLOSED (Rx1[85.4:4]=-4)
+Fri Oct 17 18:28:05 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 18:28:09 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Fri Oct 17 18:28:10 2025: Voter: The squelch is OPEN (Rx1[85.4+0.0:+40]=64)
+Fri Oct 17 18:28:10 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 18:28:10 2025: Voter: The squelch is CLOSED (Rx1[85.4:4]=-2)
+Fri Oct 17 18:28:15 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 18:28:24 2025: ReflectorLogic: Selecting TG #0
+Fri Oct 17 18:30:36 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Fri Oct 17 18:30:36 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+54]=40)
+Fri Oct 17 18:30:36 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 18:30:37 2025: Voter: The squelch is CLOSED (Rx1[85.4:-18]=-2)
+Fri Oct 17 18:30:44 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 18:30:51 2025: ReflectorLogic: Selecting TG #0
+Fri Oct 17 18:40:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 18:40:00 2025: Playing short voice ID
+Fri Oct 17 18:40:00 2025: Playing short announce
+Fri Oct 17 18:40:00 2025: Playing short CW ID
+Fri Oct 17 18:40:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 18:40:15 2025: ReflectorLogic: Node left: IR9ZWM
+Fri Oct 17 18:40:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 18:41:04 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Fri Oct 17 18:41:04 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+49]=4)
+Fri Oct 17 18:41:04 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 18:41:04 2025: Voter: The squelch is CLOSED (Rx1[85.4:4]=-1)
+Fri Oct 17 18:41:09 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 18:41:13 2025: ReflectorLogic: Node joined: IR9ZWM
+Fri Oct 17 18:41:19 2025: ReflectorLogic: Selecting TG #0
+Fri Oct 17 18:43:35 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Fri Oct 17 18:43:36 2025: Voter: The squelch is OPEN (Rx1[85.4-0.1:+47]=13)
+Fri Oct 17 18:43:36 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 18:43:36 2025: ReflectorLogic: Selecting TG #61100
+Fri Oct 17 18:43:36 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Fri Oct 17 18:43:36 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Fri Oct 17 18:43:37 2025: Voter: The squelch is CLOSED (Rx1[85.4:-4]=-5)
+Fri Oct 17 18:43:48 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 18:43:51 2025: ReflectorLogic: Selecting TG #0
+Fri Oct 17 18:43:52 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 18:43:52 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 18:47:28 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Fri Oct 17 18:47:28 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+54]=42)
+Fri Oct 17 18:47:28 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 18:47:28 2025: Voter: The squelch is CLOSED (Rx1[85.4:-18]=11)
+Fri Oct 17 18:47:35 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 18:47:43 2025: ReflectorLogic: Selecting TG #0
+Fri Oct 17 18:50:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 18:50:00 2025: Playing short voice ID
+Fri Oct 17 18:50:00 2025: Playing short announce
+Fri Oct 17 18:50:00 2025: Playing short CW ID
+Fri Oct 17 18:50:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 18:50:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 18:59:51 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 18:59:53 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 19:00:00 2025: RepeaterLogic: Sending long identification...
+Fri Oct 17 19:00:00 2025: Playing long announce
+Fri Oct 17 19:00:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 19:00:15 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 19:01:37 2025: ReflectorLogic: Node left: Terni-HS
+Fri Oct 17 19:02:37 2025: ReflectorLogic: Node joined: Terni-HS
+Fri Oct 17 19:04:37 2025: ReflectorLogic: Node left: Terni-HS
+Fri Oct 17 19:05:38 2025: ReflectorLogic: Node joined: Terni-HS
+Fri Oct 17 19:06:05 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Fri Oct 17 19:06:05 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+43]=66)
+Fri Oct 17 19:06:05 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 19:06:05 2025: Voter: The squelch is CLOSED (Rx1[85.4:1]=-9)
+Fri Oct 17 19:06:12 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 19:06:20 2025: ReflectorLogic: Selecting TG #0
+Fri Oct 17 19:09:22 2025: ReflectorLogic: Node left: Terni-HS
+Fri Oct 17 19:10:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 19:10:00 2025: Playing short voice ID
+Fri Oct 17 19:10:00 2025: Playing short announce
+Fri Oct 17 19:10:00 2025: Playing short CW ID
+Fri Oct 17 19:10:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 19:10:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 19:10:22 2025: ReflectorLogic: Node joined: Terni-HS
+Fri Oct 17 19:12:12 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Fri Oct 17 19:12:12 2025: Voter: The squelch is OPEN (Rx1[85.4-0.1:+48]=47)
+Fri Oct 17 19:12:12 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 19:12:12 2025: Voter: The squelch is CLOSED (Rx1[85.4:-2]=-10)
+Fri Oct 17 19:12:19 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 19:12:27 2025: ReflectorLogic: Selecting TG #0
+Fri Oct 17 19:13:59 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Fri Oct 17 19:13:59 2025: Voter: The squelch is OPEN (Rx1[85.4-0.1:+46]=49)
+Fri Oct 17 19:13:59 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 19:14:00 2025: Voter: The squelch is CLOSED (Rx1[85.4:-8]=-2)
+Fri Oct 17 19:14:05 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 19:14:14 2025: ReflectorLogic: Selecting TG #0
+Fri Oct 17 19:16:19 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 19:16:21 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 19:16:22 2025: ReflectorLogic: Node left: Terni-HS
+Fri Oct 17 19:17:23 2025: ReflectorLogic: Node joined: Terni-HS
+Fri Oct 17 19:20:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 19:20:00 2025: Playing short voice ID
+Fri Oct 17 19:20:00 2025: Playing short announce
+Fri Oct 17 19:20:00 2025: Playing short CW ID
+Fri Oct 17 19:20:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 19:20:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 19:20:55 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Fri Oct 17 19:20:55 2025: Voter: The squelch is OPEN (Rx1[85.4+0.0:+41]=-2)
+Fri Oct 17 19:20:55 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 19:20:56 2025: Voter: The squelch is CLOSED (Rx1[85.4:-1]=-4)
+Fri Oct 17 19:21:01 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 19:21:11 2025: ReflectorLogic: Selecting TG #0
+Fri Oct 17 19:25:06 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 19:25:09 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 19:25:33 2025: ReflectorLogic: Node left: Terni-HS
+Fri Oct 17 19:26:33 2025: ReflectorLogic: Node joined: Terni-HS
+Fri Oct 17 19:30:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 19:30:00 2025: Playing short voice ID
+Fri Oct 17 19:30:00 2025: Playing short announce
+Fri Oct 17 19:30:00 2025: Playing short CW ID
+Fri Oct 17 19:30:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 19:30:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 19:40:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 19:40:00 2025: Playing short voice ID
+Fri Oct 17 19:40:00 2025: Playing short announce
+Fri Oct 17 19:40:00 2025: Playing short CW ID
+Fri Oct 17 19:40:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 19:40:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 19:41:39 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Fri Oct 17 19:41:39 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+48]=60)
+Fri Oct 17 19:41:39 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 19:41:39 2025: Voter: The squelch is CLOSED (Rx1[85.4:-23]=-2)
+Fri Oct 17 19:41:44 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 19:41:54 2025: ReflectorLogic: Selecting TG #0
+Fri Oct 17 19:50:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 19:50:00 2025: Playing short voice ID
+Fri Oct 17 19:50:00 2025: Playing short announce
+Fri Oct 17 19:50:00 2025: Playing short CW ID
+Fri Oct 17 19:50:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 19:50:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 19:52:10 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 19:52:12 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 20:00:00 2025: RepeaterLogic: Sending long identification...
+Fri Oct 17 20:00:00 2025: Playing long announce
+Fri Oct 17 20:00:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 20:00:15 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 20:10:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 20:10:00 2025: Playing short voice ID
+Fri Oct 17 20:10:00 2025: Playing short announce
+Fri Oct 17 20:10:00 2025: Playing short CW ID
+Fri Oct 17 20:10:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 20:10:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 20:20:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 20:20:00 2025: Playing short voice ID
+Fri Oct 17 20:20:00 2025: Playing short announce
+Fri Oct 17 20:20:00 2025: Playing short CW ID
+Fri Oct 17 20:20:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 20:20:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 20:30:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 20:30:00 2025: Playing short voice ID
+Fri Oct 17 20:30:00 2025: Playing short announce
+Fri Oct 17 20:30:00 2025: Playing short CW ID
+Fri Oct 17 20:30:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 20:30:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 20:33:42 2025: RepeaterLogic: 123 Hz CTCSS tone detected
+Fri Oct 17 20:33:42 2025: Voter: The squelch is OPEN (Rx1[123.0+0.2:+40]=1)
+Fri Oct 17 20:33:42 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 20:33:42 2025: Voter: The squelch is CLOSED (Rx1[123.0:-5]=-6)
+Fri Oct 17 20:33:49 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 20:33:56 2025: ReflectorLogic: Selecting TG #0
+Fri Oct 17 20:39:49 2025: ReflectorLogic: Node left: IR0CE
+Fri Oct 17 20:39:51 2025: ReflectorLogic: Node left: Terni-HS
+Fri Oct 17 20:39:52 2025: ReflectorLogic: Node joined: IR0CE
+Fri Oct 17 20:40:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 20:40:00 2025: Playing short voice ID
+Fri Oct 17 20:40:00 2025: Playing short announce
+Fri Oct 17 20:40:00 2025: Playing short CW ID
+Fri Oct 17 20:40:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 20:40:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 20:40:27 2025: ReflectorLogic: Node left: IR0CE
+Fri Oct 17 20:40:28 2025: ReflectorLogic: Node joined: IR0CE
+Fri Oct 17 20:40:46 2025: ReflectorLogic: Node joined: Terni-HS
+Fri Oct 17 20:50:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 20:50:00 2025: Playing short voice ID
+Fri Oct 17 20:50:00 2025: Playing short announce
+Fri Oct 17 20:50:00 2025: Playing short CW ID
+Fri Oct 17 20:50:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 20:50:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 20:51:18 2025: RepeaterLogic: 123 Hz CTCSS tone detected
+Fri Oct 17 20:51:18 2025: Voter: The squelch is OPEN (Rx1[123.0+0.0:+30]=-3)
+Fri Oct 17 20:51:18 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 20:51:19 2025: Voter: The squelch is CLOSED (Rx1[123.0:-6]=-7)
+Fri Oct 17 20:51:24 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 20:51:33 2025: ReflectorLogic: Selecting TG #0
+Fri Oct 17 20:52:00 2025: RepeaterLogic: 123 Hz CTCSS tone detected
+Fri Oct 17 20:52:01 2025: Voter: The squelch is OPEN (Rx1[123.0+0.0:+36]=-4)
+Fri Oct 17 20:52:01 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 20:52:01 2025: Voter: The squelch is CLOSED (Rx1[123.0:-12]=-6)
+Fri Oct 17 20:52:08 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 20:52:15 2025: ReflectorLogic: Selecting TG #0
+Fri Oct 17 20:59:27 2025: RepeaterLogic: 123 Hz CTCSS tone detected
+Fri Oct 17 20:59:27 2025: Voter: The squelch is OPEN (Rx1[123.0+0.1:+42]=8)
+Fri Oct 17 20:59:27 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 20:59:27 2025: Voter: The squelch is CLOSED (Rx1[123.0:-4]=-8)
+Fri Oct 17 20:59:34 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 20:59:42 2025: ReflectorLogic: Selecting TG #0
+Fri Oct 17 21:00:00 2025: RepeaterLogic: Sending long identification...
+Fri Oct 17 21:00:00 2025: Playing long announce
+Fri Oct 17 21:00:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 21:00:15 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 21:00:15 2025: ReflectorLogic: Node left: Monti-Tiburtini
+Fri Oct 17 21:00:34 2025: RepeaterLogic: 88.5 Hz CTCSS tone detected
+Fri Oct 17 21:00:34 2025: Voter: The squelch is OPEN (Rx1[88.5-0.1:+40]=15)
+Fri Oct 17 21:00:34 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 21:00:35 2025: ReflectorLogic: Selecting TG #222
+Fri Oct 17 21:00:35 2025: ReflectorLogic: Talker start on TG #222: IR6A
+Fri Oct 17 21:00:36 2025: ReflectorLogic: Talker stop on TG #222: IR6A
+Fri Oct 17 21:00:36 2025: Voter: The squelch is CLOSED (Rx1[88.5:4]=-12)
+Fri Oct 17 21:00:44 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 21:00:48 2025: RepeaterLogic: 88.5 Hz CTCSS tone detected
+Fri Oct 17 21:00:48 2025: Voter: The squelch is OPEN (Rx1[88.5+0.0:+39]=12)
+Fri Oct 17 21:00:48 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 21:00:49 2025: ReflectorLogic: Talker start on TG #222: IR6A
+Fri Oct 17 21:00:50 2025: ReflectorLogic: Talker stop on TG #222: IR6A
+Fri Oct 17 21:00:50 2025: Voter: The squelch is CLOSED (Rx1[88.5:5]=-4)
+Fri Oct 17 21:00:52 2025: ReflectorLogic: Talker start on TG #222: RedNet-222
+Fri Oct 17 21:00:52 2025: ReflectorLogic: Talker stop on TG #222: RedNet-222
+Fri Oct 17 21:00:57 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 21:01:05 2025: ReflectorLogic: Talker start on TG #222: RedNet-222
+Fri Oct 17 21:01:05 2025: ReflectorLogic: Talker stop on TG #222: RedNet-222
+Fri Oct 17 21:01:05 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 21:01:09 2025: ReflectorLogic: Node joined: Monti-Tiburtini
+Fri Oct 17 21:01:10 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 21:01:20 2025: ReflectorLogic: Selecting TG #0
+Fri Oct 17 21:01:21 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 21:01:21 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 21:05:03 2025: RepeaterLogic: 123 Hz CTCSS tone detected
+Fri Oct 17 21:05:03 2025: Voter: The squelch is OPEN (Rx1[123.0+0.1:+39]=4)
+Fri Oct 17 21:05:03 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 21:05:04 2025: Voter: The squelch is CLOSED (Rx1[123.0:3]=-6)
+Fri Oct 17 21:05:11 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 21:05:14 2025: RepeaterLogic: 123 Hz CTCSS tone detected
+Fri Oct 17 21:05:15 2025: Voter: The squelch is OPEN (Rx1[123.0+0.0:+36]=3)
+Fri Oct 17 21:05:15 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 21:05:15 2025: Voter: The squelch is CLOSED (Rx1[123.0:-8]=-3)
+Fri Oct 17 21:05:20 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 21:05:29 2025: ReflectorLogic: Selecting TG #0
+Fri Oct 17 21:05:31 2025: RepeaterLogic: 123 Hz CTCSS tone detected
+Fri Oct 17 21:05:31 2025: Voter: The squelch is OPEN (Rx1[123.0+0.1:+33]=7)
+Fri Oct 17 21:05:31 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 21:05:32 2025: ReflectorLogic: Selecting TG #32
+Fri Oct 17 21:05:32 2025: ReflectorLogic: Talker start on TG #32: IR6A
+Fri Oct 17 21:05:34 2025: ReflectorLogic: Talker stop on TG #32: IR6A
+Fri Oct 17 21:05:34 2025: Voter: The squelch is CLOSED (Rx1[123.0:1]=-5)
+Fri Oct 17 21:05:41 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 21:05:48 2025: ReflectorLogic: Selecting TG #0
+Fri Oct 17 21:05:49 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 21:05:49 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 21:06:03 2025: RepeaterLogic: 123 Hz CTCSS tone detected
+Fri Oct 17 21:06:03 2025: Voter: The squelch is OPEN (Rx1[123.0-0.1:+35]=0)
+Fri Oct 17 21:06:03 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 21:06:04 2025: ReflectorLogic: Selecting TG #32
+Fri Oct 17 21:06:04 2025: ReflectorLogic: Talker start on TG #32: IR6A
+Fri Oct 17 21:06:04 2025: ReflectorLogic: Talker stop on TG #32: IR6A
+Fri Oct 17 21:06:04 2025: Voter: The squelch is CLOSED (Rx1[123.0:-6]=0)
+Fri Oct 17 21:06:11 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 21:06:18 2025: ReflectorLogic: Selecting TG #0
+Fri Oct 17 21:06:19 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 21:06:19 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 21:10:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 21:10:00 2025: Playing short voice ID
+Fri Oct 17 21:10:00 2025: Playing short announce
+Fri Oct 17 21:10:00 2025: Playing short CW ID
+Fri Oct 17 21:10:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 21:10:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 21:20:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 21:20:00 2025: Playing short voice ID
+Fri Oct 17 21:20:00 2025: Playing short announce
+Fri Oct 17 21:20:00 2025: Playing short CW ID
+Fri Oct 17 21:20:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 21:20:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 21:30:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 21:30:00 2025: Playing short voice ID
+Fri Oct 17 21:30:00 2025: Playing short announce
+Fri Oct 17 21:30:00 2025: Playing short CW ID
+Fri Oct 17 21:30:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 21:30:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 21:34:34 2025: ReflectorLogic: Node left: Itaradio-AIRCIN
+Fri Oct 17 21:35:02 2025: ReflectorLogic: Node left: IZ8FAV-HS
+Fri Oct 17 21:35:34 2025: ReflectorLogic: Node joined: Itaradio-AIRCIN
+Fri Oct 17 21:35:58 2025: ReflectorLogic: Node joined: IZ8FAV-HS
+Fri Oct 17 21:40:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 21:40:00 2025: Playing short voice ID
+Fri Oct 17 21:40:00 2025: Playing short announce
+Fri Oct 17 21:40:00 2025: Playing short CW ID
+Fri Oct 17 21:40:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 21:40:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 21:50:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 21:50:00 2025: Playing short voice ID
+Fri Oct 17 21:50:00 2025: Playing short announce
+Fri Oct 17 21:50:00 2025: Playing short CW ID
+Fri Oct 17 21:50:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 21:50:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 22:00:00 2025: RepeaterLogic: Sending long identification...
+Fri Oct 17 22:00:00 2025: Playing long announce
+Fri Oct 17 22:00:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 22:00:15 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 22:10:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 22:10:00 2025: Playing short voice ID
+Fri Oct 17 22:10:00 2025: Playing short announce
+Fri Oct 17 22:10:00 2025: Playing short CW ID
+Fri Oct 17 22:10:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 22:10:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 22:20:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 22:20:00 2025: Playing short voice ID
+Fri Oct 17 22:20:00 2025: Playing short announce
+Fri Oct 17 22:20:00 2025: Playing short CW ID
+Fri Oct 17 22:20:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 22:20:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 22:25:41 2025: ReflectorLogic: Node left: IR3UN
+Fri Oct 17 22:25:43 2025: ReflectorLogic: Node joined: IR3UN
+Fri Oct 17 22:30:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 22:30:00 2025: Playing short voice ID
+Fri Oct 17 22:30:00 2025: Playing short announce
+Fri Oct 17 22:30:00 2025: Playing short CW ID
+Fri Oct 17 22:30:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 22:30:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 22:40:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 22:40:00 2025: Playing short voice ID
+Fri Oct 17 22:40:00 2025: Playing short announce
+Fri Oct 17 22:40:00 2025: Playing short CW ID
+Fri Oct 17 22:40:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 22:40:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 22:50:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 22:50:00 2025: Playing short voice ID
+Fri Oct 17 22:50:00 2025: Playing short announce
+Fri Oct 17 22:50:00 2025: Playing short CW ID
+Fri Oct 17 22:50:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 22:50:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 23:00:00 2025: RepeaterLogic: Sending long identification...
+Fri Oct 17 23:00:00 2025: Playing long announce
+Fri Oct 17 23:00:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 23:00:01 2025: ReflectorLogic: Node left: IR3UI
+Fri Oct 17 23:00:15 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 23:10:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 23:10:00 2025: Playing short voice ID
+Fri Oct 17 23:10:00 2025: Playing short announce
+Fri Oct 17 23:10:00 2025: Playing short CW ID
+Fri Oct 17 23:10:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 23:10:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 23:12:39 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Fri Oct 17 23:12:39 2025: Voter: The squelch is OPEN (Rx1[85.4+0.0:+60]=29)
+Fri Oct 17 23:12:39 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 23:12:40 2025: Voter: The squelch is CLOSED (Rx1[85.4:-28]=-3)
+Fri Oct 17 23:12:46 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 23:12:54 2025: ReflectorLogic: Selecting TG #0
+Fri Oct 17 23:20:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 23:20:00 2025: Playing short voice ID
+Fri Oct 17 23:20:00 2025: Playing short announce
+Fri Oct 17 23:20:00 2025: Playing short CW ID
+Fri Oct 17 23:20:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 23:20:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 23:29:19 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Fri Oct 17 23:29:20 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+46]=10)
+Fri Oct 17 23:29:20 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 23:29:20 2025: Voter: The squelch is CLOSED (Rx1[85.4:-6]=-3)
+Fri Oct 17 23:29:27 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 23:29:27 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Fri Oct 17 23:29:28 2025: Voter: The squelch is OPEN (Rx1[85.4+0.2:+31]=6)
+Fri Oct 17 23:29:28 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 23:29:28 2025: Voter: The squelch is CLOSED (Rx1[85.4:-2]=-3)
+Fri Oct 17 23:29:33 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 23:29:42 2025: ReflectorLogic: Selecting TG #0
+Fri Oct 17 23:33:13 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Fri Oct 17 23:33:13 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+44]=6)
+Fri Oct 17 23:33:13 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 23:33:14 2025: ReflectorLogic: Selecting TG #61100
+Fri Oct 17 23:33:14 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Fri Oct 17 23:33:19 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Fri Oct 17 23:33:19 2025: Voter: The squelch is CLOSED (Rx1[85.4:5]=-9)
+Fri Oct 17 23:33:30 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 23:33:32 2025: RepeaterLogic: 88.5 Hz CTCSS tone detected
+Fri Oct 17 23:33:32 2025: Voter: The squelch is OPEN (Rx1[88.5+0.1:+47]=8)
+Fri Oct 17 23:33:32 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 23:33:32 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Fri Oct 17 23:33:33 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Fri Oct 17 23:33:33 2025: Voter: The squelch is CLOSED (Rx1[88.5:5]=-8)
+Fri Oct 17 23:33:38 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 23:33:39 2025: RepeaterLogic: 88.5 Hz CTCSS tone detected
+Fri Oct 17 23:33:40 2025: Voter: The squelch is OPEN (Rx1[88.5+0.2:+42]=10)
+Fri Oct 17 23:33:40 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 23:33:40 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Fri Oct 17 23:33:46 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Fri Oct 17 23:33:46 2025: Voter: The squelch is CLOSED (Rx1[88.5:2]=-7)
+Fri Oct 17 23:33:51 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 23:34:00 2025: ReflectorLogic: Selecting TG #0
+Fri Oct 17 23:34:01 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 23:34:01 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 23:40:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 23:40:00 2025: Playing short voice ID
+Fri Oct 17 23:40:00 2025: Playing short announce
+Fri Oct 17 23:40:00 2025: Playing short CW ID
+Fri Oct 17 23:40:00 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 23:40:18 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 23:41:55 2025: RepeaterLogic: 88.5 Hz CTCSS tone detected
+Fri Oct 17 23:41:56 2025: Voter: The squelch is OPEN (Rx1[88.5-0.0:+68]=28)
+Fri Oct 17 23:41:56 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 23:41:56 2025: Voter: The squelch is CLOSED (Rx1[88.5:3]=-6)
+Fri Oct 17 23:42:03 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 23:42:11 2025: ReflectorLogic: Selecting TG #0
+Fri Oct 17 23:46:36 2025: RepeaterLogic: 127.3 Hz CTCSS tone detected
+Fri Oct 17 23:46:37 2025: Voter: The squelch is OPEN (Rx1[127.3+0.2:+33]=21)
+Fri Oct 17 23:46:37 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 23:46:37 2025: ReflectorLogic: Selecting TG #62
+Fri Oct 17 23:46:37 2025: ReflectorLogic: Talker start on TG #62: IR6A
+Fri Oct 17 23:46:38 2025: ReflectorLogic: Talker stop on TG #62: IR6A
+Fri Oct 17 23:46:38 2025: Voter: The squelch is CLOSED (Rx1[127.3:2]=-6)
+Fri Oct 17 23:46:47 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 23:46:52 2025: ReflectorLogic: Selecting TG #0
+Fri Oct 17 23:46:53 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 23:46:53 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 23:47:45 2025: RepeaterLogic: 127.3 Hz CTCSS tone detected
+Fri Oct 17 23:47:46 2025: Voter: The squelch is OPEN (Rx1[127.3+0.1:+35]=32)
+Fri Oct 17 23:47:46 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 23:47:46 2025: Voter: The squelch is CLOSED (Rx1[127.3:5]=-12)
+Fri Oct 17 23:47:51 2025: Tx1: Turning the transmitter OFF
+Fri Oct 17 23:48:01 2025: ReflectorLogic: Selecting TG #0
+Fri Oct 17 23:49:58 2025: RepeaterLogic: 127.3 Hz CTCSS tone detected
+Fri Oct 17 23:49:59 2025: Voter: The squelch is OPEN (Rx1[127.3+0.3:+31]=37)
+Fri Oct 17 23:49:59 2025: Tx1: Turning the transmitter ON
+Fri Oct 17 23:49:59 2025: ReflectorLogic: Selecting TG #62
+Fri Oct 17 23:49:59 2025: ReflectorLogic: Talker start on TG #62: IR6A
+Fri Oct 17 23:50:00 2025: RepeaterLogic: Sending short identification...
+Fri Oct 17 23:50:00 2025: Playing short voice ID
+Fri Oct 17 23:50:00 2025: Playing short announce
+Fri Oct 17 23:50:00 2025: Playing short CW ID
+Fri Oct 17 23:50:00 2025: ReflectorLogic: Talker stop on TG #62: IR6A
+Fri Oct 17 23:50:14 2025: ReflectorLogic: Selecting TG #0
+Fri Oct 17 23:50:20 2025: Voter: The squelch is CLOSED (Rx1[127.3:-10]=-5)
+Fri Oct 17 23:50:25 2025: Tx1: Turning the transmitter OFF

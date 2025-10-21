@@ -852,6 +852,38 @@ def reload_database():
             'error': str(e)
         }), 500
 
+@app.route('/api/reset-db', methods=['POST'])
+def reset_database():
+    """Resetta completamente il database eliminando tutti i dati"""
+    global db_manager, DB_AVAILABLE
+    
+    try:
+        if not is_database_available():
+            return jsonify({'error': 'Database non disponibile'}), 503
+            
+        # Conta i record prima del reset
+        dates_before = db_manager.get_available_dates()
+        records_count = len(db_manager.get_all_daily_stats()) if hasattr(db_manager, 'get_all_daily_stats') else 0
+        
+        # Esegui il reset del database
+        db_manager.reset_database()
+        
+        # Aggiorna le variabili globali
+        DB_AVAILABLE = False
+        
+        return jsonify({
+            'success': True,
+            'message': f'Database resettato: eliminati {len(dates_before)} giorni di dati',
+            'deleted_dates': len(dates_before),
+            'deleted_records': records_count
+        })
+        
+    except Exception as e:
+        return jsonify({
+            'success': False,
+            'error': str(e)
+        }), 500
+
 @app.route('/status')
 def status():
     """Mostra lo stato dell'applicazione"""

@@ -1,0 +1,2626 @@
+Sat Oct 18 00:00:15 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 00:10:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 00:10:00 2025: Playing short voice ID
+Sat Oct 18 00:10:00 2025: Playing short announce
+Sat Oct 18 00:10:00 2025: Playing short CW ID
+Sat Oct 18 00:10:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 00:10:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 00:20:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 00:20:00 2025: Playing short voice ID
+Sat Oct 18 00:20:00 2025: Playing short announce
+Sat Oct 18 00:20:00 2025: Playing short CW ID
+Sat Oct 18 00:20:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 00:20:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 00:30:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 00:30:00 2025: Playing short voice ID
+Sat Oct 18 00:30:00 2025: Playing short announce
+Sat Oct 18 00:30:00 2025: Playing short CW ID
+Sat Oct 18 00:30:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 00:30:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 00:40:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 00:40:00 2025: Playing short voice ID
+Sat Oct 18 00:40:00 2025: Playing short announce
+Sat Oct 18 00:40:00 2025: Playing short CW ID
+Sat Oct 18 00:40:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 00:40:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 00:50:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 00:50:00 2025: Playing short voice ID
+Sat Oct 18 00:50:00 2025: Playing short announce
+Sat Oct 18 00:50:00 2025: Playing short CW ID
+Sat Oct 18 00:50:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 00:50:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 01:00:00 2025: RepeaterLogic: Sending long identification...
+Sat Oct 18 01:00:00 2025: Playing long announce
+Sat Oct 18 01:00:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 01:00:15 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 01:00:19 2025: ReflectorLogic: Node left: Monti-Tiburtini
+Sat Oct 18 01:01:16 2025: ReflectorLogic: Node joined: Monti-Tiburtini
+Sat Oct 18 01:10:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 01:10:00 2025: Playing short voice ID
+Sat Oct 18 01:10:00 2025: Playing short announce
+Sat Oct 18 01:10:00 2025: Playing short CW ID
+Sat Oct 18 01:10:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 01:10:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 01:20:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 01:20:00 2025: Playing short voice ID
+Sat Oct 18 01:20:00 2025: Playing short announce
+Sat Oct 18 01:20:00 2025: Playing short CW ID
+Sat Oct 18 01:20:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 01:20:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 01:30:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 01:30:00 2025: Playing short voice ID
+Sat Oct 18 01:30:00 2025: Playing short announce
+Sat Oct 18 01:30:00 2025: Playing short CW ID
+Sat Oct 18 01:30:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 01:30:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 01:40:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 01:40:00 2025: Playing short voice ID
+Sat Oct 18 01:40:00 2025: Playing short announce
+Sat Oct 18 01:40:00 2025: Playing short CW ID
+Sat Oct 18 01:40:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 01:40:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 01:43:18 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 01:43:23 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 01:50:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 01:50:00 2025: Playing short voice ID
+Sat Oct 18 01:50:00 2025: Playing short announce
+Sat Oct 18 01:50:00 2025: Playing short CW ID
+Sat Oct 18 01:50:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 01:50:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 02:00:00 2025: RepeaterLogic: Sending long identification...
+Sat Oct 18 02:00:00 2025: Playing long announce
+Sat Oct 18 02:00:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 02:00:15 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 02:10:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 02:10:00 2025: Playing short voice ID
+Sat Oct 18 02:10:00 2025: Playing short announce
+Sat Oct 18 02:10:00 2025: Playing short CW ID
+Sat Oct 18 02:10:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 02:10:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 02:20:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 02:20:00 2025: Playing short voice ID
+Sat Oct 18 02:20:00 2025: Playing short announce
+Sat Oct 18 02:20:00 2025: Playing short CW ID
+Sat Oct 18 02:20:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 02:20:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 02:30:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 02:30:00 2025: Playing short voice ID
+Sat Oct 18 02:30:00 2025: Playing short announce
+Sat Oct 18 02:30:00 2025: Playing short CW ID
+Sat Oct 18 02:30:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 02:30:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 02:40:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 02:40:00 2025: Playing short voice ID
+Sat Oct 18 02:40:00 2025: Playing short announce
+Sat Oct 18 02:40:00 2025: Playing short CW ID
+Sat Oct 18 02:40:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 02:40:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 02:50:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 02:50:00 2025: Playing short voice ID
+Sat Oct 18 02:50:00 2025: Playing short announce
+Sat Oct 18 02:50:00 2025: Playing short CW ID
+Sat Oct 18 02:50:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 02:50:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 02:56:03 2025: ReflectorLogic: Node left: IR8UDG
+Sat Oct 18 02:56:20 2025: ReflectorLogic: Node joined: IR8UDG
+Sat Oct 18 02:56:37 2025: ReflectorLogic: Node left: IR8UDG
+Sat Oct 18 02:56:38 2025: ReflectorLogic: Node joined: IR8UDG
+Sat Oct 18 03:00:00 2025: RepeaterLogic: Sending long identification...
+Sat Oct 18 03:00:00 2025: Playing long announce
+Sat Oct 18 03:00:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 03:00:15 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 03:10:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 03:10:00 2025: Playing short voice ID
+Sat Oct 18 03:10:00 2025: Playing short announce
+Sat Oct 18 03:10:00 2025: Playing short CW ID
+Sat Oct 18 03:10:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 03:10:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 03:19:32 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 03:19:38 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 03:20:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 03:20:00 2025: Playing short voice ID
+Sat Oct 18 03:20:00 2025: Playing short announce
+Sat Oct 18 03:20:00 2025: Playing short CW ID
+Sat Oct 18 03:20:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 03:20:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 03:30:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 03:30:00 2025: Playing short voice ID
+Sat Oct 18 03:30:00 2025: Playing short announce
+Sat Oct 18 03:30:00 2025: Playing short CW ID
+Sat Oct 18 03:30:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 03:30:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 03:40:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 03:40:00 2025: Playing short voice ID
+Sat Oct 18 03:40:00 2025: Playing short announce
+Sat Oct 18 03:40:00 2025: Playing short CW ID
+Sat Oct 18 03:40:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 03:40:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 03:50:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 03:50:00 2025: Playing short voice ID
+Sat Oct 18 03:50:00 2025: Playing short announce
+Sat Oct 18 03:50:00 2025: Playing short CW ID
+Sat Oct 18 03:50:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 03:50:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 04:00:00 2025: RepeaterLogic: Sending long identification...
+Sat Oct 18 04:00:00 2025: Playing long announce
+Sat Oct 18 04:00:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 04:00:15 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 04:00:32 2025: ReflectorLogic: Node left: IZ8FAV-HS
+Sat Oct 18 04:01:32 2025: ReflectorLogic: Node joined: IZ8FAV-HS
+Sat Oct 18 04:05:02 2025: ReflectorLogic: Node left: TRANI
+Sat Oct 18 04:05:59 2025: ReflectorLogic: Node joined: TRANI
+Sat Oct 18 04:10:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 04:10:00 2025: Playing short voice ID
+Sat Oct 18 04:10:00 2025: Playing short announce
+Sat Oct 18 04:10:00 2025: Playing short CW ID
+Sat Oct 18 04:10:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 04:10:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 04:20:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 04:20:00 2025: Playing short voice ID
+Sat Oct 18 04:20:00 2025: Playing short announce
+Sat Oct 18 04:20:00 2025: Playing short CW ID
+Sat Oct 18 04:20:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 04:20:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 04:30:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 04:30:00 2025: Playing short voice ID
+Sat Oct 18 04:30:00 2025: Playing short announce
+Sat Oct 18 04:30:00 2025: Playing short CW ID
+Sat Oct 18 04:30:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 04:30:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 04:40:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 04:40:00 2025: Playing short voice ID
+Sat Oct 18 04:40:00 2025: Playing short announce
+Sat Oct 18 04:40:00 2025: Playing short CW ID
+Sat Oct 18 04:40:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 04:40:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 04:50:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 04:50:00 2025: Playing short voice ID
+Sat Oct 18 04:50:00 2025: Playing short announce
+Sat Oct 18 04:50:00 2025: Playing short CW ID
+Sat Oct 18 04:50:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 04:50:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 05:00:00 2025: RepeaterLogic: Sending long identification...
+Sat Oct 18 05:00:00 2025: Playing long announce
+Sat Oct 18 05:00:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 05:00:15 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 05:10:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 05:10:00 2025: Playing short voice ID
+Sat Oct 18 05:10:00 2025: Playing short announce
+Sat Oct 18 05:10:00 2025: Playing short CW ID
+Sat Oct 18 05:10:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 05:10:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 05:20:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 05:20:00 2025: Playing short voice ID
+Sat Oct 18 05:20:00 2025: Playing short announce
+Sat Oct 18 05:20:00 2025: Playing short CW ID
+Sat Oct 18 05:20:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 05:20:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 05:30:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 05:30:00 2025: Playing short voice ID
+Sat Oct 18 05:30:00 2025: Playing short announce
+Sat Oct 18 05:30:00 2025: Playing short CW ID
+Sat Oct 18 05:30:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 05:30:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 05:40:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 05:40:00 2025: Playing short voice ID
+Sat Oct 18 05:40:00 2025: Playing short announce
+Sat Oct 18 05:40:00 2025: Playing short CW ID
+Sat Oct 18 05:40:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 05:40:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 05:50:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 05:50:00 2025: Playing short voice ID
+Sat Oct 18 05:50:00 2025: Playing short announce
+Sat Oct 18 05:50:00 2025: Playing short CW ID
+Sat Oct 18 05:50:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 05:50:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 06:00:00 2025: RepeaterLogic: Sending long identification...
+Sat Oct 18 06:00:00 2025: Playing long announce
+Sat Oct 18 06:00:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 06:00:15 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 06:10:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 06:10:00 2025: Playing short voice ID
+Sat Oct 18 06:10:00 2025: Playing short announce
+Sat Oct 18 06:10:00 2025: Playing short CW ID
+Sat Oct 18 06:10:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 06:10:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 06:20:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 06:20:00 2025: Playing short voice ID
+Sat Oct 18 06:20:00 2025: Playing short announce
+Sat Oct 18 06:20:00 2025: Playing short CW ID
+Sat Oct 18 06:20:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 06:20:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 06:30:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 06:30:00 2025: Playing short voice ID
+Sat Oct 18 06:30:00 2025: Playing short announce
+Sat Oct 18 06:30:00 2025: Playing short CW ID
+Sat Oct 18 06:30:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 06:30:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 06:40:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 06:40:00 2025: Playing short voice ID
+Sat Oct 18 06:40:00 2025: Playing short announce
+Sat Oct 18 06:40:00 2025: Playing short CW ID
+Sat Oct 18 06:40:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 06:40:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 06:50:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 06:50:00 2025: Playing short voice ID
+Sat Oct 18 06:50:00 2025: Playing short announce
+Sat Oct 18 06:50:00 2025: Playing short CW ID
+Sat Oct 18 06:50:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 06:50:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 07:00:00 2025: RepeaterLogic: Sending long identification...
+Sat Oct 18 07:00:00 2025: Playing long announce
+Sat Oct 18 07:00:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 07:00:01 2025: ReflectorLogic: Node joined: IR3UI
+Sat Oct 18 07:00:15 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 07:05:19 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 07:05:22 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 07:10:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 07:10:00 2025: Playing short voice ID
+Sat Oct 18 07:10:00 2025: Playing short announce
+Sat Oct 18 07:10:00 2025: Playing short CW ID
+Sat Oct 18 07:10:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 07:10:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 07:15:44 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 07:15:44 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+60]=18)
+Sat Oct 18 07:15:44 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 07:15:45 2025: Voter: The squelch is CLOSED (Rx1[85.4:-2]=-6)
+Sat Oct 18 07:15:52 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 07:15:53 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 07:15:54 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+80]=20)
+Sat Oct 18 07:15:54 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 07:15:54 2025: Voter: The squelch is CLOSED (Rx1[85.4:-10]=-10)
+Sat Oct 18 07:15:59 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 07:16:00 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 07:16:00 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+51]=19)
+Sat Oct 18 07:16:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 07:16:01 2025: Voter: The squelch is CLOSED (Rx1[85.4:-15]=-4)
+Sat Oct 18 07:16:05 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 07:16:06 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 07:16:06 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+54]=21)
+Sat Oct 18 07:16:06 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 07:16:07 2025: Voter: The squelch is CLOSED (Rx1[85.4:-12]=-3)
+Sat Oct 18 07:16:12 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 07:16:14 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 07:16:14 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+54]=20)
+Sat Oct 18 07:16:14 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 07:16:15 2025: Voter: The squelch is CLOSED (Rx1[85.4:-19]=-9)
+Sat Oct 18 07:16:20 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 07:16:29 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 07:16:42 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 07:16:42 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+53]=21)
+Sat Oct 18 07:16:42 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 07:16:43 2025: Voter: The squelch is CLOSED (Rx1[85.4:-14]=-10)
+Sat Oct 18 07:16:48 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 07:16:49 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 07:16:49 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+54]=19)
+Sat Oct 18 07:16:49 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 07:16:49 2025: Voter: The squelch is CLOSED (Rx1[85.4:-17]=-4)
+Sat Oct 18 07:16:54 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 07:16:57 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 07:16:57 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+51]=17)
+Sat Oct 18 07:16:57 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 07:16:58 2025: Voter: The squelch is CLOSED (Rx1[85.4:-22]=-9)
+Sat Oct 18 07:17:02 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 07:17:04 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 07:17:05 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+47]=20)
+Sat Oct 18 07:17:05 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 07:17:05 2025: Voter: The squelch is CLOSED (Rx1[85.4:-2]=-3)
+Sat Oct 18 07:17:10 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 07:17:20 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 07:20:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 07:20:00 2025: Playing short voice ID
+Sat Oct 18 07:20:00 2025: Playing short announce
+Sat Oct 18 07:20:00 2025: Playing short CW ID
+Sat Oct 18 07:20:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 07:20:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 07:23:46 2025: ReflectorLogic: Node left: IR3UI
+Sat Oct 18 07:23:52 2025: ReflectorLogic: Node joined: IR3UI
+Sat Oct 18 07:30:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 07:30:00 2025: Playing short voice ID
+Sat Oct 18 07:30:00 2025: Playing short announce
+Sat Oct 18 07:30:00 2025: Playing short CW ID
+Sat Oct 18 07:30:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 07:30:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 07:40:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 07:40:00 2025: Playing short voice ID
+Sat Oct 18 07:40:00 2025: Playing short announce
+Sat Oct 18 07:40:00 2025: Playing short CW ID
+Sat Oct 18 07:40:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 07:40:09 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 07:40:09 2025: Voter: The squelch is OPEN (Rx1[85.4+0.0:+44]=60)
+Sat Oct 18 07:40:10 2025: ReflectorLogic: Selecting TG #61100
+Sat Oct 18 07:40:10 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 07:40:12 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 07:40:18 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 07:40:20 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 07:40:22 2025: Voter: The squelch is CLOSED (Rx1[85.4:-8]=-10)
+Sat Oct 18 07:40:27 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 07:40:28 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 07:40:28 2025: Voter: The squelch is OPEN (Rx1[85.4-0.1:+45]=64)
+Sat Oct 18 07:40:28 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 07:40:28 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 07:40:31 2025: ReflectorLogic: Node left: IR3UEJ
+Sat Oct 18 07:40:33 2025: ReflectorLogic: Node joined: IR3UEJ
+Sat Oct 18 07:40:36 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 07:40:36 2025: Voter: The squelch is CLOSED (Rx1[85.4:-9]=0)
+Sat Oct 18 07:40:41 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 07:40:51 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 07:40:52 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 07:40:52 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 07:41:48 2025: ReflectorLogic: Node left: IR8UCO
+Sat Oct 18 07:41:54 2025: ReflectorLogic: Node joined: IR8UCO
+Sat Oct 18 07:42:33 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 07:42:33 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+50]=71)
+Sat Oct 18 07:42:33 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 07:42:33 2025: Voter: The squelch is CLOSED (Rx1[85.4:-5]=-12)
+Sat Oct 18 07:42:40 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 07:42:48 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 07:50:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 07:50:00 2025: Playing short voice ID
+Sat Oct 18 07:50:00 2025: Playing short announce
+Sat Oct 18 07:50:00 2025: Playing short CW ID
+Sat Oct 18 07:50:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 07:50:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 07:51:45 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 07:51:45 2025: Voter: The squelch is OPEN (Rx1[85.4-0.1:+35]=69)
+Sat Oct 18 07:51:45 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 07:51:46 2025: Voter: The squelch is CLOSED (Rx1[85.4:1]=-6)
+Sat Oct 18 07:51:50 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 07:52:00 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 07:58:09 2025: ReflectorLogic: Node left: Terni-HS
+Sat Oct 18 07:59:09 2025: ReflectorLogic: Node joined: Terni-HS
+Sat Oct 18 08:00:00 2025: RepeaterLogic: Sending long identification...
+Sat Oct 18 08:00:00 2025: Playing long announce
+Sat Oct 18 08:00:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 08:00:15 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 08:10:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 08:10:00 2025: Playing short voice ID
+Sat Oct 18 08:10:00 2025: Playing short announce
+Sat Oct 18 08:10:00 2025: Playing short CW ID
+Sat Oct 18 08:10:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 08:10:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 08:20:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 08:20:00 2025: Playing short voice ID
+Sat Oct 18 08:20:00 2025: Playing short announce
+Sat Oct 18 08:20:00 2025: Playing short CW ID
+Sat Oct 18 08:20:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 08:20:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 08:23:31 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 08:23:32 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 08:23:32 2025: Voter: The squelch is OPEN (Rx1[85.4+0.0:+52]=40)
+Sat Oct 18 08:23:32 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 08:23:32 2025: ReflectorLogic: Selecting TG #61100
+Sat Oct 18 08:23:32 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 08:23:32 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 08:23:32 2025: Voter: The squelch is CLOSED (Rx1[85.4:-4]=-2)
+Sat Oct 18 08:23:44 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 08:23:47 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 08:23:48 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 08:23:48 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 08:30:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 08:30:00 2025: Playing short voice ID
+Sat Oct 18 08:30:00 2025: Playing short announce
+Sat Oct 18 08:30:00 2025: Playing short CW ID
+Sat Oct 18 08:30:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 08:30:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 08:40:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 08:40:00 2025: Playing short voice ID
+Sat Oct 18 08:40:00 2025: Playing short announce
+Sat Oct 18 08:40:00 2025: Playing short CW ID
+Sat Oct 18 08:40:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 08:40:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 08:50:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 08:50:00 2025: Playing short voice ID
+Sat Oct 18 08:50:00 2025: Playing short announce
+Sat Oct 18 08:50:00 2025: Playing short CW ID
+Sat Oct 18 08:50:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 08:50:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 08:57:51 2025: ReflectorLogic: Node left: Terni-HS
+Sat Oct 18 08:58:51 2025: ReflectorLogic: Node joined: Terni-HS
+Sat Oct 18 09:00:00 2025: RepeaterLogic: Sending long identification...
+Sat Oct 18 09:00:00 2025: Playing long announce
+Sat Oct 18 09:00:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 09:00:15 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 09:00:20 2025: ReflectorLogic: Node left: Monti-Tiburtini
+Sat Oct 18 09:01:21 2025: ReflectorLogic: Node joined: Monti-Tiburtini
+Sat Oct 18 09:02:35 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 09:02:35 2025: Voter: The squelch is OPEN (Rx1[85.4-0.1:+35]=74)
+Sat Oct 18 09:02:35 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 09:02:36 2025: Voter: The squelch is CLOSED (Rx1[85.4:2]=-5)
+Sat Oct 18 09:02:43 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 09:02:50 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 09:10:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 09:10:00 2025: Playing short voice ID
+Sat Oct 18 09:10:00 2025: Playing short announce
+Sat Oct 18 09:10:00 2025: Playing short CW ID
+Sat Oct 18 09:10:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 09:10:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 09:13:13 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 09:13:17 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 09:20:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 09:20:00 2025: Playing short voice ID
+Sat Oct 18 09:20:00 2025: Playing short announce
+Sat Oct 18 09:20:00 2025: Playing short CW ID
+Sat Oct 18 09:20:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 09:20:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 09:23:03 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 09:23:03 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+52]=67)
+Sat Oct 18 09:23:03 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 09:23:03 2025: Voter: The squelch is CLOSED (Rx1[85.4:-11]=-3)
+Sat Oct 18 09:23:10 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 09:23:18 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 09:27:20 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 09:27:20 2025: Voter: The squelch is OPEN (Rx1[85.4-0.1:+34]=76)
+Sat Oct 18 09:27:20 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 09:27:20 2025: Voter: The squelch is CLOSED (Rx1[85.4:-1]=-3)
+Sat Oct 18 09:27:27 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 09:27:35 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 09:30:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 09:30:00 2025: Playing short voice ID
+Sat Oct 18 09:30:00 2025: Playing short announce
+Sat Oct 18 09:30:00 2025: Playing short CW ID
+Sat Oct 18 09:30:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 09:30:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 09:32:40 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 09:32:40 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+45]=70)
+Sat Oct 18 09:32:40 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 09:32:41 2025: ReflectorLogic: Selecting TG #61100
+Sat Oct 18 09:32:41 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 09:32:41 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 09:32:41 2025: Voter: The squelch is CLOSED (Rx1[85.4:-4]=-8)
+Sat Oct 18 09:32:44 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+47]=65)
+Sat Oct 18 09:32:44 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 09:32:51 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 09:32:52 2025: Voter: The squelch is CLOSED (Rx1[85.4:0]=-5)
+Sat Oct 18 09:32:58 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 09:33:04 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 09:33:04 2025: Voter: The squelch is OPEN (Rx1[85.4-0.1:+43]=63)
+Sat Oct 18 09:33:04 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 09:33:04 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 09:33:07 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 09:33:07 2025: Voter: The squelch is CLOSED (Rx1[85.4:-10]=-4)
+Sat Oct 18 09:33:11 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 09:33:21 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 09:33:22 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 09:33:22 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 09:34:20 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 09:34:20 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+46]=59)
+Sat Oct 18 09:34:20 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 09:34:20 2025: Voter: The squelch is CLOSED (Rx1[85.4:5]=-5)
+Sat Oct 18 09:34:25 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 09:34:35 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 09:34:42 2025: RepeaterLogic: 88.5 Hz CTCSS tone detected
+Sat Oct 18 09:34:42 2025: Voter: The squelch is OPEN (Rx1[88.5-0.1:+45]=68)
+Sat Oct 18 09:34:42 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 09:34:43 2025: Voter: The squelch is CLOSED (Rx1[88.5:-4]=-7)
+Sat Oct 18 09:34:48 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 09:34:50 2025: RepeaterLogic: 88.5 Hz CTCSS tone detected
+Sat Oct 18 09:34:51 2025: Voter: The squelch is OPEN (Rx1[88.5-0.1:+46]=67)
+Sat Oct 18 09:34:51 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 09:34:51 2025: ReflectorLogic: Selecting TG #222
+Sat Oct 18 09:34:52 2025: ReflectorLogic: Talker start on TG #222: IR6A
+Sat Oct 18 09:34:52 2025: ReflectorLogic: Talker stop on TG #222: IR6A
+Sat Oct 18 09:34:52 2025: Voter: The squelch is CLOSED (Rx1[88.5:-2]=-6)
+Sat Oct 18 09:35:02 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 09:35:05 2025: RepeaterLogic: 88.5 Hz CTCSS tone detected
+Sat Oct 18 09:35:05 2025: Voter: The squelch is OPEN (Rx1[88.5-0.0:+45]=69)
+Sat Oct 18 09:35:05 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 09:35:05 2025: ReflectorLogic: Talker start on TG #222: IR6A
+Sat Oct 18 09:35:07 2025: ReflectorLogic: Talker stop on TG #222: IR6A
+Sat Oct 18 09:35:07 2025: Voter: The squelch is CLOSED (Rx1[88.5:5]=-6)
+Sat Oct 18 09:35:12 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 09:35:22 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 09:35:23 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 09:35:23 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 09:35:25 2025: RepeaterLogic: 88.5 Hz CTCSS tone detected
+Sat Oct 18 09:35:25 2025: Voter: The squelch is OPEN (Rx1[88.5-0.1:+45]=68)
+Sat Oct 18 09:35:25 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 09:35:26 2025: ReflectorLogic: Selecting TG #222
+Sat Oct 18 09:35:26 2025: ReflectorLogic: Talker start on TG #222: IR6A
+Sat Oct 18 09:35:26 2025: ReflectorLogic: Talker stop on TG #222: IR6A
+Sat Oct 18 09:35:26 2025: Voter: The squelch is CLOSED (Rx1[88.5:-3]=-9)
+Sat Oct 18 09:35:34 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 09:35:35 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 09:35:35 2025: Voter: The squelch is OPEN (Rx1[85.4-0.2:+42]=74)
+Sat Oct 18 09:35:35 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 09:35:35 2025: ReflectorLogic: Talker start on TG #222: IR6A
+Sat Oct 18 09:35:36 2025: ReflectorLogic: Talker stop on TG #222: IR6A
+Sat Oct 18 09:35:36 2025: Voter: The squelch is CLOSED (Rx1[85.4:1]=-12)
+Sat Oct 18 09:35:36 2025: ReflectorLogic: Node left: IR4C
+Sat Oct 18 09:35:40 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 09:35:40 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+44]=67)
+Sat Oct 18 09:35:40 2025: ReflectorLogic: Talker start on TG #222: IR6A
+Sat Oct 18 09:35:41 2025: ReflectorLogic: Talker stop on TG #222: IR6A
+Sat Oct 18 09:35:41 2025: Voter: The squelch is CLOSED (Rx1[85.4:-12]=-2)
+Sat Oct 18 09:35:46 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 09:35:51 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 09:35:51 2025: Voter: The squelch is OPEN (Rx1[85.4-0.1:+45]=72)
+Sat Oct 18 09:35:51 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 09:35:51 2025: ReflectorLogic: Talker start on TG #222: IR6A
+Sat Oct 18 09:35:52 2025: ReflectorLogic: Talker stop on TG #222: IR6A
+Sat Oct 18 09:35:52 2025: Voter: The squelch is CLOSED (Rx1[85.4:-2]=-8)
+Sat Oct 18 09:35:56 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 09:35:59 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 09:35:59 2025: Voter: The squelch is OPEN (Rx1[85.4-0.1:+41]=72)
+Sat Oct 18 09:35:59 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 09:35:59 2025: ReflectorLogic: Talker start on TG #222: IR6A
+Sat Oct 18 09:36:00 2025: ReflectorLogic: Talker stop on TG #222: IR6A
+Sat Oct 18 09:36:00 2025: Voter: The squelch is CLOSED (Rx1[85.4:-14]=-5)
+Sat Oct 18 09:36:05 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 09:36:08 2025: RepeaterLogic: 88.5 Hz CTCSS tone detected
+Sat Oct 18 09:36:08 2025: Voter: The squelch is OPEN (Rx1[88.5-0.1:+45]=68)
+Sat Oct 18 09:36:08 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 09:36:08 2025: ReflectorLogic: Talker start on TG #222: IR6A
+Sat Oct 18 09:36:09 2025: ReflectorLogic: Talker stop on TG #222: IR6A
+Sat Oct 18 09:36:09 2025: Voter: The squelch is CLOSED (Rx1[88.5:4]=-8)
+Sat Oct 18 09:36:14 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 09:36:16 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 09:36:16 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+44]=70)
+Sat Oct 18 09:36:16 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 09:36:16 2025: ReflectorLogic: Talker start on TG #222: IR6A
+Sat Oct 18 09:36:18 2025: ReflectorLogic: Talker stop on TG #222: IR6A
+Sat Oct 18 09:36:18 2025: Voter: The squelch is CLOSED (Rx1[85.4:-8]=-6)
+Sat Oct 18 09:36:22 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 09:36:32 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 09:36:33 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 09:36:33 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 09:36:36 2025: ReflectorLogic: Node joined: IR4C
+Sat Oct 18 09:39:24 2025: RepeaterLogic: 123 Hz CTCSS tone detected
+Sat Oct 18 09:39:24 2025: Voter: The squelch is OPEN (Rx1[123.0-0.1:+41]=53)
+Sat Oct 18 09:39:24 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 09:39:24 2025: Voter: The squelch is CLOSED (Rx1[123.0:2]=-5)
+Sat Oct 18 09:39:31 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 09:39:39 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 09:43:25 2025: RepeaterLogic: 123 Hz CTCSS tone detected
+Sat Oct 18 09:43:25 2025: Voter: The squelch is OPEN (Rx1[123.0+0.1:+49]=2)
+Sat Oct 18 09:43:25 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 09:43:25 2025: Voter: The squelch is CLOSED (Rx1[123.0:-1]=-1)
+Sat Oct 18 09:43:32 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 09:43:40 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 09:48:58 2025: ReflectorLogic: Node left: IR3EQ
+Sat Oct 18 09:49:13 2025: ReflectorLogic: Node joined: IR3EQ
+Sat Oct 18 09:50:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 09:50:00 2025: Playing short voice ID
+Sat Oct 18 09:50:00 2025: Playing short announce
+Sat Oct 18 09:50:00 2025: Playing short CW ID
+Sat Oct 18 09:50:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 09:50:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 09:51:45 2025: ReflectorLogic: Node left: IR6AL
+Sat Oct 18 09:52:46 2025: ReflectorLogic: Node joined: IR6AL
+Sat Oct 18 09:57:43 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 09:57:44 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 10:00:00 2025: RepeaterLogic: Sending long identification...
+Sat Oct 18 10:00:00 2025: Playing long announce
+Sat Oct 18 10:00:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 10:00:15 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 10:02:49 2025: ReflectorLogic: Node left: Terni-HS
+Sat Oct 18 10:03:10 2025: ReflectorLogic: Node left: IR4C
+Sat Oct 18 10:03:20 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 10:03:20 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+57]=72)
+Sat Oct 18 10:03:20 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 10:03:20 2025: Voter: The squelch is CLOSED (Rx1[85.4:-7]=-4)
+Sat Oct 18 10:03:27 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 10:03:34 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 10:03:39 2025: ReflectorLogic: Node joined: Terni-HS
+Sat Oct 18 10:03:53 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 10:03:58 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 10:04:11 2025: ReflectorLogic: Node joined: IR4C
+Sat Oct 18 10:06:23 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 10:07:39 2025: ReflectorLogic: Node left: Terni-HS
+Sat Oct 18 10:08:34 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 10:08:37 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 10:08:39 2025: ReflectorLogic: Node joined: Terni-HS
+Sat Oct 18 10:09:21 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 10:09:28 2025: ReflectorLogic: Node left: IR3-TETRA
+Sat Oct 18 10:10:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 10:10:00 2025: Playing short voice ID
+Sat Oct 18 10:10:00 2025: Playing short announce
+Sat Oct 18 10:10:00 2025: Playing short CW ID
+Sat Oct 18 10:10:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 10:10:13 2025: ReflectorLogic: Node left: IR6AL
+Sat Oct 18 10:10:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 10:10:34 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 10:11:28 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 10:11:41 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 10:11:58 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 10:11:58 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+53]=70)
+Sat Oct 18 10:11:58 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 10:11:58 2025: Voter: The squelch is CLOSED (Rx1[85.4:-5]=-5)
+Sat Oct 18 10:11:58 2025: ReflectorLogic: Node left: IR3-TETRA
+Sat Oct 18 10:12:02 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 10:12:02 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 10:12:05 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 10:12:12 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 10:12:25 2025: ReflectorLogic: Node joined: IR6AL
+Sat Oct 18 10:12:37 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 10:12:38 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 10:13:49 2025: ReflectorLogic: Node left: IR3-TETRA
+Sat Oct 18 10:13:55 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 10:16:30 2025: ReflectorLogic: Node left: IR3-TETRA
+Sat Oct 18 10:16:30 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 10:16:33 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 10:16:34 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 10:17:11 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 10:17:12 2025: ReflectorLogic: Node left: IR3-TETRA
+Sat Oct 18 10:17:12 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 10:17:13 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 10:19:13 2025: RepeaterLogic: 71.9 Hz CTCSS tone detected
+Sat Oct 18 10:19:14 2025: Voter: The squelch is OPEN (Rx1[71.9-0.1:+34]=-7)
+Sat Oct 18 10:19:14 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 10:19:14 2025: Voter: The squelch is CLOSED (Rx1[71.9:-7]=-9)
+Sat Oct 18 10:19:21 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 10:19:28 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 10:20:08 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 10:20:10 2025: ReflectorLogic: Node left: IR3-TETRA
+Sat Oct 18 10:20:10 2025: ReflectorLogic: Node joined: IR7ZZO
+Sat Oct 18 10:20:11 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 10:20:13 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 10:21:08 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 10:21:08 2025: ReflectorLogic: Node left: IR3-TETRA
+Sat Oct 18 10:21:11 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 10:21:14 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 10:21:36 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 10:21:39 2025: ReflectorLogic: Node left: IR3-TETRA
+Sat Oct 18 10:22:47 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 10:22:57 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 10:23:32 2025: ReflectorLogic: Node left: IR3-TETRA
+Sat Oct 18 10:23:34 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 10:23:34 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 10:23:37 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 10:24:24 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 10:24:24 2025: ReflectorLogic: Node left: IR3-TETRA
+Sat Oct 18 10:24:27 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 10:24:28 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 10:24:52 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 10:24:53 2025: ReflectorLogic: Node left: IR3-TETRA
+Sat Oct 18 10:25:53 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 10:25:56 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 10:26:29 2025: ReflectorLogic: Node left: IR3-TETRA
+Sat Oct 18 10:26:32 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 10:27:36 2025: ReflectorLogic: Node left: IR3-TETRA
+Sat Oct 18 10:27:40 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 10:28:45 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 10:29:25 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 10:29:27 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 10:29:46 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 10:29:54 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 10:30:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 10:30:00 2025: Playing short voice ID
+Sat Oct 18 10:30:00 2025: Playing short announce
+Sat Oct 18 10:30:00 2025: Playing short CW ID
+Sat Oct 18 10:30:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 10:30:00 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 10:30:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 10:30:38 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 10:30:39 2025: ReflectorLogic: Node left: IR3-TETRA
+Sat Oct 18 10:31:44 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 10:31:52 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 10:32:08 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 10:32:09 2025: ReflectorLogic: Node left: IR3-TETRA
+Sat Oct 18 10:32:12 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 10:32:12 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 10:35:17 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 10:35:17 2025: ReflectorLogic: Node left: IR3-TETRA
+Sat Oct 18 10:36:24 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 10:36:58 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 10:38:04 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 10:38:38 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 10:39:46 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 10:39:49 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 10:40:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 10:40:00 2025: Playing short voice ID
+Sat Oct 18 10:40:00 2025: Playing short announce
+Sat Oct 18 10:40:00 2025: Playing short CW ID
+Sat Oct 18 10:40:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 10:40:14 2025: ReflectorLogic: Node left: IR3-TETRA
+Sat Oct 18 10:40:16 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 10:40:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 10:41:53 2025: RepeaterLogic: 71.9 Hz CTCSS tone detected
+Sat Oct 18 10:41:54 2025: Voter: The squelch is OPEN (Rx1[71.9+0.1:+70]=6)
+Sat Oct 18 10:41:54 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 10:41:54 2025: Voter: The squelch is CLOSED (Rx1[71.9:-29]=-6)
+Sat Oct 18 10:41:59 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 10:42:08 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 10:42:43 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 10:42:43 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 10:42:44 2025: ReflectorLogic: Node left: IR3-TETRA
+Sat Oct 18 10:42:45 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 10:42:51 2025: RepeaterLogic: 123 Hz CTCSS tone detected
+Sat Oct 18 10:42:51 2025: Voter: The squelch is OPEN (Rx1[123.0+0.1:+53]=8)
+Sat Oct 18 10:42:51 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 10:42:51 2025: Voter: The squelch is CLOSED (Rx1[123.0:3]=-11)
+Sat Oct 18 10:42:58 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 10:43:05 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 10:43:10 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 10:43:10 2025: ReflectorLogic: Node left: IR3-TETRA
+Sat Oct 18 10:43:12 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 10:43:14 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 10:49:56 2025: ReflectorLogic: Node left: IR3UEJ
+Sat Oct 18 10:49:57 2025: ReflectorLogic: Node joined: IR3UEJ
+Sat Oct 18 10:50:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 10:50:00 2025: Playing short voice ID
+Sat Oct 18 10:50:00 2025: Playing short announce
+Sat Oct 18 10:50:00 2025: Playing short CW ID
+Sat Oct 18 10:50:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 10:50:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 10:51:47 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 10:51:48 2025: ReflectorLogic: Node left: IR3-TETRA
+Sat Oct 18 10:51:52 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 10:51:53 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 10:52:12 2025: Rx1: Muting 1750Hz tone burst
+Sat Oct 18 10:53:44 2025: ReflectorLogic: Node left: Terni-HS
+Sat Oct 18 10:54:44 2025: ReflectorLogic: Node joined: Terni-HS
+Sat Oct 18 10:56:31 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 10:56:31 2025: Voter: The squelch is OPEN (Rx1[85.4-0.3:+35]=24)
+Sat Oct 18 10:56:31 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 10:56:32 2025: Voter: The squelch is CLOSED (Rx1[85.4:1]=-10)
+Sat Oct 18 10:56:39 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 10:56:46 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 10:57:53 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 10:57:53 2025: Voter: The squelch is OPEN (Rx1[85.4-0.2:+42]=32)
+Sat Oct 18 10:57:53 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 10:57:54 2025: Voter: The squelch is CLOSED (Rx1[85.4:-5]=-5)
+Sat Oct 18 10:57:58 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 10:58:08 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 11:00:00 2025: RepeaterLogic: Sending long identification...
+Sat Oct 18 11:00:00 2025: Playing long announce
+Sat Oct 18 11:00:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 11:00:15 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 11:00:35 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 11:00:35 2025: Voter: The squelch is OPEN (Rx1[85.4-0.2:+40]=38)
+Sat Oct 18 11:00:35 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 11:00:35 2025: Voter: The squelch is CLOSED (Rx1[85.4:-4]=-9)
+Sat Oct 18 11:00:40 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 11:00:50 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 11:06:44 2025: ReflectorLogic: Node left: Terni-HS
+Sat Oct 18 11:07:38 2025: ReflectorLogic: Node left: IR3-TETRA
+Sat Oct 18 11:07:43 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 11:07:44 2025: ReflectorLogic: Node joined: Terni-HS
+Sat Oct 18 11:08:17 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 11:08:17 2025: Voter: The squelch is OPEN (Rx1[85.4-0.2:+45]=31)
+Sat Oct 18 11:08:17 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 11:08:17 2025: Voter: The squelch is CLOSED (Rx1[85.4:3]=-10)
+Sat Oct 18 11:08:24 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 11:08:32 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 11:20:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 11:20:00 2025: Playing short voice ID
+Sat Oct 18 11:20:00 2025: Playing short announce
+Sat Oct 18 11:20:00 2025: Playing short CW ID
+Sat Oct 18 11:20:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 11:20:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 11:24:40 2025: ReflectorLogic: Node left: IR3-TETRA
+Sat Oct 18 11:24:42 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 11:30:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 11:30:00 2025: Playing short voice ID
+Sat Oct 18 11:30:00 2025: Playing short announce
+Sat Oct 18 11:30:00 2025: Playing short CW ID
+Sat Oct 18 11:30:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 11:30:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 11:30:39 2025: ReflectorLogic: Node joined: IU4QRW-HS2
+Sat Oct 18 11:31:45 2025: ReflectorLogic: Node left: IU4QRW-HS2
+Sat Oct 18 11:35:09 2025: ReflectorLogic: Node left: Terni-HS
+Sat Oct 18 11:35:50 2025: ReflectorLogic: Node joined: Terni-HS
+Sat Oct 18 11:37:23 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 11:37:23 2025: Voter: The squelch is OPEN (Rx1[85.4-0.3:+39]=53)
+Sat Oct 18 11:37:23 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 11:37:23 2025: Voter: The squelch is CLOSED (Rx1[85.4:-3]=-13)
+Sat Oct 18 11:37:25 2025: Voter: The squelch is OPEN (Rx1[85.4-0.3:+30]=42)
+Sat Oct 18 11:37:26 2025: ReflectorLogic: Selecting TG #61100
+Sat Oct 18 11:37:26 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 11:37:31 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 11:37:31 2025: Voter: The squelch is CLOSED (Rx1[85.4:1]=-6)
+Sat Oct 18 11:37:37 2025: Voter: The squelch is OPEN (Rx1[85.4-0.1:+38]=6)
+Sat Oct 18 11:37:37 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 11:37:42 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 11:37:42 2025: Voter: The squelch is CLOSED (Rx1[85.4:-1]=-6)
+Sat Oct 18 11:37:45 2025: Voter: The squelch is OPEN (Rx1[85.4-0.3:+35]=47)
+Sat Oct 18 11:37:46 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 11:37:52 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 11:37:53 2025: Voter: The squelch is CLOSED (Rx1[85.4:4]=-9)
+Sat Oct 18 11:37:54 2025: Voter: The squelch is OPEN (Rx1[85.4-0.3:+37]=24)
+Sat Oct 18 11:37:54 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 11:38:04 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 11:38:05 2025: Voter: The squelch is CLOSED (Rx1[85.4:0]=-11)
+Sat Oct 18 11:38:08 2025: Voter: The squelch is OPEN (Rx1[85.4+0.0:+53]=3)
+Sat Oct 18 11:38:08 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 11:38:08 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 11:38:08 2025: Voter: The squelch is CLOSED (Rx1[85.4:-1]=-5)
+Sat Oct 18 11:38:15 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 11:38:20 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 11:38:20 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+43]=33)
+Sat Oct 18 11:38:20 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 11:38:20 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 11:38:25 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 11:38:25 2025: Voter: The squelch is CLOSED (Rx1[85.4:-1]=-4)
+Sat Oct 18 11:38:29 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 11:38:30 2025: Voter: The squelch is OPEN (Rx1[85.4-0.3:+39]=36)
+Sat Oct 18 11:38:30 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 11:38:41 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 11:38:41 2025: Voter: The squelch is CLOSED (Rx1[85.4:0]=-3)
+Sat Oct 18 11:38:46 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 11:38:49 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 11:38:50 2025: Voter: The squelch is OPEN (Rx1[85.4+0.0:+49]=31)
+Sat Oct 18 11:38:50 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 11:38:50 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 11:39:04 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 11:39:04 2025: Voter: The squelch is CLOSED (Rx1[85.4:-3]=-8)
+Sat Oct 18 11:39:09 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 11:39:10 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 11:39:10 2025: Voter: The squelch is OPEN (Rx1[85.4-0.2:+36]=52)
+Sat Oct 18 11:39:10 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 11:39:10 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 11:39:21 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 11:39:21 2025: Voter: The squelch is CLOSED (Rx1[85.4:-1]=-3)
+Sat Oct 18 11:39:26 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 11:39:27 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 11:39:27 2025: Voter: The squelch is OPEN (Rx1[85.4-0.3:+37]=29)
+Sat Oct 18 11:39:27 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 11:39:27 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 11:39:54 2025: ReflectorLogic: Node left: Terni-HS
+Sat Oct 18 11:39:54 2025: ReflectorLogic: Node left: IR0CE
+Sat Oct 18 11:39:59 2025: ReflectorLogic: Node joined: IR0CE
+Sat Oct 18 11:40:28 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 11:40:28 2025: Voter: The squelch is CLOSED (Rx1[85.4:2]=-11)
+Sat Oct 18 11:40:34 2025: ReflectorLogic: Node left: IR0CE
+Sat Oct 18 11:40:35 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 11:40:35 2025: ReflectorLogic: Node joined: IR0CE
+Sat Oct 18 11:40:36 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 11:40:36 2025: Voter: The squelch is OPEN (Rx1[85.4-0.2:+38]=56)
+Sat Oct 18 11:40:36 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 11:40:36 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 11:40:54 2025: ReflectorLogic: Node joined: Terni-HS
+Sat Oct 18 11:41:09 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 11:41:09 2025: Voter: The squelch is CLOSED (Rx1[85.4:-2]=-4)
+Sat Oct 18 11:41:12 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+49]=13)
+Sat Oct 18 11:41:12 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 11:41:29 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 11:41:29 2025: Voter: The squelch is CLOSED (Rx1[85.4:4]=-7)
+Sat Oct 18 11:41:34 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 11:41:35 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 11:41:35 2025: Voter: The squelch is OPEN (Rx1[85.4-0.2:+40]=39)
+Sat Oct 18 11:41:35 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 11:41:35 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 11:41:58 2025: ReflectorLogic: Node left: IR8UCO
+Sat Oct 18 11:41:59 2025: ReflectorLogic: Node joined: IR8UCO
+Sat Oct 18 11:42:07 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 11:42:07 2025: Voter: The squelch is CLOSED (Rx1[85.4:0]=-6)
+Sat Oct 18 11:42:12 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 11:42:13 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 11:42:14 2025: Voter: The squelch is OPEN (Rx1[85.4+0.0:+37]=32)
+Sat Oct 18 11:42:14 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 11:42:14 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 11:42:39 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 11:42:39 2025: Voter: The squelch is CLOSED (Rx1[85.4:3]=-8)
+Sat Oct 18 11:42:42 2025: Voter: The squelch is OPEN (Rx1[85.4-0.1:+37]=48)
+Sat Oct 18 11:42:42 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 11:42:50 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 11:42:51 2025: Voter: The squelch is CLOSED (Rx1[85.4:1]=-5)
+Sat Oct 18 11:42:53 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+49]=19)
+Sat Oct 18 11:42:53 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 11:42:54 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 11:42:54 2025: Voter: The squelch is CLOSED (Rx1[85.4:-5]=-4)
+Sat Oct 18 11:43:01 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 11:43:09 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 11:43:10 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 11:43:10 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 11:45:32 2025: RepeaterLogic: 123 Hz CTCSS tone detected
+Sat Oct 18 11:45:33 2025: Voter: The squelch is OPEN (Rx1[123.0-0.1:+32]=0)
+Sat Oct 18 11:45:33 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 11:45:33 2025: Voter: The squelch is CLOSED (Rx1[123.0:1]=-3)
+Sat Oct 18 11:45:40 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 11:45:47 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 11:46:07 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 11:46:09 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 11:50:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 11:50:00 2025: Playing short voice ID
+Sat Oct 18 11:50:00 2025: Playing short announce
+Sat Oct 18 11:50:00 2025: Playing short CW ID
+Sat Oct 18 11:50:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 11:50:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 11:51:06 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 11:51:07 2025: Voter: The squelch is OPEN (Rx1[85.4+0.0:+39]=1)
+Sat Oct 18 11:51:07 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 11:51:07 2025: ReflectorLogic: Selecting TG #61100
+Sat Oct 18 11:51:07 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 11:51:09 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 11:51:09 2025: Voter: The squelch is CLOSED (Rx1[85.4:4]=-4)
+Sat Oct 18 11:51:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 11:51:23 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 11:51:24 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 11:51:24 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 11:56:22 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 11:56:22 2025: Voter: The squelch is OPEN (Rx1[85.4+0.1:+45]=55)
+Sat Oct 18 11:56:22 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 11:56:22 2025: Voter: The squelch is CLOSED (Rx1[85.4:-10]=-3)
+Sat Oct 18 11:56:29 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 11:56:37 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 11:56:45 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 11:56:45 2025: Voter: The squelch is OPEN (Rx1[85.4+0.1:+51]=46)
+Sat Oct 18 11:56:45 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 11:56:45 2025: Voter: The squelch is CLOSED (Rx1[85.4:-2]=-1)
+Sat Oct 18 11:56:47 2025: Voter: The squelch is OPEN (Rx1[85.4-0.1:+35]=13)
+Sat Oct 18 11:56:48 2025: ReflectorLogic: Selecting TG #61100
+Sat Oct 18 11:56:48 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 11:56:52 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 11:56:52 2025: Voter: The squelch is CLOSED (Rx1[85.4:0]=-3)
+Sat Oct 18 11:57:01 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 11:57:06 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 11:57:07 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 11:57:07 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 11:57:14 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 11:57:15 2025: Voter: The squelch is OPEN (Rx1[85.4+0.1:+49]=47)
+Sat Oct 18 11:57:15 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 11:57:15 2025: Voter: The squelch is CLOSED (Rx1[85.4:5]=-3)
+Sat Oct 18 11:57:17 2025: Voter: The squelch is OPEN (Rx1[85.4+0.0:+48]=24)
+Sat Oct 18 11:57:18 2025: ReflectorLogic: Selecting TG #61100
+Sat Oct 18 11:57:18 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 11:57:21 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 11:57:21 2025: Voter: The squelch is CLOSED (Rx1[85.4:-10]=-4)
+Sat Oct 18 11:57:30 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 11:57:35 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 11:57:36 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 11:57:36 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 11:59:49 2025: RepeaterLogic: 88.5 Hz CTCSS tone detected
+Sat Oct 18 11:59:49 2025: Voter: The squelch is OPEN (Rx1[88.5+0.1:+35]=29)
+Sat Oct 18 11:59:49 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 11:59:50 2025: ReflectorLogic: Selecting TG #222
+Sat Oct 18 11:59:50 2025: ReflectorLogic: Talker start on TG #222: IR6A
+Sat Oct 18 11:59:50 2025: ReflectorLogic: Talker stop on TG #222: IR6A
+Sat Oct 18 11:59:51 2025: Voter: The squelch is CLOSED (Rx1[88.5:-4]=-4)
+Sat Oct 18 12:00:00 2025: RepeaterLogic: Sending long identification...
+Sat Oct 18 12:00:00 2025: Playing long announce
+Sat Oct 18 12:00:05 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 12:00:16 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 12:00:45 2025: ReflectorLogic: Node left: IR3-TETRA
+Sat Oct 18 12:00:47 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 12:00:47 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 12:00:48 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 12:04:35 2025: RepeaterLogic: 71.9 Hz CTCSS tone detected
+Sat Oct 18 12:04:35 2025: Voter: The squelch is OPEN (Rx1[71.9+0.0:+70]=15)
+Sat Oct 18 12:04:35 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 12:04:35 2025: Voter: The squelch is CLOSED (Rx1[71.9:2]=-2)
+Sat Oct 18 12:04:42 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 12:04:45 2025: RepeaterLogic: 71.9 Hz CTCSS tone detected
+Sat Oct 18 12:04:45 2025: Voter: The squelch is OPEN (Rx1[71.9+0.1:+46]=17)
+Sat Oct 18 12:04:45 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 12:04:45 2025: Voter: The squelch is CLOSED (Rx1[71.9:4]=-5)
+Sat Oct 18 12:04:50 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 12:04:51 2025: RepeaterLogic: 71.9 Hz CTCSS tone detected
+Sat Oct 18 12:04:51 2025: Voter: The squelch is OPEN (Rx1[71.9+0.1:+46]=17)
+Sat Oct 18 12:04:51 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 12:04:51 2025: Voter: The squelch is CLOSED (Rx1[71.9:-4]=0)
+Sat Oct 18 12:04:56 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 12:04:57 2025: RepeaterLogic: 71.9 Hz CTCSS tone detected
+Sat Oct 18 12:04:57 2025: Voter: The squelch is OPEN (Rx1[71.9+0.0:+42]=17)
+Sat Oct 18 12:04:57 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 12:04:58 2025: ReflectorLogic: Selecting TG #83
+Sat Oct 18 12:04:58 2025: ReflectorLogic: Talker start on TG #83: IR6A
+Sat Oct 18 12:05:00 2025: ReflectorLogic: Talker stop on TG #83: IR6A
+Sat Oct 18 12:05:00 2025: Voter: The squelch is CLOSED (Rx1[71.9:-6]=-8)
+Sat Oct 18 12:05:07 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 12:05:11 2025: RepeaterLogic: 71.9 Hz CTCSS tone detected
+Sat Oct 18 12:05:11 2025: Voter: The squelch is OPEN (Rx1[71.9+0.1:+32]=24)
+Sat Oct 18 12:05:11 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 12:05:11 2025: ReflectorLogic: Talker start on TG #83: IR6A
+Sat Oct 18 12:05:13 2025: ReflectorLogic: Talker stop on TG #83: IR6A
+Sat Oct 18 12:05:13 2025: Voter: The squelch is CLOSED (Rx1[71.9:-6]=-7)
+Sat Oct 18 12:05:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 12:05:28 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 12:05:29 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 12:05:29 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 12:10:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 12:10:00 2025: Playing short voice ID
+Sat Oct 18 12:10:00 2025: Playing short announce
+Sat Oct 18 12:10:00 2025: Playing short CW ID
+Sat Oct 18 12:10:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 12:10:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 12:20:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 12:20:00 2025: Playing short voice ID
+Sat Oct 18 12:20:00 2025: Playing short announce
+Sat Oct 18 12:20:00 2025: Playing short CW ID
+Sat Oct 18 12:20:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 12:20:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 12:24:55 2025: ReflectorLogic: Node left: IR3-TETRA
+Sat Oct 18 12:25:00 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 12:30:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 12:30:00 2025: Playing short voice ID
+Sat Oct 18 12:30:00 2025: Playing short announce
+Sat Oct 18 12:30:00 2025: Playing short CW ID
+Sat Oct 18 12:30:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 12:30:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 12:31:18 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 12:31:21 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 12:40:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 12:40:00 2025: Playing short voice ID
+Sat Oct 18 12:40:00 2025: Playing short announce
+Sat Oct 18 12:40:00 2025: Playing short CW ID
+Sat Oct 18 12:40:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 12:40:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 12:40:23 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 12:40:23 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+38]=-3)
+Sat Oct 18 12:40:23 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 12:40:24 2025: Voter: The squelch is CLOSED (Rx1[85.4:-11]=0)
+Sat Oct 18 12:40:28 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 12:40:38 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 12:41:00 2025: ReflectorLogic: Node left: IR0CE
+Sat Oct 18 12:41:15 2025: ReflectorLogic: Node joined: IR0CE
+Sat Oct 18 12:47:30 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 12:47:30 2025: ReflectorLogic: Node left: IR3-TETRA
+Sat Oct 18 12:47:32 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 12:47:35 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 12:50:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 12:50:00 2025: Playing short voice ID
+Sat Oct 18 12:50:00 2025: Playing short announce
+Sat Oct 18 12:50:00 2025: Playing short CW ID
+Sat Oct 18 12:50:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 12:50:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 12:54:58 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 12:54:58 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+71]=16)
+Sat Oct 18 12:54:58 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 12:54:59 2025: ReflectorLogic: Selecting TG #61100
+Sat Oct 18 12:54:59 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 12:54:59 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 12:54:59 2025: Voter: The squelch is CLOSED (Rx1[85.4:-2]=-5)
+Sat Oct 18 12:55:10 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 12:55:13 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 12:55:14 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 12:55:14 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 12:55:16 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 12:55:16 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+52]=16)
+Sat Oct 18 12:55:16 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 12:55:17 2025: Voter: The squelch is CLOSED (Rx1[85.4:1]=-3)
+Sat Oct 18 12:55:22 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 12:55:31 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 12:55:37 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 12:55:37 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+71]=17)
+Sat Oct 18 12:55:37 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 12:55:38 2025: Voter: The squelch is CLOSED (Rx1[85.4:4]=-6)
+Sat Oct 18 12:55:43 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 12:55:52 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 12:55:55 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 12:55:55 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+71]=21)
+Sat Oct 18 12:55:55 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 12:55:56 2025: Voter: The squelch is CLOSED (Rx1[85.4:-6]=-4)
+Sat Oct 18 12:56:01 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 12:56:05 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 12:56:05 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+52]=25)
+Sat Oct 18 12:56:05 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 12:56:06 2025: Voter: The squelch is CLOSED (Rx1[85.4:4]=-3)
+Sat Oct 18 12:56:11 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 12:56:16 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 12:56:16 2025: Voter: The squelch is OPEN (Rx1[85.4+0.0:+61]=25)
+Sat Oct 18 12:56:16 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 12:56:16 2025: Voter: The squelch is CLOSED (Rx1[85.4:5]=-6)
+Sat Oct 18 12:56:21 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 12:56:31 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 12:57:33 2025: ReflectorLogic: Node left: IR3-TETRA
+Sat Oct 18 12:57:36 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 12:57:51 2025: ReflectorLogic: Node left: Terni-HS
+Sat Oct 18 12:58:48 2025: ReflectorLogic: Node joined: Terni-HS
+Sat Oct 18 13:00:00 2025: RepeaterLogic: Sending long identification...
+Sat Oct 18 13:00:00 2025: Playing long announce
+Sat Oct 18 13:00:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 13:00:15 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 13:03:49 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 13:03:49 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+71]=30)
+Sat Oct 18 13:03:49 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 13:03:49 2025: Voter: The squelch is CLOSED (Rx1[85.4:1]=-9)
+Sat Oct 18 13:03:56 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 13:04:04 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 13:07:29 2025: RepeaterLogic: 88.5 Hz CTCSS tone detected
+Sat Oct 18 13:07:30 2025: Voter: The squelch is OPEN (Rx1[88.5-0.4:+31]=-7)
+Sat Oct 18 13:07:30 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 13:07:30 2025: Voter: The squelch is CLOSED (Rx1[88.5:-2]=-8)
+Sat Oct 18 13:07:37 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 13:07:44 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 13:08:22 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 13:08:27 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 13:08:50 2025: RepeaterLogic: 77 Hz CTCSS tone detected
+Sat Oct 18 13:08:50 2025: Voter: The squelch is OPEN (Rx1[77.0-0.0:+70]=48)
+Sat Oct 18 13:08:50 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 13:08:50 2025: Voter: The squelch is CLOSED (Rx1[77.0:1]=-5)
+Sat Oct 18 13:08:55 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 13:09:05 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 13:10:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 13:10:00 2025: Playing short voice ID
+Sat Oct 18 13:10:00 2025: Playing short announce
+Sat Oct 18 13:10:00 2025: Playing short CW ID
+Sat Oct 18 13:10:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 13:10:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 13:20:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 13:20:00 2025: Playing short voice ID
+Sat Oct 18 13:20:00 2025: Playing short announce
+Sat Oct 18 13:20:00 2025: Playing short CW ID
+Sat Oct 18 13:20:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 13:20:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 13:24:27 2025: RepeaterLogic: 123 Hz CTCSS tone detected
+Sat Oct 18 13:24:27 2025: Voter: The squelch is OPEN (Rx1[123.0+0.1:+41]=0)
+Sat Oct 18 13:24:27 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 13:24:27 2025: Voter: The squelch is CLOSED (Rx1[123.0:-3]=-5)
+Sat Oct 18 13:24:34 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 13:24:42 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 13:28:55 2025: ReflectorLogic: Node left: IR3-TETRA
+Sat Oct 18 13:28:58 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 13:30:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 13:30:00 2025: Playing short voice ID
+Sat Oct 18 13:30:00 2025: Playing short announce
+Sat Oct 18 13:30:00 2025: Playing short CW ID
+Sat Oct 18 13:30:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 13:30:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 13:32:55 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 13:32:55 2025: ReflectorLogic: Node left: IR3-TETRA
+Sat Oct 18 13:32:55 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 13:32:59 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 13:40:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 13:40:00 2025: Playing short voice ID
+Sat Oct 18 13:40:00 2025: Playing short announce
+Sat Oct 18 13:40:00 2025: Playing short CW ID
+Sat Oct 18 13:40:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 13:40:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 13:41:57 2025: ReflectorLogic: UDP frame(s) lost. Expected seq=17414 but received 17415. Resetting next expected sequence number to 17416
+Sat Oct 18 13:42:13 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 13:50:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 13:50:00 2025: Playing short voice ID
+Sat Oct 18 13:50:00 2025: Playing short announce
+Sat Oct 18 13:50:00 2025: Playing short CW ID
+Sat Oct 18 13:50:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 13:50:11 2025: ReflectorLogic: Node left: IR3-TETRA
+Sat Oct 18 13:50:16 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 13:50:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 14:00:00 2025: RepeaterLogic: Sending long identification...
+Sat Oct 18 14:00:00 2025: Playing long announce
+Sat Oct 18 14:00:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 14:00:15 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 14:02:22 2025: ReflectorLogic: Node left: IR3-TETRA
+Sat Oct 18 14:02:22 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 14:02:23 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 14:02:24 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 14:04:49 2025: ReflectorLogic: Node left: Terni-HS
+Sat Oct 18 14:05:49 2025: ReflectorLogic: Node joined: Terni-HS
+Sat Oct 18 14:10:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 14:10:00 2025: Playing short voice ID
+Sat Oct 18 14:10:00 2025: Playing short announce
+Sat Oct 18 14:10:00 2025: Playing short CW ID
+Sat Oct 18 14:10:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 14:10:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 14:14:27 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 14:14:28 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+44]=-2)
+Sat Oct 18 14:14:28 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 14:14:28 2025: ReflectorLogic: Selecting TG #61100
+Sat Oct 18 14:14:28 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 14:14:28 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 14:14:28 2025: Voter: The squelch is CLOSED (Rx1[85.4:-6]=-5)
+Sat Oct 18 14:14:39 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 14:14:42 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 14:14:43 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 14:14:43 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 14:16:57 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 14:17:02 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 14:20:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 14:20:00 2025: Playing short voice ID
+Sat Oct 18 14:20:00 2025: Playing short announce
+Sat Oct 18 14:20:00 2025: Playing short CW ID
+Sat Oct 18 14:20:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 14:20:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 14:27:09 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 14:27:09 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+61]=34)
+Sat Oct 18 14:27:09 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 14:27:10 2025: ReflectorLogic: Selecting TG #61100
+Sat Oct 18 14:27:10 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 14:27:10 2025: RepeaterLogic: digit=1
+Sat Oct 18 14:27:11 2025: RepeaterLogic: digit=1
+Sat Oct 18 14:27:12 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 14:27:12 2025: Voter: The squelch is CLOSED (Rx1[85.4:1]=-2)
+Sat Oct 18 14:27:14 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+42]=10)
+Sat Oct 18 14:27:14 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 14:27:15 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 14:27:16 2025: Voter: The squelch is CLOSED (Rx1[85.4:-3]=-1)
+Sat Oct 18 14:27:23 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 14:27:29 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 14:27:30 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 14:27:30 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 14:28:01 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 14:30:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 14:30:00 2025: Playing short voice ID
+Sat Oct 18 14:30:00 2025: Playing short announce
+Sat Oct 18 14:30:00 2025: Playing short CW ID
+Sat Oct 18 14:30:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 14:30:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 14:40:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 14:40:00 2025: Playing short voice ID
+Sat Oct 18 14:40:00 2025: Playing short announce
+Sat Oct 18 14:40:00 2025: Playing short CW ID
+Sat Oct 18 14:40:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 14:40:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 14:50:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 14:50:00 2025: Playing short voice ID
+Sat Oct 18 14:50:00 2025: Playing short announce
+Sat Oct 18 14:50:00 2025: Playing short CW ID
+Sat Oct 18 14:50:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 14:50:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 14:51:47 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 14:51:48 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 15:00:00 2025: RepeaterLogic: Sending long identification...
+Sat Oct 18 15:00:00 2025: Playing long announce
+Sat Oct 18 15:00:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 15:00:15 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 15:10:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 15:10:00 2025: Playing short voice ID
+Sat Oct 18 15:10:00 2025: Playing short announce
+Sat Oct 18 15:10:00 2025: Playing short CW ID
+Sat Oct 18 15:10:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 15:10:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 15:12:26 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 15:12:26 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+52]=17)
+Sat Oct 18 15:12:26 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 15:12:26 2025: ReflectorLogic: Selecting TG #61100
+Sat Oct 18 15:12:26 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 15:12:26 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 15:12:26 2025: Voter: The squelch is CLOSED (Rx1[85.4:2]=-5)
+Sat Oct 18 15:12:37 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 15:12:41 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 15:12:42 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 15:12:42 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 15:20:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 15:20:00 2025: Playing short voice ID
+Sat Oct 18 15:20:00 2025: Playing short announce
+Sat Oct 18 15:20:00 2025: Playing short CW ID
+Sat Oct 18 15:20:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 15:20:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 15:23:03 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 15:23:03 2025: ReflectorLogic: Node left: IR3-TETRA
+Sat Oct 18 15:23:05 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 15:23:06 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 15:25:40 2025: ReflectorLogic: Node left: IR3-TETRA
+Sat Oct 18 15:25:41 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 15:25:42 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 15:25:46 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 15:29:27 2025: RepeaterLogic: 127.3 Hz CTCSS tone detected
+Sat Oct 18 15:29:27 2025: Voter: The squelch is OPEN (Rx1[127.3+0.2:+34]=26)
+Sat Oct 18 15:29:27 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 15:29:27 2025: Voter: The squelch is CLOSED (Rx1[127.3:1]=-1)
+Sat Oct 18 15:29:34 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 15:29:40 2025: RepeaterLogic: 127.3 Hz CTCSS tone detected
+Sat Oct 18 15:29:40 2025: Voter: The squelch is OPEN (Rx1[127.3+0.2:+32]=28)
+Sat Oct 18 15:29:40 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 15:29:40 2025: Voter: The squelch is CLOSED (Rx1[127.3:1]=0)
+Sat Oct 18 15:29:45 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 15:29:55 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 15:30:32 2025: RepeaterLogic: 88.5 Hz CTCSS tone detected
+Sat Oct 18 15:30:32 2025: Voter: The squelch is OPEN (Rx1[88.5-0.0:+48]=29)
+Sat Oct 18 15:30:32 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 15:30:33 2025: ReflectorLogic: Selecting TG #222
+Sat Oct 18 15:30:33 2025: ReflectorLogic: Talker start on TG #222: IR6A
+Sat Oct 18 15:30:33 2025: ReflectorLogic: Talker stop on TG #222: IR6A
+Sat Oct 18 15:30:33 2025: Voter: The squelch is CLOSED (Rx1[88.5:3]=0)
+Sat Oct 18 15:30:41 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 15:30:47 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 15:30:48 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 15:30:48 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 15:32:10 2025: RepeaterLogic: 88.5 Hz CTCSS tone detected
+Sat Oct 18 15:32:10 2025: Voter: The squelch is OPEN (Rx1[88.5-0.0:+72]=26)
+Sat Oct 18 15:32:10 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 15:32:11 2025: ReflectorLogic: Selecting TG #222
+Sat Oct 18 15:32:11 2025: ReflectorLogic: Talker start on TG #222: IR6A
+Sat Oct 18 15:32:11 2025: ReflectorLogic: Talker stop on TG #222: IR6A
+Sat Oct 18 15:32:11 2025: Voter: The squelch is CLOSED (Rx1[88.5:3]=1)
+Sat Oct 18 15:32:21 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 15:32:25 2025: ReflectorLogic: Talker start on TG #222: Monti-Tiburtini
+Sat Oct 18 15:32:25 2025: ReflectorLogic: Talker stop on TG #222: Monti-Tiburtini
+Sat Oct 18 15:32:25 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 15:32:30 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 15:32:31 2025: ReflectorLogic: Talker start on TG #222: Monti-Tiburtini
+Sat Oct 18 15:32:31 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 15:32:31 2025: ReflectorLogic: Talker stop on TG #222: Monti-Tiburtini
+Sat Oct 18 15:32:36 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 15:32:37 2025: ReflectorLogic: Talker start on TG #222: Monti-Tiburtini
+Sat Oct 18 15:32:37 2025: ReflectorLogic: Talker stop on TG #222: Monti-Tiburtini
+Sat Oct 18 15:32:37 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 15:32:41 2025: ReflectorLogic: Talker start on TG #222: Monti-Tiburtini
+Sat Oct 18 15:32:41 2025: ReflectorLogic: Talker stop on TG #222: Monti-Tiburtini
+Sat Oct 18 15:32:46 2025: ReflectorLogic: Talker start on TG #222: Monti-Tiburtini
+Sat Oct 18 15:32:46 2025: ReflectorLogic: Talker stop on TG #222: Monti-Tiburtini
+Sat Oct 18 15:32:51 2025: ReflectorLogic: Talker start on TG #222: Monti-Tiburtini
+Sat Oct 18 15:32:51 2025: ReflectorLogic: Talker stop on TG #222: Monti-Tiburtini
+Sat Oct 18 15:32:56 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 15:32:57 2025: ReflectorLogic: Talker start on TG #222: Monti-Tiburtini
+Sat Oct 18 15:32:57 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 15:32:57 2025: ReflectorLogic: Talker stop on TG #222: Monti-Tiburtini
+Sat Oct 18 15:33:02 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 15:33:04 2025: ReflectorLogic: Talker start on TG #222: Monti-Tiburtini
+Sat Oct 18 15:33:04 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 15:33:04 2025: ReflectorLogic: Talker stop on TG #222: Monti-Tiburtini
+Sat Oct 18 15:33:08 2025: ReflectorLogic: Talker start on TG #222: Monti-Tiburtini
+Sat Oct 18 15:33:09 2025: ReflectorLogic: Talker stop on TG #222: Monti-Tiburtini
+Sat Oct 18 15:33:14 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 15:33:14 2025: ReflectorLogic: Talker start on TG #222: Rocca-di-Papa
+Sat Oct 18 15:33:15 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 15:33:15 2025: ReflectorLogic: Talker stop on TG #222: Rocca-di-Papa
+Sat Oct 18 15:33:20 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 15:33:20 2025: ReflectorLogic: Talker start on TG #222: Monti-Tiburtini
+Sat Oct 18 15:33:20 2025: ReflectorLogic: Talker stop on TG #222: Monti-Tiburtini
+Sat Oct 18 15:33:20 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 15:33:25 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 15:33:34 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 15:33:35 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 15:33:35 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 15:34:11 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 15:34:11 2025: ReflectorLogic: Node left: IR3-TETRA
+Sat Oct 18 15:34:14 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 15:34:15 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 15:36:52 2025: ReflectorLogic: Node left: IU4FIT-HS
+Sat Oct 18 15:37:50 2025: ReflectorLogic: Node joined: IU4FIT-HS
+Sat Oct 18 15:40:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 15:40:00 2025: Playing short voice ID
+Sat Oct 18 15:40:00 2025: Playing short announce
+Sat Oct 18 15:40:00 2025: Playing short CW ID
+Sat Oct 18 15:40:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 15:40:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 15:41:33 2025: RepeaterLogic: 127.3 Hz CTCSS tone detected
+Sat Oct 18 15:41:33 2025: Voter: The squelch is OPEN (Rx1[127.3+0.2:+34]=52)
+Sat Oct 18 15:41:33 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 15:41:34 2025: Voter: The squelch is CLOSED (Rx1[127.3:-1]=1)
+Sat Oct 18 15:41:38 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 15:41:48 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 15:41:53 2025: RepeaterLogic: 123 Hz CTCSS tone detected
+Sat Oct 18 15:41:53 2025: Voter: The squelch is OPEN (Rx1[123.0+0.2:+33]=51)
+Sat Oct 18 15:41:53 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 15:41:54 2025: Voter: The squelch is CLOSED (Rx1[123.0:-5]=0)
+Sat Oct 18 15:41:59 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 15:42:01 2025: RepeaterLogic: 123 Hz CTCSS tone detected
+Sat Oct 18 15:42:01 2025: Voter: The squelch is OPEN (Rx1[123.0+0.2:+32]=49)
+Sat Oct 18 15:42:01 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 15:42:01 2025: Voter: The squelch is CLOSED (Rx1[123.0:-3]=1)
+Sat Oct 18 15:42:08 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 15:42:12 2025: RepeaterLogic: 123 Hz CTCSS tone detected
+Sat Oct 18 15:42:13 2025: Voter: The squelch is OPEN (Rx1[123.0+0.2:+33]=51)
+Sat Oct 18 15:42:13 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 15:42:13 2025: Voter: The squelch is CLOSED (Rx1[123.0:-10]=-2)
+Sat Oct 18 15:42:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 15:42:27 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 15:42:46 2025: RepeaterLogic: 123 Hz CTCSS tone detected
+Sat Oct 18 15:42:46 2025: Voter: The squelch is OPEN (Rx1[123.0+0.2:+34]=47)
+Sat Oct 18 15:42:46 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 15:42:46 2025: Voter: The squelch is CLOSED (Rx1[123.0:-9]=-1)
+Sat Oct 18 15:42:51 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 15:43:01 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 15:43:05 2025: RepeaterLogic: 123 Hz CTCSS tone detected
+Sat Oct 18 15:43:05 2025: Voter: The squelch is OPEN (Rx1[123.0+0.2:+35]=50)
+Sat Oct 18 15:43:05 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 15:43:05 2025: Voter: The squelch is CLOSED (Rx1[123.0:-5]=2)
+Sat Oct 18 15:43:10 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 15:43:13 2025: RepeaterLogic: 123 Hz CTCSS tone detected
+Sat Oct 18 15:43:13 2025: Voter: The squelch is OPEN (Rx1[123.0+0.2:+33]=49)
+Sat Oct 18 15:43:13 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 15:43:13 2025: Voter: The squelch is CLOSED (Rx1[123.0:-5]=-3)
+Sat Oct 18 15:43:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 15:43:28 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 15:44:18 2025: RepeaterLogic: 110.9 Hz CTCSS tone detected
+Sat Oct 18 15:44:18 2025: Voter: The squelch is OPEN (Rx1[110.9+0.2:+34]=52)
+Sat Oct 18 15:44:18 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 15:44:18 2025: Voter: The squelch is CLOSED (Rx1[110.9:1]=-2)
+Sat Oct 18 15:44:25 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 15:44:32 2025: RepeaterLogic: 110.9 Hz CTCSS tone detected
+Sat Oct 18 15:44:33 2025: Voter: The squelch is OPEN (Rx1[110.9+0.2:+33]=49)
+Sat Oct 18 15:44:33 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 15:44:33 2025: Voter: The squelch is CLOSED (Rx1[110.9:2]=0)
+Sat Oct 18 15:44:38 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 15:44:47 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 15:45:20 2025: RepeaterLogic: 110.9 Hz CTCSS tone detected
+Sat Oct 18 15:45:20 2025: Voter: The squelch is OPEN (Rx1[110.9+0.2:+33]=49)
+Sat Oct 18 15:45:20 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 15:45:21 2025: Voter: The squelch is CLOSED (Rx1[110.9:-5]=-1)
+Sat Oct 18 15:45:25 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 15:45:35 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 15:45:52 2025: RepeaterLogic: 107.2 Hz CTCSS tone detected
+Sat Oct 18 15:45:52 2025: Voter: The squelch is OPEN (Rx1[107.2+0.1:+35]=52)
+Sat Oct 18 15:45:52 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 15:45:52 2025: Voter: The squelch is CLOSED (Rx1[107.2:-2]=2)
+Sat Oct 18 15:45:57 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 15:45:58 2025: RepeaterLogic: 107.2 Hz CTCSS tone detected
+Sat Oct 18 15:45:58 2025: Voter: The squelch is OPEN (Rx1[107.2+0.3:+34]=48)
+Sat Oct 18 15:45:58 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 15:45:59 2025: Voter: The squelch is CLOSED (Rx1[107.2:0]=3)
+Sat Oct 18 15:46:03 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 15:46:13 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 15:48:24 2025: RepeaterLogic: 88.5 Hz CTCSS tone detected
+Sat Oct 18 15:48:25 2025: Voter: The squelch is OPEN (Rx1[88.5+0.1:+33]=14)
+Sat Oct 18 15:48:25 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 15:48:25 2025: Voter: The squelch is CLOSED (Rx1[88.5:0]=18)
+Sat Oct 18 15:48:32 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 15:48:39 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 15:51:36 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 15:51:37 2025: ReflectorLogic: Node left: IR3-TETRA
+Sat Oct 18 15:51:38 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 15:51:42 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 15:52:32 2025: ReflectorLogic: Node left: Terni-HS
+Sat Oct 18 15:52:50 2025: RepeaterLogic: 107.2 Hz CTCSS tone detected
+Sat Oct 18 15:52:50 2025: Voter: The squelch is OPEN (Rx1[107.2+0.2:+36]=51)
+Sat Oct 18 15:52:50 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 15:52:50 2025: Voter: The squelch is CLOSED (Rx1[107.2:-8]=-6)
+Sat Oct 18 15:52:57 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 15:53:05 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 15:53:07 2025: RepeaterLogic: 107.2 Hz CTCSS tone detected
+Sat Oct 18 15:53:07 2025: Voter: The squelch is OPEN (Rx1[107.2+0.2:+35]=51)
+Sat Oct 18 15:53:07 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 15:53:08 2025: ReflectorLogic: Selecting TG #82
+Sat Oct 18 15:53:08 2025: ReflectorLogic: Talker start on TG #82: IR6A
+Sat Oct 18 15:53:08 2025: ReflectorLogic: Talker stop on TG #82: IR6A
+Sat Oct 18 15:53:09 2025: Voter: The squelch is CLOSED (Rx1[107.2:0]=37)
+Sat Oct 18 15:53:09 2025: Voter: The squelch is OPEN (Rx1[107.2+0.2:+35]=33)
+Sat Oct 18 15:53:09 2025: ReflectorLogic: Talker start on TG #82: IR6A
+Sat Oct 18 15:53:12 2025: ReflectorLogic: Talker stop on TG #82: IR6A
+Sat Oct 18 15:53:12 2025: Voter: The squelch is CLOSED (Rx1[107.2:1]=-5)
+Sat Oct 18 15:53:20 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 15:53:27 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 15:53:28 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 15:53:28 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 15:53:31 2025: ReflectorLogic: Node joined: Terni-HS
+Sat Oct 18 15:53:47 2025: RepeaterLogic: 107.2 Hz CTCSS tone detected
+Sat Oct 18 15:53:47 2025: Voter: The squelch is OPEN (Rx1[107.2+0.2:+35]=50)
+Sat Oct 18 15:53:47 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 15:53:48 2025: Voter: The squelch is CLOSED (Rx1[107.2:-4]=1)
+Sat Oct 18 15:53:53 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 15:53:56 2025: RepeaterLogic: 107.2 Hz CTCSS tone detected
+Sat Oct 18 15:53:56 2025: Voter: The squelch is OPEN (Rx1[107.2+0.2:+35]=50)
+Sat Oct 18 15:53:56 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 15:53:56 2025: Voter: The squelch is CLOSED (Rx1[107.2:-1]=4)
+Sat Oct 18 15:54:01 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 15:54:09 2025: RepeaterLogic: 88.5 Hz CTCSS tone detected
+Sat Oct 18 15:54:09 2025: Voter: The squelch is OPEN (Rx1[88.5-0.0:+50]=10)
+Sat Oct 18 15:54:09 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 15:54:10 2025: ReflectorLogic: Selecting TG #222
+Sat Oct 18 15:54:10 2025: ReflectorLogic: Talker start on TG #222: IR6A
+Sat Oct 18 15:54:11 2025: ReflectorLogic: Talker stop on TG #222: IR6A
+Sat Oct 18 15:54:12 2025: Voter: The squelch is CLOSED (Rx1[88.5:4]=-2)
+Sat Oct 18 15:54:19 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 15:54:21 2025: RepeaterLogic: 110.9 Hz CTCSS tone detected
+Sat Oct 18 15:54:21 2025: Voter: The squelch is OPEN (Rx1[110.9+0.1:+32]=47)
+Sat Oct 18 15:54:21 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 15:54:21 2025: ReflectorLogic: Talker start on TG #222: IR6A
+Sat Oct 18 15:54:22 2025: ReflectorLogic: Talker stop on TG #222: IR6A
+Sat Oct 18 15:54:22 2025: Voter: The squelch is CLOSED (Rx1[110.9:-12]=-1)
+Sat Oct 18 15:54:24 2025: Voter: The squelch is OPEN (Rx1[110.9+0.1:+33]=28)
+Sat Oct 18 15:54:24 2025: ReflectorLogic: Talker start on TG #222: IR6A
+Sat Oct 18 15:54:24 2025: ReflectorLogic: Talker stop on TG #222: IR6A
+Sat Oct 18 15:54:25 2025: Voter: The squelch is CLOSED (Rx1[110.9:-15]=-2)
+Sat Oct 18 15:54:29 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 15:54:30 2025: RepeaterLogic: 110.9 Hz CTCSS tone detected
+Sat Oct 18 15:54:30 2025: Voter: The squelch is OPEN (Rx1[110.9+0.2:+35]=47)
+Sat Oct 18 15:54:30 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 15:54:30 2025: ReflectorLogic: Talker start on TG #222: IR6A
+Sat Oct 18 15:54:30 2025: ReflectorLogic: Talker stop on TG #222: IR6A
+Sat Oct 18 15:54:30 2025: Voter: The squelch is CLOSED (Rx1[110.9:-6]=2)
+Sat Oct 18 15:54:35 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 15:54:37 2025: RepeaterLogic: 88.5 Hz CTCSS tone detected
+Sat Oct 18 15:54:37 2025: Voter: The squelch is OPEN (Rx1[88.5-0.0:+50]=6)
+Sat Oct 18 15:54:37 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 15:54:37 2025: ReflectorLogic: Talker start on TG #222: IR6A
+Sat Oct 18 15:54:40 2025: ReflectorLogic: Talker stop on TG #222: IR6A
+Sat Oct 18 15:54:40 2025: Voter: The squelch is CLOSED (Rx1[88.5:4]=0)
+Sat Oct 18 15:54:45 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 15:54:47 2025: RepeaterLogic: 110.9 Hz CTCSS tone detected
+Sat Oct 18 15:54:54 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 15:54:55 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 15:54:55 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 15:54:57 2025: RepeaterLogic: 110.9 Hz CTCSS tone detected
+Sat Oct 18 15:54:58 2025: Voter: The squelch is OPEN (Rx1[110.9+0.3:+34]=49)
+Sat Oct 18 15:54:58 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 15:54:58 2025: ReflectorLogic: Selecting TG #81
+Sat Oct 18 15:54:58 2025: ReflectorLogic: Talker start on TG #81: IR6A
+Sat Oct 18 15:54:58 2025: ReflectorLogic: Talker stop on TG #81: IR6A
+Sat Oct 18 15:54:58 2025: Voter: The squelch is CLOSED (Rx1[110.9:-4]=1)
+Sat Oct 18 15:55:08 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 15:55:12 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 15:55:13 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 15:55:13 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 15:56:01 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 15:56:01 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+52]=15)
+Sat Oct 18 15:56:01 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 15:56:02 2025: ReflectorLogic: Selecting TG #61100
+Sat Oct 18 15:56:02 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 15:56:02 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 15:56:02 2025: Voter: The squelch is CLOSED (Rx1[85.4:-8]=-4)
+Sat Oct 18 15:56:11 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 15:56:16 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 15:56:17 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 15:56:17 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 15:57:17 2025: RepeaterLogic: 123 Hz CTCSS tone detected
+Sat Oct 18 15:57:17 2025: Voter: The squelch is OPEN (Rx1[123.0+0.3:+32]=50)
+Sat Oct 18 15:57:17 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 15:57:17 2025: Voter: The squelch is CLOSED (Rx1[123.0:0]=0)
+Sat Oct 18 15:57:24 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 15:57:25 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 15:57:25 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+57]=11)
+Sat Oct 18 15:57:25 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 15:57:26 2025: Voter: The squelch is CLOSED (Rx1[85.4:-5]=-3)
+Sat Oct 18 15:57:30 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 15:57:35 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 15:57:35 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+52]=19)
+Sat Oct 18 15:57:35 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 15:57:36 2025: ReflectorLogic: Selecting TG #61100
+Sat Oct 18 15:57:36 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 15:57:36 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 15:57:36 2025: Voter: The squelch is CLOSED (Rx1[85.4:-4]=-3)
+Sat Oct 18 15:57:45 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 15:57:50 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 15:57:51 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 15:57:51 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 16:00:00 2025: RepeaterLogic: Sending long identification...
+Sat Oct 18 16:00:00 2025: Playing long announce
+Sat Oct 18 16:00:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 16:00:15 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 16:00:46 2025: ReflectorLogic: Node left: IR3-TETRA
+Sat Oct 18 16:00:47 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 16:00:49 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 16:00:51 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 16:02:16 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 16:02:16 2025: ReflectorLogic: Node left: IR3-TETRA
+Sat Oct 18 16:02:18 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 16:02:21 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 16:02:25 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 16:02:25 2025: Voter: The squelch is OPEN (Rx1[85.4+0.1:+52]=48)
+Sat Oct 18 16:02:25 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 16:02:26 2025: Voter: The squelch is CLOSED (Rx1[85.4:-3]=-2)
+Sat Oct 18 16:02:33 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 16:02:34 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 16:02:35 2025: Voter: The squelch is OPEN (Rx1[85.4+0.1:+57]=46)
+Sat Oct 18 16:02:35 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 16:02:35 2025: ReflectorLogic: Selecting TG #61100
+Sat Oct 18 16:02:35 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 16:02:46 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 16:02:47 2025: Voter: The squelch is CLOSED (Rx1[85.4:-3]=3)
+Sat Oct 18 16:02:56 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 16:02:57 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 16:02:57 2025: Voter: The squelch is OPEN (Rx1[85.4+0.1:+57]=46)
+Sat Oct 18 16:02:57 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 16:02:57 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 16:03:05 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 16:03:05 2025: Voter: The squelch is CLOSED (Rx1[85.4:2]=4)
+Sat Oct 18 16:03:10 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 16:03:14 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 16:03:15 2025: Voter: The squelch is OPEN (Rx1[85.4+0.1:+38]=44)
+Sat Oct 18 16:03:15 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 16:03:15 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 16:03:23 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 16:03:23 2025: Voter: The squelch is CLOSED (Rx1[85.4:0]=1)
+Sat Oct 18 16:03:27 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 16:03:32 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 16:03:32 2025: Voter: The squelch is OPEN (Rx1[85.4+0.1:+50]=46)
+Sat Oct 18 16:03:32 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 16:03:33 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 16:03:33 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 16:03:33 2025: Voter: The squelch is CLOSED (Rx1[85.4:-6]=-5)
+Sat Oct 18 16:03:38 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 16:03:47 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 16:03:48 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 16:03:48 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 16:07:42 2025: RepeaterLogic: 123 Hz CTCSS tone detected
+Sat Oct 18 16:07:42 2025: Voter: The squelch is OPEN (Rx1[123.0+0.2:+30]=48)
+Sat Oct 18 16:07:42 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 16:07:43 2025: Voter: The squelch is CLOSED (Rx1[123.0:-4]=-1)
+Sat Oct 18 16:07:49 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 16:07:57 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 16:08:05 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 16:08:05 2025: Voter: The squelch is OPEN (Rx1[85.4+0.1:+55]=47)
+Sat Oct 18 16:08:05 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 16:08:06 2025: ReflectorLogic: Selecting TG #61100
+Sat Oct 18 16:08:06 2025: Voter: The squelch is CLOSED (Rx1[85.4:1]=-1)
+Sat Oct 18 16:08:15 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 16:08:16 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 16:08:16 2025: Voter: The squelch is OPEN (Rx1[85.4+0.1:+54]=46)
+Sat Oct 18 16:08:16 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 16:08:16 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 16:08:25 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 16:08:25 2025: Voter: The squelch is CLOSED (Rx1[85.4:1]=0)
+Sat Oct 18 16:08:30 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 16:08:39 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 16:08:40 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 16:08:40 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 16:08:49 2025: RepeaterLogic: 107.2 Hz CTCSS tone detected
+Sat Oct 18 16:08:49 2025: Voter: The squelch is OPEN (Rx1[107.2+0.2:+32]=50)
+Sat Oct 18 16:08:49 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 16:08:49 2025: Voter: The squelch is CLOSED (Rx1[107.2:-4]=0)
+Sat Oct 18 16:08:54 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 16:09:04 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 16:09:25 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 16:09:25 2025: Voter: The squelch is OPEN (Rx1[85.4+0.0:+50]=21)
+Sat Oct 18 16:09:25 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 16:09:26 2025: Voter: The squelch is CLOSED (Rx1[85.4:-2]=3)
+Sat Oct 18 16:09:31 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 16:09:31 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 16:09:32 2025: Voter: The squelch is OPEN (Rx1[85.4-0.3:+33]=20)
+Sat Oct 18 16:09:32 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 16:09:32 2025: ReflectorLogic: Selecting TG #61100
+Sat Oct 18 16:09:32 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 16:09:36 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 16:09:36 2025: Voter: The squelch is CLOSED (Rx1[85.4:-8]=-1)
+Sat Oct 18 16:09:42 2025: Voter: The squelch is OPEN (Rx1[85.4-0.2:+41]=56)
+Sat Oct 18 16:09:42 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 16:09:49 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 16:09:49 2025: Voter: The squelch is CLOSED (Rx1[85.4:3]=-1)
+Sat Oct 18 16:09:53 2025: Voter: The squelch is OPEN (Rx1[85.4-0.1:+31]=4)
+Sat Oct 18 16:09:53 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 16:10:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 16:10:00 2025: Playing short voice ID
+Sat Oct 18 16:10:00 2025: Playing short announce
+Sat Oct 18 16:10:00 2025: Playing short CW ID
+Sat Oct 18 16:10:35 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 16:10:35 2025: Voter: The squelch is CLOSED (Rx1[85.4:-9]=0)
+Sat Oct 18 16:10:39 2025: Voter: The squelch is OPEN (Rx1[85.4-0.2:+36]=33)
+Sat Oct 18 16:10:39 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 16:10:50 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 16:10:50 2025: Voter: The squelch is CLOSED (Rx1[85.4:-1]=-3)
+Sat Oct 18 16:10:54 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 16:10:55 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 16:10:55 2025: Voter: The squelch is OPEN (Rx1[85.4-0.1:+33]=21)
+Sat Oct 18 16:10:55 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 16:10:55 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 16:11:10 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 16:11:10 2025: Voter: The squelch is CLOSED (Rx1[85.4:-4]=0)
+Sat Oct 18 16:11:15 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 16:11:15 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 16:11:15 2025: Voter: The squelch is OPEN (Rx1[85.4-0.2:+36]=68)
+Sat Oct 18 16:11:15 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 16:11:15 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 16:11:32 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 16:11:32 2025: Voter: The squelch is CLOSED (Rx1[85.4:-7]=0)
+Sat Oct 18 16:11:37 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 16:11:38 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 16:11:38 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+55]=34)
+Sat Oct 18 16:11:38 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 16:11:38 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 16:12:25 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 16:12:26 2025: Voter: The squelch is CLOSED (Rx1[85.4:-3]=-4)
+Sat Oct 18 16:12:30 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 16:12:30 2025: Voter: The squelch is OPEN (Rx1[85.4-0.2:+35]=42)
+Sat Oct 18 16:12:30 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 16:13:00 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 16:13:00 2025: Voter: The squelch is CLOSED (Rx1[85.4:1]=-3)
+Sat Oct 18 16:13:05 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 16:13:06 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 16:13:06 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+49]=30)
+Sat Oct 18 16:13:06 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 16:13:06 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 16:13:33 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 16:13:33 2025: Voter: The squelch is CLOSED (Rx1[85.4:2]=0)
+Sat Oct 18 16:13:38 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 16:13:44 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 16:13:44 2025: Voter: The squelch is OPEN (Rx1[85.4-0.2:+40]=17)
+Sat Oct 18 16:13:44 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 16:13:44 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 16:13:56 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 16:13:56 2025: Voter: The squelch is CLOSED (Rx1[85.4:-5]=5)
+Sat Oct 18 16:14:01 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 16:14:11 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 16:14:12 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 16:14:12 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 16:14:33 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 16:14:33 2025: Voter: The squelch is OPEN (Rx1[85.4-0.1:+47]=36)
+Sat Oct 18 16:14:33 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 16:14:34 2025: ReflectorLogic: Selecting TG #61100
+Sat Oct 18 16:14:34 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 16:14:35 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 16:14:35 2025: Voter: The squelch is CLOSED (Rx1[85.4:1]=0)
+Sat Oct 18 16:14:41 2025: Voter: The squelch is OPEN (Rx1[85.4-0.1:+44]=13)
+Sat Oct 18 16:14:41 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 16:14:49 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 16:14:49 2025: Voter: The squelch is CLOSED (Rx1[85.4:-7]=4)
+Sat Oct 18 16:14:52 2025: Voter: The squelch is OPEN (Rx1[85.4-0.2:+37]=50)
+Sat Oct 18 16:14:52 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 16:15:06 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 16:15:07 2025: Voter: The squelch is CLOSED (Rx1[85.4:-4]=2)
+Sat Oct 18 16:15:11 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 16:15:11 2025: Voter: The squelch is OPEN (Rx1[85.4-0.1:+31]=15)
+Sat Oct 18 16:15:11 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 16:15:17 2025: ReflectorLogic: Node joined: IU8EKN-HS
+Sat Oct 18 16:15:19 2025: ReflectorLogic: Node left: IU8EKN-HS
+Sat Oct 18 16:16:08 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 16:16:08 2025: Voter: The squelch is CLOSED (Rx1[85.4:-3]=-2)
+Sat Oct 18 16:16:12 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 16:16:12 2025: Voter: The squelch is OPEN (Rx1[85.4-0.2:+36]=44)
+Sat Oct 18 16:16:12 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 16:16:34 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 16:16:34 2025: Voter: The squelch is CLOSED (Rx1[85.4:-3]=4)
+Sat Oct 18 16:16:36 2025: Voter: The squelch is OPEN (Rx1[85.4-0.3:+32]=10)
+Sat Oct 18 16:16:36 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 16:16:39 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 16:16:39 2025: Voter: The squelch is CLOSED (Rx1[85.4:1]=4)
+Sat Oct 18 16:16:44 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 16:16:45 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 16:16:45 2025: Voter: The squelch is OPEN (Rx1[85.4+0.0:+31]=67)
+Sat Oct 18 16:16:45 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 16:16:45 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 16:16:46 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 16:16:46 2025: Voter: The squelch is CLOSED (Rx1[85.4:-5]=4)
+Sat Oct 18 16:16:51 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 16:17:00 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 16:17:01 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 16:17:01 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 16:17:07 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 16:17:07 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+31]=62)
+Sat Oct 18 16:17:07 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 16:17:08 2025: ReflectorLogic: Selecting TG #61100
+Sat Oct 18 16:17:08 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 16:17:08 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 16:17:08 2025: Voter: The squelch is CLOSED (Rx1[85.4:-2]=7)
+Sat Oct 18 16:17:16 2025: Voter: The squelch is OPEN (Rx1[85.4-0.1:+45]=14)
+Sat Oct 18 16:17:16 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 16:17:21 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 16:17:21 2025: Voter: The squelch is CLOSED (Rx1[85.4:-3]=5)
+Sat Oct 18 16:17:27 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 16:17:27 2025: Voter: The squelch is OPEN (Rx1[85.4-0.2:+41]=32)
+Sat Oct 18 16:17:27 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 16:17:27 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 16:17:28 2025: Voter: The squelch is CLOSED (Rx1[85.4:-6]=1)
+Sat Oct 18 16:17:31 2025: Voter: The squelch is OPEN (Rx1[85.4-0.2:+36]=44)
+Sat Oct 18 16:17:31 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 16:17:36 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 16:17:36 2025: Voter: The squelch is CLOSED (Rx1[85.4:-1]=-8)
+Sat Oct 18 16:17:37 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+45]=17)
+Sat Oct 18 16:17:37 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 16:17:40 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 16:17:40 2025: Voter: The squelch is CLOSED (Rx1[85.4:-4]=-2)
+Sat Oct 18 16:17:42 2025: Voter: The squelch is OPEN (Rx1[85.4-0.2:+32]=57)
+Sat Oct 18 16:17:42 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 16:17:54 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 16:17:54 2025: Voter: The squelch is CLOSED (Rx1[85.4:-5]=-2)
+Sat Oct 18 16:17:57 2025: Voter: The squelch is OPEN (Rx1[85.4-0.1:+41]=21)
+Sat Oct 18 16:17:57 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 16:18:26 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 16:18:26 2025: Voter: The squelch is CLOSED (Rx1[85.4:-5]=3)
+Sat Oct 18 16:18:29 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+35]=57)
+Sat Oct 18 16:18:29 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 16:18:30 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 16:18:30 2025: Voter: The squelch is CLOSED (Rx1[85.4:-8]=3)
+Sat Oct 18 16:18:35 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 16:18:44 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 16:18:45 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 16:18:45 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 16:18:50 2025: RepeaterLogic: 107.2 Hz CTCSS tone detected
+Sat Oct 18 16:18:51 2025: Voter: The squelch is OPEN (Rx1[107.2+0.1:+33]=33)
+Sat Oct 18 16:18:51 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 16:18:51 2025: Voter: The squelch is CLOSED (Rx1[107.2:-4]=1)
+Sat Oct 18 16:18:56 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 16:19:05 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 16:19:36 2025: RepeaterLogic: 123 Hz CTCSS tone detected
+Sat Oct 18 16:19:36 2025: Voter: The squelch is OPEN (Rx1[123.0+0.3:+30]=29)
+Sat Oct 18 16:19:36 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 16:19:37 2025: ReflectorLogic: Selecting TG #32
+Sat Oct 18 16:19:37 2025: Voter: The squelch is CLOSED (Rx1[123.0:-7]=2)
+Sat Oct 18 16:19:46 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 16:19:51 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 16:19:52 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 16:19:52 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 16:20:23 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 16:20:23 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+45]=39)
+Sat Oct 18 16:20:23 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 16:20:24 2025: ReflectorLogic: Selecting TG #61100
+Sat Oct 18 16:20:24 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 16:20:24 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 16:20:24 2025: Voter: The squelch is CLOSED (Rx1[85.4:3]=3)
+Sat Oct 18 16:20:26 2025: Voter: The squelch is OPEN (Rx1[85.4-0.1:+45]=27)
+Sat Oct 18 16:20:26 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 16:20:52 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 16:20:52 2025: Voter: The squelch is CLOSED (Rx1[85.4:-8]=1)
+Sat Oct 18 16:20:55 2025: Voter: The squelch is OPEN (Rx1[85.4-0.1:+32]=72)
+Sat Oct 18 16:20:55 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 16:21:08 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 16:21:08 2025: Voter: The squelch is CLOSED (Rx1[85.4:1]=-4)
+Sat Oct 18 16:21:13 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 16:21:14 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 16:21:14 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+45]=38)
+Sat Oct 18 16:21:14 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 16:21:14 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 16:21:33 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 16:21:33 2025: Voter: The squelch is CLOSED (Rx1[85.4:-7]=-1)
+Sat Oct 18 16:21:38 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 16:21:47 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 16:21:48 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 16:21:48 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 16:22:12 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 16:22:12 2025: Voter: The squelch is OPEN (Rx1[85.4+0.0:+46]=20)
+Sat Oct 18 16:22:12 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 16:22:13 2025: ReflectorLogic: Selecting TG #61100
+Sat Oct 18 16:22:13 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 16:22:13 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 16:22:13 2025: Voter: The squelch is CLOSED (Rx1[85.4:-2]=-3)
+Sat Oct 18 16:22:15 2025: Voter: The squelch is OPEN (Rx1[85.4-0.1:+36]=5)
+Sat Oct 18 16:22:15 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 16:22:26 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 16:22:26 2025: Voter: The squelch is CLOSED (Rx1[85.4:-8]=-1)
+Sat Oct 18 16:22:31 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 16:22:31 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+46]=67)
+Sat Oct 18 16:22:31 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 16:22:33 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 16:22:33 2025: Voter: The squelch is CLOSED (Rx1[85.4:1]=3)
+Sat Oct 18 16:22:37 2025: Voter: The squelch is OPEN (Rx1[85.4-0.1:+36]=7)
+Sat Oct 18 16:22:37 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 16:23:14 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 16:23:15 2025: Voter: The squelch is CLOSED (Rx1[85.4:2]=2)
+Sat Oct 18 16:23:18 2025: Voter: The squelch is OPEN (Rx1[85.4-0.2:+42]=61)
+Sat Oct 18 16:23:18 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 16:23:25 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 16:23:25 2025: Voter: The squelch is CLOSED (Rx1[85.4:0]=4)
+Sat Oct 18 16:23:29 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+38]=11)
+Sat Oct 18 16:23:29 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 16:23:30 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 16:23:30 2025: Voter: The squelch is CLOSED (Rx1[85.4:4]=-1)
+Sat Oct 18 16:23:34 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 16:23:44 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 16:23:45 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 16:23:45 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 16:27:38 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 16:27:38 2025: ReflectorLogic: Node left: IR3-TETRA
+Sat Oct 18 16:27:39 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 16:27:40 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 16:30:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 16:30:00 2025: Playing short voice ID
+Sat Oct 18 16:30:00 2025: Playing short announce
+Sat Oct 18 16:30:00 2025: Playing short CW ID
+Sat Oct 18 16:30:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 16:30:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 16:30:40 2025: RepeaterLogic: 77 Hz CTCSS tone detected
+Sat Oct 18 16:30:40 2025: Voter: The squelch is OPEN (Rx1[77.0-0.0:+35]=0)
+Sat Oct 18 16:30:40 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 16:30:40 2025: Voter: The squelch is CLOSED (Rx1[77.0:-3]=-3)
+Sat Oct 18 16:30:45 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 16:30:55 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 16:40:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 16:40:00 2025: Playing short voice ID
+Sat Oct 18 16:40:00 2025: Playing short announce
+Sat Oct 18 16:40:00 2025: Playing short CW ID
+Sat Oct 18 16:40:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 16:40:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 16:46:56 2025: ReflectorLogic: Node left: IR3-TETRA
+Sat Oct 18 16:46:58 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 16:47:00 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 16:47:00 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 16:47:29 2025: ReflectorLogic: Node left: IR3-TETRA
+Sat Oct 18 16:47:31 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 16:49:16 2025: ReflectorLogic: Node left: IR3-TETRA
+Sat Oct 18 16:49:22 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 16:49:35 2025: ReflectorLogic: Node left: Terni-HS
+Sat Oct 18 16:50:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 16:50:00 2025: Playing short voice ID
+Sat Oct 18 16:50:00 2025: Playing short announce
+Sat Oct 18 16:50:00 2025: Playing short CW ID
+Sat Oct 18 16:50:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 16:50:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 16:50:33 2025: ReflectorLogic: Node joined: Terni-HS
+Sat Oct 18 16:57:57 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 16:57:58 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+71]=20)
+Sat Oct 18 16:57:58 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 16:57:58 2025: Voter: The squelch is CLOSED (Rx1[85.4:-2]=2)
+Sat Oct 18 16:58:05 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 16:58:06 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 16:58:07 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+50]=17)
+Sat Oct 18 16:58:07 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 16:58:07 2025: ReflectorLogic: Selecting TG #61100
+Sat Oct 18 16:58:07 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 16:58:13 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 16:58:13 2025: Voter: The squelch is CLOSED (Rx1[85.4:-1]=-2)
+Sat Oct 18 16:58:22 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 16:58:27 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 16:58:28 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 16:58:28 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 16:58:37 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 16:58:37 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+56]=23)
+Sat Oct 18 16:58:37 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 16:58:38 2025: ReflectorLogic: Selecting TG #61100
+Sat Oct 18 16:58:38 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 16:58:43 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 16:58:43 2025: Voter: The squelch is CLOSED (Rx1[85.4:-1]=3)
+Sat Oct 18 16:58:52 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 16:58:58 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 16:58:59 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 16:58:59 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 16:59:26 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 16:59:26 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+56]=22)
+Sat Oct 18 16:59:26 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 16:59:26 2025: RepeaterLogic: digit=#
+Sat Oct 18 16:59:27 2025: ReflectorLogic: Selecting TG #61100
+Sat Oct 18 16:59:27 2025: Voter: The squelch is CLOSED (Rx1[85.4:0]=1)
+Sat Oct 18 16:59:36 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 16:59:41 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 16:59:42 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 16:59:42 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 16:59:43 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 16:59:43 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+56]=19)
+Sat Oct 18 16:59:43 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 16:59:44 2025: RepeaterLogic: digit=#
+Sat Oct 18 16:59:44 2025: Voter: The squelch is CLOSED (Rx1[85.4:-3]=0)
+Sat Oct 18 16:59:49 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 16:59:59 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 17:00:00 2025: RepeaterLogic: Sending long identification...
+Sat Oct 18 17:00:00 2025: Playing long announce
+Sat Oct 18 17:00:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 17:00:15 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 17:07:46 2025: RepeaterLogic: 88.5 Hz CTCSS tone detected
+Sat Oct 18 17:07:46 2025: Voter: The squelch is OPEN (Rx1[88.5+0.1:+38]=44)
+Sat Oct 18 17:07:46 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 17:07:47 2025: ReflectorLogic: Selecting TG #222
+Sat Oct 18 17:07:47 2025: ReflectorLogic: Talker start on TG #222: IR6A
+Sat Oct 18 17:07:47 2025: ReflectorLogic: Talker stop on TG #222: IR6A
+Sat Oct 18 17:07:47 2025: Voter: The squelch is CLOSED (Rx1[88.5:4]=-2)
+Sat Oct 18 17:07:54 2025: ReflectorLogic: Talker start on TG #222: RedNet-222
+Sat Oct 18 17:07:54 2025: ReflectorLogic: Talker stop on TG #222: RedNet-222
+Sat Oct 18 17:08:02 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 17:08:10 2025: ReflectorLogic: Talker start on TG #222: Sezze
+Sat Oct 18 17:08:11 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 17:08:11 2025: ReflectorLogic: Talker stop on TG #222: Sezze
+Sat Oct 18 17:08:16 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 17:08:17 2025: RepeaterLogic: 88.5 Hz CTCSS tone detected
+Sat Oct 18 17:08:17 2025: Voter: The squelch is OPEN (Rx1[88.5-0.0:+47]=42)
+Sat Oct 18 17:08:17 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 17:08:17 2025: ReflectorLogic: Talker start on TG #222: IR6A
+Sat Oct 18 17:08:31 2025: ReflectorLogic: Talker stop on TG #222: IR6A
+Sat Oct 18 17:08:31 2025: Voter: The squelch is CLOSED (Rx1[88.5:1]=0)
+Sat Oct 18 17:08:36 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 17:08:37 2025: ReflectorLogic: Talker start on TG #222: IR7ZZO
+Sat Oct 18 17:08:37 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 17:08:50 2025: ReflectorLogic: Talker stop on TG #222: IR7ZZO
+Sat Oct 18 17:08:55 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 17:08:55 2025: RepeaterLogic: 88.5 Hz CTCSS tone detected
+Sat Oct 18 17:08:55 2025: Voter: The squelch is OPEN (Rx1[88.5-0.1:+35]=41)
+Sat Oct 18 17:08:55 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 17:08:55 2025: ReflectorLogic: Talker start on TG #222: IR6A
+Sat Oct 18 17:09:12 2025: ReflectorLogic: Talker stop on TG #222: IR6A
+Sat Oct 18 17:09:12 2025: Voter: The squelch is CLOSED (Rx1[88.5:4]=0)
+Sat Oct 18 17:09:17 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 17:09:17 2025: ReflectorLogic: Talker start on TG #222: IR7ZZO
+Sat Oct 18 17:09:18 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 17:10:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 17:10:00 2025: Playing short voice ID
+Sat Oct 18 17:10:00 2025: Playing short announce
+Sat Oct 18 17:10:00 2025: Playing short CW ID
+Sat Oct 18 17:10:07 2025: ReflectorLogic: Talker stop on TG #222: IR7ZZO
+Sat Oct 18 17:10:15 2025: ReflectorLogic: Talker start on TG #222: RedNet-222
+Sat Oct 18 17:10:15 2025: ReflectorLogic: Talker stop on TG #222: RedNet-222
+Sat Oct 18 17:10:22 2025: Voter: The squelch is OPEN (Rx1[88.5+0.1:+48]=34)
+Sat Oct 18 17:10:22 2025: ReflectorLogic: Talker start on TG #222: IR6A
+Sat Oct 18 17:10:55 2025: ReflectorLogic: Talker stop on TG #222: IR6A
+Sat Oct 18 17:10:56 2025: Voter: The squelch is CLOSED (Rx1[88.5:-2]=-3)
+Sat Oct 18 17:10:59 2025: ReflectorLogic: Talker start on TG #222: IR7ZZO
+Sat Oct 18 17:12:53 2025: ReflectorLogic: UDP frame(s) lost. Expected seq=36176 but received 36179. Resetting next expected sequence number to 36180
+Sat Oct 18 17:12:54 2025: ReflectorLogic: Talker stop on TG #222: IR7ZZO
+Sat Oct 18 17:12:56 2025: Voter: The squelch is OPEN (Rx1[88.5-0.2:+33]=30)
+Sat Oct 18 17:12:56 2025: ReflectorLogic: Talker start on TG #222: IR6A
+Sat Oct 18 17:14:01 2025: ReflectorLogic: Talker stop on TG #222: IR6A
+Sat Oct 18 17:14:01 2025: Voter: The squelch is CLOSED (Rx1[88.5:1]=4)
+Sat Oct 18 17:14:05 2025: ReflectorLogic: Talker start on TG #222: IR7ZZO
+Sat Oct 18 17:14:42 2025: ReflectorLogic: Talker stop on TG #222: IR7ZZO
+Sat Oct 18 17:14:43 2025: Voter: The squelch is OPEN (Rx1[88.5+0.1:+44]=33)
+Sat Oct 18 17:14:43 2025: ReflectorLogic: Talker start on TG #222: IR6A
+Sat Oct 18 17:14:52 2025: ReflectorLogic: Talker stop on TG #222: IR6A
+Sat Oct 18 17:14:52 2025: Voter: The squelch is CLOSED (Rx1[88.5:5]=2)
+Sat Oct 18 17:14:57 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 17:15:07 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 17:15:08 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 17:15:08 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 17:15:11 2025: ReflectorLogic: Node left: Terni-HS
+Sat Oct 18 17:16:11 2025: ReflectorLogic: Node joined: Terni-HS
+Sat Oct 18 17:16:56 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 17:16:56 2025: Voter: The squelch is OPEN (Rx1[85.4+0.0:+38]=15)
+Sat Oct 18 17:16:56 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 17:16:57 2025: Voter: The squelch is CLOSED (Rx1[85.4:-5]=-9)
+Sat Oct 18 17:17:04 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 17:17:11 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 17:18:24 2025: RepeaterLogic: 88.5 Hz CTCSS tone detected
+Sat Oct 18 17:18:24 2025: Voter: The squelch is OPEN (Rx1[88.5-0.0:+64]=44)
+Sat Oct 18 17:18:24 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 17:18:25 2025: ReflectorLogic: Selecting TG #222
+Sat Oct 18 17:18:25 2025: ReflectorLogic: Talker start on TG #222: IR6A
+Sat Oct 18 17:18:27 2025: ReflectorLogic: Talker stop on TG #222: IR6A
+Sat Oct 18 17:18:27 2025: Voter: The squelch is CLOSED (Rx1[88.5:5]=-1)
+Sat Oct 18 17:18:32 2025: ReflectorLogic: Talker start on TG #222: RedNet-222
+Sat Oct 18 17:18:34 2025: ReflectorLogic: Talker stop on TG #222: RedNet-222
+Sat Oct 18 17:18:34 2025: ReflectorLogic: Talker start on TG #222: IR8ZZF
+Sat Oct 18 17:18:42 2025: ReflectorLogic: Talker stop on TG #222: IR8ZZF
+Sat Oct 18 17:18:46 2025: ReflectorLogic: Talker start on TG #222: RedNet-222
+Sat Oct 18 17:18:52 2025: ReflectorLogic: Talker stop on TG #222: RedNet-222
+Sat Oct 18 17:18:56 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 17:19:06 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 17:19:07 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 17:19:07 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 17:19:08 2025: ReflectorLogic: Node left: IR9ZWC
+Sat Oct 18 17:19:15 2025: RepeaterLogic: 88.5 Hz CTCSS tone detected
+Sat Oct 18 17:19:15 2025: Voter: The squelch is OPEN (Rx1[88.5+0.1:+44]=43)
+Sat Oct 18 17:19:15 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 17:19:16 2025: ReflectorLogic: Selecting TG #222
+Sat Oct 18 17:19:16 2025: ReflectorLogic: Talker start on TG #222: IR6A
+Sat Oct 18 17:19:19 2025: ReflectorLogic: Talker stop on TG #222: IR6A
+Sat Oct 18 17:19:19 2025: Voter: The squelch is CLOSED (Rx1[88.5:0]=0)
+Sat Oct 18 17:19:29 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 17:19:34 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 17:19:35 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 17:19:35 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 17:20:09 2025: ReflectorLogic: Node joined: IR9ZWC
+Sat Oct 18 17:21:39 2025: ReflectorLogic: Node left: IR9ZWC
+Sat Oct 18 17:22:41 2025: ReflectorLogic: Node joined: IR9ZWC
+Sat Oct 18 17:27:16 2025: ReflectorLogic: Node left: IR9ZWC
+Sat Oct 18 17:28:07 2025: ReflectorLogic: Node joined: IR9ZWC
+Sat Oct 18 17:28:48 2025: Rx1: Muting 1750Hz tone burst
+Sat Oct 18 17:28:48 2025: Rx1: Muting 1750Hz tone burst
+Sat Oct 18 17:28:49 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 17:28:49 2025: Voter: The squelch is OPEN (Rx1[85.4+0.0:+44]=2)
+Sat Oct 18 17:28:49 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 17:28:49 2025: Voter: The squelch is CLOSED (Rx1[85.4:-2]=0)
+Sat Oct 18 17:28:56 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 17:29:03 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 17:32:19 2025: ReflectorLogic: Node left: Terni-HS
+Sat Oct 18 17:33:17 2025: ReflectorLogic: Node joined: Terni-HS
+Sat Oct 18 17:35:27 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 17:35:28 2025: ReflectorLogic: Node left: IR3-TETRA
+Sat Oct 18 17:35:30 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 17:35:32 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 17:40:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 17:40:00 2025: Playing short voice ID
+Sat Oct 18 17:40:00 2025: Playing short announce
+Sat Oct 18 17:40:00 2025: Playing short CW ID
+Sat Oct 18 17:40:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 17:40:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 17:42:19 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 17:42:19 2025: ReflectorLogic: Node left: IR3-TETRA
+Sat Oct 18 17:42:19 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 17:42:24 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 17:43:15 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 17:43:17 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 17:50:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 17:50:00 2025: Playing short voice ID
+Sat Oct 18 17:50:00 2025: Playing short announce
+Sat Oct 18 17:50:00 2025: Playing short CW ID
+Sat Oct 18 17:50:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 17:50:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 17:57:08 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 17:57:12 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 17:59:55 2025: ReflectorLogic: Node left: IR3-TETRA
+Sat Oct 18 17:59:59 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 18:00:00 2025: RepeaterLogic: Sending long identification...
+Sat Oct 18 18:00:00 2025: Playing long announce
+Sat Oct 18 18:00:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 18:00:15 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 18:02:59 2025: ReflectorLogic: Node left: IR3-TETRA
+Sat Oct 18 18:03:01 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 18:09:05 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 18:09:13 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 18:09:13 2025: Voter: The squelch is OPEN (Rx1[85.4-0.3:+39]=69)
+Sat Oct 18 18:09:13 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 18:09:13 2025: ReflectorLogic: Selecting TG #61100
+Sat Oct 18 18:09:13 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 18:09:13 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 18:09:13 2025: Voter: The squelch is CLOSED (Rx1[85.4:-3]=-5)
+Sat Oct 18 18:09:25 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 18:09:28 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 18:09:29 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 18:09:29 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 18:13:00 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 18:13:00 2025: Voter: The squelch is OPEN (Rx1[85.4-0.1:+46]=40)
+Sat Oct 18 18:13:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 18:13:01 2025: ReflectorLogic: Selecting TG #61100
+Sat Oct 18 18:13:01 2025: ReflectorLogic: Talker start on TG #61100: IR6A
+Sat Oct 18 18:13:01 2025: ReflectorLogic: Talker stop on TG #61100: IR6A
+Sat Oct 18 18:13:01 2025: Voter: The squelch is CLOSED (Rx1[85.4:1]=-1)
+Sat Oct 18 18:13:12 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 18:13:15 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 18:13:16 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 18:13:16 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 18:20:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 18:20:00 2025: Playing short voice ID
+Sat Oct 18 18:20:00 2025: Playing short announce
+Sat Oct 18 18:20:00 2025: Playing short CW ID
+Sat Oct 18 18:20:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 18:20:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 18:20:22 2025: ReflectorLogic: Node left: Itaradio-AIRCIN
+Sat Oct 18 18:21:16 2025: ReflectorLogic: Node joined: Itaradio-AIRCIN
+Sat Oct 18 18:30:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 18:30:00 2025: Playing short voice ID
+Sat Oct 18 18:30:00 2025: Playing short announce
+Sat Oct 18 18:30:00 2025: Playing short CW ID
+Sat Oct 18 18:30:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 18:30:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 18:33:54 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 18:33:54 2025: ReflectorLogic: Node left: IR3-TETRA
+Sat Oct 18 18:33:54 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 18:33:55 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 18:37:41 2025: RepeaterLogic: 77 Hz CTCSS tone detected
+Sat Oct 18 18:37:41 2025: Voter: The squelch is OPEN (Rx1[77.0-0.0:+58]=38)
+Sat Oct 18 18:37:41 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 18:37:41 2025: Voter: The squelch is CLOSED (Rx1[77.0:-12]=-4)
+Sat Oct 18 18:37:48 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 18:37:56 2025: RepeaterLogic: 77 Hz CTCSS tone detected
+Sat Oct 18 18:37:56 2025: Voter: The squelch is OPEN (Rx1[77.0-0.0:+63]=38)
+Sat Oct 18 18:37:56 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 18:37:56 2025: Voter: The squelch is CLOSED (Rx1[77.0:-18]=-4)
+Sat Oct 18 18:38:01 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 18:38:10 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 18:40:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 18:40:00 2025: Playing short voice ID
+Sat Oct 18 18:40:00 2025: Playing short announce
+Sat Oct 18 18:40:00 2025: Playing short CW ID
+Sat Oct 18 18:40:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 18:40:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 18:45:58 2025: RepeaterLogic: 123 Hz CTCSS tone detected
+Sat Oct 18 18:45:59 2025: Voter: The squelch is OPEN (Rx1[123.0-0.0:+42]=19)
+Sat Oct 18 18:45:59 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 18:45:59 2025: Voter: The squelch is CLOSED (Rx1[123.0:3]=-6)
+Sat Oct 18 18:46:06 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 18:46:13 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 18:46:43 2025: RepeaterLogic: 123 Hz CTCSS tone detected
+Sat Oct 18 18:46:43 2025: Voter: The squelch is OPEN (Rx1[123.0-0.0:+49]=17)
+Sat Oct 18 18:46:43 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 18:46:44 2025: ReflectorLogic: Selecting TG #32
+Sat Oct 18 18:46:44 2025: ReflectorLogic: Talker start on TG #32: IR6A
+Sat Oct 18 18:46:45 2025: ReflectorLogic: Talker stop on TG #32: IR6A
+Sat Oct 18 18:46:45 2025: Voter: The squelch is CLOSED (Rx1[123.0:-14]=0)
+Sat Oct 18 18:46:52 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 18:46:59 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 18:47:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 18:47:00 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 18:50:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 18:50:00 2025: Playing short voice ID
+Sat Oct 18 18:50:00 2025: Playing short announce
+Sat Oct 18 18:50:00 2025: Playing short CW ID
+Sat Oct 18 18:50:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 18:50:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 18:52:21 2025: RepeaterLogic: 88.5 Hz CTCSS tone detected
+Sat Oct 18 18:52:21 2025: Voter: The squelch is OPEN (Rx1[88.5+0.0:+51]=32)
+Sat Oct 18 18:52:21 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 18:52:21 2025: Voter: The squelch is CLOSED (Rx1[88.5:-8]=0)
+Sat Oct 18 18:52:23 2025: ReflectorLogic: Selecting TG #222
+Sat Oct 18 18:52:33 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 18:52:37 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 18:52:38 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 18:52:38 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 18:55:59 2025: RepeaterLogic: 123 Hz CTCSS tone detected
+Sat Oct 18 18:55:59 2025: Voter: The squelch is OPEN (Rx1[123.0-0.0:+41]=21)
+Sat Oct 18 18:55:59 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 18:56:00 2025: ReflectorLogic: Selecting TG #32
+Sat Oct 18 18:56:00 2025: ReflectorLogic: Talker start on TG #32: IR6A
+Sat Oct 18 18:56:00 2025: ReflectorLogic: Talker stop on TG #32: IR6A
+Sat Oct 18 18:56:00 2025: Voter: The squelch is CLOSED (Rx1[123.0:-2]=-5)
+Sat Oct 18 18:56:09 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 18:56:15 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 18:56:16 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 18:56:16 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 18:56:20 2025: RepeaterLogic: 123 Hz CTCSS tone detected
+Sat Oct 18 18:56:21 2025: Voter: The squelch is OPEN (Rx1[123.0-0.0:+35]=9)
+Sat Oct 18 18:56:21 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 18:56:21 2025: ReflectorLogic: Selecting TG #32
+Sat Oct 18 18:56:21 2025: ReflectorLogic: Talker start on TG #32: IR6A
+Sat Oct 18 18:56:22 2025: ReflectorLogic: Talker stop on TG #32: IR6A
+Sat Oct 18 18:56:22 2025: Voter: The squelch is CLOSED (Rx1[123.0:-3]=0)
+Sat Oct 18 18:56:29 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 18:56:36 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 18:56:37 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 18:56:37 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 19:00:00 2025: RepeaterLogic: Sending long identification...
+Sat Oct 18 19:00:00 2025: Playing long announce
+Sat Oct 18 19:00:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 19:00:15 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 19:03:37 2025: ReflectorLogic: Node left: IR3-TETRA
+Sat Oct 18 19:03:40 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 19:04:49 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 19:04:49 2025: Voter: The squelch is OPEN (Rx1[85.4+0.1:+48]=53)
+Sat Oct 18 19:04:49 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 19:04:50 2025: ReflectorLogic: Selecting TG #61100
+Sat Oct 18 19:04:50 2025: Voter: The squelch is CLOSED (Rx1[85.4:-1]=-8)
+Sat Oct 18 19:05:01 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 19:05:04 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 19:05:04 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 19:05:04 2025: Voter: The squelch is OPEN (Rx1[85.4+0.1:+46]=50)
+Sat Oct 18 19:05:04 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 19:05:05 2025: Voter: The squelch is CLOSED (Rx1[85.4:0]=0)
+Sat Oct 18 19:05:10 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 19:05:19 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 19:10:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 19:10:00 2025: Playing short voice ID
+Sat Oct 18 19:10:00 2025: Playing short announce
+Sat Oct 18 19:10:00 2025: Playing short CW ID
+Sat Oct 18 19:10:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 19:10:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 19:12:26 2025: RepeaterLogic: 123 Hz CTCSS tone detected
+Sat Oct 18 19:12:26 2025: Voter: The squelch is OPEN (Rx1[123.0+0.1:+48]=15)
+Sat Oct 18 19:12:26 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 19:12:26 2025: Voter: The squelch is CLOSED (Rx1[123.0:-6]=-5)
+Sat Oct 18 19:12:33 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 19:12:40 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 19:20:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 19:20:00 2025: Playing short voice ID
+Sat Oct 18 19:20:00 2025: Playing short announce
+Sat Oct 18 19:20:00 2025: Playing short CW ID
+Sat Oct 18 19:20:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 19:20:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 19:29:46 2025: RepeaterLogic: 123 Hz CTCSS tone detected
+Sat Oct 18 19:29:47 2025: Voter: The squelch is OPEN (Rx1[123.0-0.0:+40]=5)
+Sat Oct 18 19:29:47 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 19:29:47 2025: Voter: The squelch is CLOSED (Rx1[123.0:-3]=-8)
+Sat Oct 18 19:29:54 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 19:30:01 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 19:30:11 2025: RepeaterLogic: 123 Hz CTCSS tone detected
+Sat Oct 18 19:30:12 2025: Voter: The squelch is OPEN (Rx1[123.0-0.0:+41]=6)
+Sat Oct 18 19:30:12 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 19:30:12 2025: Voter: The squelch is CLOSED (Rx1[123.0:5]=-10)
+Sat Oct 18 19:30:17 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 19:30:26 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 19:34:43 2025: RepeaterLogic: 123 Hz CTCSS tone detected
+Sat Oct 18 19:34:43 2025: Voter: The squelch is OPEN (Rx1[123.0-0.0:+43]=21)
+Sat Oct 18 19:34:43 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 19:34:44 2025: ReflectorLogic: Selecting TG #32
+Sat Oct 18 19:34:44 2025: ReflectorLogic: Talker start on TG #32: IR6A
+Sat Oct 18 19:34:48 2025: ReflectorLogic: Talker stop on TG #32: IR6A
+Sat Oct 18 19:34:48 2025: Voter: The squelch is CLOSED (Rx1[123.0:-8]=-5)
+Sat Oct 18 19:34:57 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 19:35:02 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 19:35:03 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 19:35:03 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 19:35:11 2025: RepeaterLogic: 123 Hz CTCSS tone detected
+Sat Oct 18 19:35:11 2025: Voter: The squelch is OPEN (Rx1[123.0-0.0:+44]=16)
+Sat Oct 18 19:35:11 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 19:35:12 2025: ReflectorLogic: Selecting TG #32
+Sat Oct 18 19:35:12 2025: ReflectorLogic: Talker start on TG #32: IR6A
+Sat Oct 18 19:35:13 2025: ReflectorLogic: Talker stop on TG #32: IR6A
+Sat Oct 18 19:35:13 2025: Voter: The squelch is CLOSED (Rx1[123.0:0]=-7)
+Sat Oct 18 19:35:20 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 19:35:27 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 19:35:28 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 19:35:28 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 19:35:30 2025: RepeaterLogic: 123 Hz CTCSS tone detected
+Sat Oct 18 19:35:30 2025: Voter: The squelch is OPEN (Rx1[123.0-0.0:+35]=18)
+Sat Oct 18 19:35:30 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 19:35:31 2025: ReflectorLogic: Selecting TG #32
+Sat Oct 18 19:35:31 2025: ReflectorLogic: Talker start on TG #32: IR6A
+Sat Oct 18 19:35:39 2025: ReflectorLogic: Talker stop on TG #32: IR6A
+Sat Oct 18 19:35:40 2025: Voter: The squelch is CLOSED (Rx1[123.0:-9]=-1)
+Sat Oct 18 19:35:47 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 19:35:54 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 19:35:55 2025: RepeaterLogic: 123 Hz CTCSS tone detected
+Sat Oct 18 19:35:55 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 19:35:55 2025: Voter: The squelch is OPEN (Rx1[123.0-0.0:+42]=18)
+Sat Oct 18 19:35:56 2025: ReflectorLogic: Selecting TG #32
+Sat Oct 18 19:35:56 2025: ReflectorLogic: Talker start on TG #32: IR6A
+Sat Oct 18 19:35:56 2025: ReflectorLogic: Talker stop on TG #32: IR6A
+Sat Oct 18 19:35:56 2025: Voter: The squelch is CLOSED (Rx1[123.0:-5]=-4)
+Sat Oct 18 19:36:03 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 19:36:10 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 19:36:11 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 19:36:11 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 19:40:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 19:40:00 2025: Playing short voice ID
+Sat Oct 18 19:40:00 2025: Playing short announce
+Sat Oct 18 19:40:00 2025: Playing short CW ID
+Sat Oct 18 19:40:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 19:40:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 19:41:11 2025: RepeaterLogic: 123 Hz CTCSS tone detected
+Sat Oct 18 19:41:11 2025: Voter: The squelch is OPEN (Rx1[123.0-0.0:+42]=18)
+Sat Oct 18 19:41:11 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 19:41:12 2025: ReflectorLogic: Selecting TG #32
+Sat Oct 18 19:41:12 2025: ReflectorLogic: Talker start on TG #32: IR6A
+Sat Oct 18 19:41:13 2025: ReflectorLogic: Talker stop on TG #32: IR6A
+Sat Oct 18 19:41:13 2025: Voter: The squelch is CLOSED (Rx1[123.0:-2]=-3)
+Sat Oct 18 19:41:19 2025: RepeaterLogic: 123 Hz CTCSS tone detected
+Sat Oct 18 19:41:20 2025: Voter: The squelch is OPEN (Rx1[123.0-0.0:+37]=9)
+Sat Oct 18 19:41:20 2025: ReflectorLogic: Talker start on TG #32: IR6A
+Sat Oct 18 19:41:21 2025: ReflectorLogic: Talker stop on TG #32: IR6A
+Sat Oct 18 19:41:22 2025: Voter: The squelch is CLOSED (Rx1[123.0:-7]=-2)
+Sat Oct 18 19:41:26 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 19:41:27 2025: RepeaterLogic: 123 Hz CTCSS tone detected
+Sat Oct 18 19:41:27 2025: Voter: The squelch is OPEN (Rx1[123.0-0.0:+35]=12)
+Sat Oct 18 19:41:27 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 19:41:27 2025: ReflectorLogic: Talker start on TG #32: IR6A
+Sat Oct 18 19:41:28 2025: ReflectorLogic: Talker stop on TG #32: IR6A
+Sat Oct 18 19:41:28 2025: Voter: The squelch is CLOSED (Rx1[123.0:-13]=-1)
+Sat Oct 18 19:41:33 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 19:41:43 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 19:41:44 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 19:41:44 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 19:45:17 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 19:45:19 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 19:47:55 2025: ReflectorLogic: Node joined: IU8EKN-HS
+Sat Oct 18 19:48:23 2025: ReflectorLogic: Node left: IU8EKN-HS
+Sat Oct 18 19:48:32 2025: ReflectorLogic: Node joined: IU8EKN-HS
+Sat Oct 18 19:48:48 2025: ReflectorLogic: Node left: IU8EKN-HS
+Sat Oct 18 19:48:58 2025: ReflectorLogic: Node joined: IU8EKN-HS
+Sat Oct 18 19:49:27 2025: ReflectorLogic: Node left: IU8EKN-HS
+Sat Oct 18 19:49:29 2025: ReflectorLogic: Node joined: IU8EKN-HS
+Sat Oct 18 19:49:31 2025: ReflectorLogic: Node left: IU8EKN-HS
+Sat Oct 18 19:50:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 19:50:00 2025: Playing short voice ID
+Sat Oct 18 19:50:00 2025: Playing short announce
+Sat Oct 18 19:50:00 2025: Playing short CW ID
+Sat Oct 18 19:50:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 19:50:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 20:00:00 2025: RepeaterLogic: Sending long identification...
+Sat Oct 18 20:00:00 2025: Playing long announce
+Sat Oct 18 20:00:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 20:00:15 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 20:03:07 2025: ReflectorLogic: Node left: IR3-TETRA
+Sat Oct 18 20:03:07 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 20:03:08 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 20:03:10 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 20:07:23 2025: ReflectorLogic: Node left: IR3-TETRA
+Sat Oct 18 20:07:25 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 20:07:28 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 20:07:28 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 20:10:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 20:10:00 2025: Playing short voice ID
+Sat Oct 18 20:10:00 2025: Playing short announce
+Sat Oct 18 20:10:00 2025: Playing short CW ID
+Sat Oct 18 20:10:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 20:10:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 20:20:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 20:20:00 2025: Playing short voice ID
+Sat Oct 18 20:20:00 2025: Playing short announce
+Sat Oct 18 20:20:00 2025: Playing short CW ID
+Sat Oct 18 20:20:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 20:20:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 20:25:47 2025: ReflectorLogic: Node left: IR9ZWC
+Sat Oct 18 20:26:47 2025: ReflectorLogic: Node joined: IR9ZWC
+Sat Oct 18 20:30:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 20:30:00 2025: Playing short voice ID
+Sat Oct 18 20:30:00 2025: Playing short announce
+Sat Oct 18 20:30:00 2025: Playing short CW ID
+Sat Oct 18 20:30:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 20:30:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 20:35:15 2025: ReflectorLogic: Node left: IR0CE
+Sat Oct 18 20:35:20 2025: ReflectorLogic: Node joined: IR0CE
+Sat Oct 18 20:35:45 2025: ReflectorLogic: Node left: IR0CE
+Sat Oct 18 20:35:49 2025: ReflectorLogic: Node joined: IR0CE
+Sat Oct 18 20:36:24 2025: ReflectorLogic: Node left: IR0CE
+Sat Oct 18 20:36:29 2025: ReflectorLogic: Node joined: IR0CE
+Sat Oct 18 20:36:54 2025: ReflectorLogic: Node left: IR0CE
+Sat Oct 18 20:36:59 2025: ReflectorLogic: Node joined: IR0CE
+Sat Oct 18 20:37:48 2025: ReflectorLogic: Node left: IR3-TETRA
+Sat Oct 18 20:37:50 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 20:40:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 20:40:00 2025: Playing short voice ID
+Sat Oct 18 20:40:00 2025: Playing short announce
+Sat Oct 18 20:40:00 2025: Playing short CW ID
+Sat Oct 18 20:40:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 20:40:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 20:46:56 2025: ReflectorLogic: Node left: IR3UEJ
+Sat Oct 18 20:46:56 2025: ReflectorLogic: Node joined: IR3UEJ
+Sat Oct 18 20:48:51 2025: ReflectorLogic: Node left: IR9ZWC
+Sat Oct 18 20:49:51 2025: ReflectorLogic: Node joined: IR9ZWC
+Sat Oct 18 20:50:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 20:50:00 2025: Playing short voice ID
+Sat Oct 18 20:50:00 2025: Playing short announce
+Sat Oct 18 20:50:00 2025: Playing short CW ID
+Sat Oct 18 20:50:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 20:50:18 2025: ReflectorLogic: Node left: IR3-TETRA
+Sat Oct 18 20:50:18 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 20:50:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 20:50:19 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 20:50:21 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 20:50:51 2025: ReflectorLogic: Node left: IR9ZWC
+Sat Oct 18 20:51:52 2025: ReflectorLogic: Node joined: IR9ZWC
+Sat Oct 18 20:51:57 2025: ReflectorLogic: Node left: IR3-TETRA
+Sat Oct 18 20:51:57 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 20:51:58 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 20:52:00 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 20:53:55 2025: ReflectorLogic: Node left: IR9ZWC
+Sat Oct 18 20:55:02 2025: ReflectorLogic: Node joined: IR9ZWC
+Sat Oct 18 20:59:30 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 20:59:30 2025: Voter: The squelch is OPEN (Rx1[85.4-0.0:+36]=0)
+Sat Oct 18 20:59:30 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 20:59:30 2025: Voter: The squelch is CLOSED (Rx1[85.4:2]=-6)
+Sat Oct 18 20:59:37 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 20:59:44 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 21:00:00 2025: RepeaterLogic: Sending long identification...
+Sat Oct 18 21:00:00 2025: Playing long announce
+Sat Oct 18 21:00:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 21:00:15 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 21:00:23 2025: ReflectorLogic: Node left: Monti-Tiburtini
+Sat Oct 18 21:01:13 2025: ReflectorLogic: Node left: IR9ZWC
+Sat Oct 18 21:01:23 2025: ReflectorLogic: Node joined: Monti-Tiburtini
+Sat Oct 18 21:02:13 2025: ReflectorLogic: Node joined: IR9ZWC
+Sat Oct 18 21:06:13 2025: ReflectorLogic: Node left: IR9ZWC
+Sat Oct 18 21:07:14 2025: ReflectorLogic: Node joined: IR9ZWC
+Sat Oct 18 21:08:19 2025: ReflectorLogic: Node left: Rocca-di-Papa
+Sat Oct 18 21:10:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 21:10:00 2025: Playing short voice ID
+Sat Oct 18 21:10:00 2025: Playing short announce
+Sat Oct 18 21:10:00 2025: Playing short CW ID
+Sat Oct 18 21:10:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 21:10:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 21:14:12 2025: ReflectorLogic: Node joined: Rocca-di-Papa
+Sat Oct 18 21:16:57 2025: ReflectorLogic: Node left: IR9ZWC
+Sat Oct 18 21:18:01 2025: ReflectorLogic: Node joined: IR9ZWC
+Sat Oct 18 21:18:15 2025: ReflectorLogic: Node left: IR9ZWC
+Sat Oct 18 21:19:22 2025: ReflectorLogic: Node joined: IR9ZWC
+Sat Oct 18 21:20:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 21:20:00 2025: Playing short voice ID
+Sat Oct 18 21:20:00 2025: Playing short announce
+Sat Oct 18 21:20:00 2025: Playing short CW ID
+Sat Oct 18 21:20:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 21:20:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 21:20:38 2025: ReflectorLogic: Node joined: IU8EKN-HS
+Sat Oct 18 21:21:11 2025: ReflectorLogic: Node left: IU8EKN-HS
+Sat Oct 18 21:21:21 2025: ReflectorLogic: Node left: IR9ZWC
+Sat Oct 18 21:21:28 2025: ReflectorLogic: Node joined: IU8EKN-HS
+Sat Oct 18 21:21:53 2025: ReflectorLogic: Node left: IU8EKN-HS
+Sat Oct 18 21:22:21 2025: ReflectorLogic: Node joined: IR9ZWC
+Sat Oct 18 21:23:34 2025: ReflectorLogic: Node joined: IU8EKN-HS
+Sat Oct 18 21:23:48 2025: ReflectorLogic: Node left: IU8EKN-HS
+Sat Oct 18 21:23:49 2025: ReflectorLogic: Node joined: IU8EKN-HS
+Sat Oct 18 21:23:51 2025: ReflectorLogic: Node left: IU8EKN-HS
+Sat Oct 18 21:23:51 2025: ReflectorLogic: Node left: IR9ZWC
+Sat Oct 18 21:23:54 2025: ReflectorLogic: Node joined: IU8EKN-HS
+Sat Oct 18 21:24:16 2025: ReflectorLogic: Node left: IU8EKN-HS
+Sat Oct 18 21:24:17 2025: ReflectorLogic: Node joined: IU8EKN-HS
+Sat Oct 18 21:24:35 2025: ReflectorLogic: Node left: IU8EKN-HS
+Sat Oct 18 21:24:35 2025: ReflectorLogic: Node joined: IU8EKN-HS
+Sat Oct 18 21:24:39 2025: ReflectorLogic: Node left: IU8EKN-HS
+Sat Oct 18 21:24:42 2025: ReflectorLogic: Node joined: IU8EKN-HS
+Sat Oct 18 21:24:51 2025: ReflectorLogic: Node joined: IR9ZWC
+Sat Oct 18 21:25:29 2025: ReflectorLogic: Node left: IU8EKN-HS
+Sat Oct 18 21:25:29 2025: ReflectorLogic: Node joined: IU8EKN-HS
+Sat Oct 18 21:25:30 2025: ReflectorLogic: Node left: IU8EKN-HS
+Sat Oct 18 21:25:31 2025: ReflectorLogic: Node joined: IU8EKN-HS
+Sat Oct 18 21:25:32 2025: ReflectorLogic: Node left: IU8EKN-HS
+Sat Oct 18 21:26:11 2025: ReflectorLogic: Node left: Terni-HS
+Sat Oct 18 21:27:07 2025: ReflectorLogic: Node joined: Terni-HS
+Sat Oct 18 21:30:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 21:30:00 2025: Playing short voice ID
+Sat Oct 18 21:30:00 2025: Playing short announce
+Sat Oct 18 21:30:00 2025: Playing short CW ID
+Sat Oct 18 21:30:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 21:30:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 21:37:25 2025: ReflectorLogic: Node joined: IU8EKN-HS
+Sat Oct 18 21:37:28 2025: ReflectorLogic: Node left: IU8EKN-HS
+Sat Oct 18 21:37:29 2025: ReflectorLogic: Node joined: IU8EKN-HS
+Sat Oct 18 21:37:35 2025: ReflectorLogic: Node left: IU8EKN-HS
+Sat Oct 18 21:37:36 2025: ReflectorLogic: Node joined: IU8EKN-HS
+Sat Oct 18 21:37:38 2025: ReflectorLogic: Node left: IU8EKN-HS
+Sat Oct 18 21:37:51 2025: ReflectorLogic: Node joined: IU8EKN-HS
+Sat Oct 18 21:38:07 2025: ReflectorLogic: Node left: IU8EKN-HS
+Sat Oct 18 21:40:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 21:40:00 2025: Playing short voice ID
+Sat Oct 18 21:40:00 2025: Playing short announce
+Sat Oct 18 21:40:00 2025: Playing short CW ID
+Sat Oct 18 21:40:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 21:40:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 21:43:52 2025: ReflectorLogic: Node left: IR9ZWC
+Sat Oct 18 21:44:52 2025: ReflectorLogic: Node joined: IR9ZWC
+Sat Oct 18 21:48:51 2025: ReflectorLogic: Node left: IR7ZZO
+Sat Oct 18 21:50:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 21:50:00 2025: Playing short voice ID
+Sat Oct 18 21:50:00 2025: Playing short announce
+Sat Oct 18 21:50:00 2025: Playing short CW ID
+Sat Oct 18 21:50:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 21:50:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 21:53:46 2025: ReflectorLogic: Node left: IR9ZWC
+Sat Oct 18 21:54:46 2025: ReflectorLogic: Node joined: IR9ZWC
+Sat Oct 18 22:00:00 2025: RepeaterLogic: Sending long identification...
+Sat Oct 18 22:00:00 2025: Playing long announce
+Sat Oct 18 22:00:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 22:00:15 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 22:03:36 2025: ReflectorLogic: Node left: IR0CE
+Sat Oct 18 22:03:43 2025: ReflectorLogic: Node joined: IR0CE
+Sat Oct 18 22:07:07 2025: ReflectorLogic: Node left: IR9ZWC
+Sat Oct 18 22:08:08 2025: ReflectorLogic: Node joined: IR9ZWC
+Sat Oct 18 22:10:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 22:10:00 2025: Playing short voice ID
+Sat Oct 18 22:10:00 2025: Playing short announce
+Sat Oct 18 22:10:00 2025: Playing short CW ID
+Sat Oct 18 22:10:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 22:10:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 22:13:33 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 22:13:34 2025: ReflectorLogic: Node left: IR3-TETRA
+Sat Oct 18 22:13:37 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 22:13:39 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 22:15:17 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 22:15:21 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 22:16:16 2025: ReflectorLogic: Node left: IR3-TETRA
+Sat Oct 18 22:16:17 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 22:19:47 2025: ReflectorLogic: Node left: IR3-TETRA
+Sat Oct 18 22:19:50 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 22:20:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 22:20:00 2025: Playing short voice ID
+Sat Oct 18 22:20:00 2025: Playing short announce
+Sat Oct 18 22:20:00 2025: Playing short CW ID
+Sat Oct 18 22:20:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 22:20:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 22:21:04 2025: ReflectorLogic: Node left: IR9ZWC
+Sat Oct 18 22:22:07 2025: ReflectorLogic: Node joined: IR9ZWC
+Sat Oct 18 22:22:41 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 22:22:41 2025: ReflectorLogic: Node left: IR3-TETRA
+Sat Oct 18 22:22:43 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 22:22:47 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 22:22:56 2025: ReflectorLogic: Node left: IR9ZWC
+Sat Oct 18 22:30:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 22:30:00 2025: Playing short voice ID
+Sat Oct 18 22:30:00 2025: Playing short announce
+Sat Oct 18 22:30:00 2025: Playing short CW ID
+Sat Oct 18 22:30:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 22:30:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 22:33:15 2025: ReflectorLogic: Node joined: IR9ZWC
+Sat Oct 18 22:33:43 2025: ReflectorLogic: Node left: IR9ZWC
+Sat Oct 18 22:34:47 2025: ReflectorLogic: Node joined: IR9ZWC
+Sat Oct 18 22:35:29 2025: ReflectorLogic: Node left: IR9ZWC
+Sat Oct 18 22:36:19 2025: ReflectorLogic: Node joined: IR9ZWC
+Sat Oct 18 22:37:34 2025: ReflectorLogic: Node left: IR9ZWC
+Sat Oct 18 22:38:36 2025: ReflectorLogic: Node joined: IR9ZWC
+Sat Oct 18 22:40:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 22:40:00 2025: Playing short voice ID
+Sat Oct 18 22:40:00 2025: Playing short announce
+Sat Oct 18 22:40:00 2025: Playing short CW ID
+Sat Oct 18 22:40:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 22:40:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 22:42:13 2025: ReflectorLogic: Node left: IR3-TETRA
+Sat Oct 18 22:42:17 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 22:50:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 22:50:00 2025: Playing short voice ID
+Sat Oct 18 22:50:00 2025: Playing short announce
+Sat Oct 18 22:50:00 2025: Playing short CW ID
+Sat Oct 18 22:50:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 22:50:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 22:54:39 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 22:54:41 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 23:00:00 2025: RepeaterLogic: Sending long identification...
+Sat Oct 18 23:00:00 2025: Playing long announce
+Sat Oct 18 23:00:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 23:00:01 2025: ReflectorLogic: Node left: IR3UI
+Sat Oct 18 23:00:15 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 23:10:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 23:10:00 2025: Playing short voice ID
+Sat Oct 18 23:10:00 2025: Playing short announce
+Sat Oct 18 23:10:00 2025: Playing short CW ID
+Sat Oct 18 23:10:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 23:10:15 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 23:10:15 2025: ReflectorLogic: Node left: IR3-TETRA
+Sat Oct 18 23:10:18 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 23:10:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 23:10:20 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 23:18:58 2025: ReflectorLogic: Node left: IR9ZWC
+Sat Oct 18 23:20:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 23:20:00 2025: Playing short voice ID
+Sat Oct 18 23:20:00 2025: Playing short announce
+Sat Oct 18 23:20:00 2025: Playing short CW ID
+Sat Oct 18 23:20:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 23:20:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 23:20:39 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 23:20:39 2025: Voter: The squelch is OPEN (Rx1[85.4+0.1:+33]=0)
+Sat Oct 18 23:20:39 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 23:20:40 2025: Voter: The squelch is CLOSED (Rx1[85.4:1]=-9)
+Sat Oct 18 23:20:45 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 23:20:46 2025: RepeaterLogic: 85.4 Hz CTCSS tone detected
+Sat Oct 18 23:20:46 2025: Voter: The squelch is OPEN (Rx1[85.4-0.1:+34]=2)
+Sat Oct 18 23:20:46 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 23:20:46 2025: Voter: The squelch is CLOSED (Rx1[85.4:3]=-8)
+Sat Oct 18 23:20:51 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 23:21:01 2025: ReflectorLogic: Selecting TG #0
+Sat Oct 18 23:25:25 2025: ReflectorLogic: Node joined: IR9ZWC
+Sat Oct 18 23:30:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 23:30:00 2025: Playing short voice ID
+Sat Oct 18 23:30:00 2025: Playing short announce
+Sat Oct 18 23:30:00 2025: Playing short CW ID
+Sat Oct 18 23:30:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 23:30:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 23:36:49 2025: ReflectorLogic: Node left: IR3-TETRA
+Sat Oct 18 23:36:49 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 23:36:51 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 23:36:52 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 23:40:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 23:40:00 2025: Playing short voice ID
+Sat Oct 18 23:40:00 2025: Playing short announce
+Sat Oct 18 23:40:00 2025: Playing short CW ID
+Sat Oct 18 23:40:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 23:40:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 23:46:10 2025: ReflectorLogic: Node left: IR9ZWC
+Sat Oct 18 23:47:21 2025: ReflectorLogic: Node joined: IR9ZWC
+Sat Oct 18 23:47:36 2025: ReflectorLogic: Node left: IR9ZWC
+Sat Oct 18 23:48:38 2025: ReflectorLogic: Node joined: IR9ZWC
+Sat Oct 18 23:49:16 2025: ReflectorLogic: Node left: IR9ZWC
+Sat Oct 18 23:50:00 2025: RepeaterLogic: Sending short identification...
+Sat Oct 18 23:50:00 2025: Playing short voice ID
+Sat Oct 18 23:50:00 2025: Playing short announce
+Sat Oct 18 23:50:00 2025: Playing short CW ID
+Sat Oct 18 23:50:00 2025: Tx1: Turning the transmitter ON
+Sat Oct 18 23:50:18 2025: Tx1: Turning the transmitter OFF
+Sat Oct 18 23:52:13 2025: ReflectorLogic: Node left: IR3UN
+Sat Oct 18 23:52:13 2025: ReflectorLogic: Node left: IR3-TETRA
+Sat Oct 18 23:52:14 2025: ReflectorLogic: Node joined: IR3UN
+Sat Oct 18 23:52:17 2025: ReflectorLogic: Node joined: IR3-TETRA
+Sat Oct 18 23:58:31 2025: ReflectorLogic: Node joined: IR9ZWC
+Sat Oct 18 23:58:45 2025: ReflectorLogic: Node left: IR9ZWC

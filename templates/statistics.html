@@ -136,6 +136,9 @@
                     <button class="btn btn-success ms-2" onclick="processNewFiles()" title="Processa nuovi file">
                         <i class="fas fa-sync"></i>
                     </button>
+                    <button class="btn btn-danger ms-2" onclick="resetDatabase()" title="Resetta database">
+                        <i class="fas fa-trash"></i>
+                    </button>
                 </div>
             </div>
         </div>
@@ -616,6 +619,39 @@
                 .catch(error => {
                     console.error('Errore:', error);
                     alert('Errore nella comunicazione con il server');
+                })
+                .finally(() => {
+                    showLoading(false);
+                });
+        }
+        
+        function resetDatabase() {
+            if (!confirm('⚠️ ATTENZIONE: Questa operazione eliminerà TUTTI i dati nel database!\n\nSei sicuro di voler continuare?')) {
+                return;
+            }
+            
+            if (!confirm('🗑️ Conferma finale: Tutti i dati storici verranno persi definitivamente!\n\nProcedo con il reset?')) {
+                return;
+            }
+            
+            showLoading(true);
+            
+            fetch('/api/reset-db', {
+                method: 'POST'
+            })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        alert(`✅ Database resettato con successo!\n\n${data.message}`);
+                        // Ricarica la pagina per aggiornare tutto
+                        window.location.reload();
+                    } else {
+                        alert('❌ Errore durante il reset: ' + data.error);
+                    }
+                })
+                .catch(error => {
+                    console.error('Errore:', error);
+                    alert('❌ Errore nella comunicazione con il server: ' + error.message);
                 })
                 .finally(() => {
                     showLoading(false);

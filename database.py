@@ -348,6 +348,46 @@ class DatabaseManager:
         except Exception as e:
             print(f"❌ Errore pulizia dati: {e}")
             return 0
+    
+    def reset_database(self):
+        """Resetta completamente il database eliminando tutti i dati e ricreando le tabelle"""
+        try:
+            with self.get_connection() as conn:
+                # Conta i record prima della cancellazione per logging
+                cursor = conn.execute("SELECT COUNT(*) as count FROM daily_logs")
+                count_before = cursor.fetchone()['count']
+                
+                # Elimina tutte le tabelle
+                tables = ['daily_logs', 'ctcss_stats', 'tg_stats', 'qso_events', 'transmissions']
+                for table in tables:
+                    try:
+                        conn.execute(f"DROP TABLE IF EXISTS {table}")
+                        print(f"🗑️ Tabella {table} eliminata")
+                    except Exception as e:
+                        print(f"⚠️ Errore eliminazione tabella {table}: {e}")
+                
+                conn.commit()
+                print(f"🧹 Database resettato: eliminati {count_before} record")
+                
+                # Ricrea lo schema
+                self.init_database()
+                print("✅ Schema database ricreato")
+                
+                return count_before
+                
+        except Exception as e:
+            print(f"❌ Errore reset database: {e}")
+            raise e
+    
+    def get_all_daily_stats(self):
+        """Recupera tutte le statistiche giornaliere (per conteggio record)"""
+        try:
+            with self.get_connection() as conn:
+                cursor = conn.execute("SELECT * FROM daily_logs ORDER BY date DESC")
+                return [dict(row) for row in cursor.fetchall()]
+        except Exception as e:
+            print(f"❌ Errore recupero tutti i dati: {e}")
+            return []
 
 # Test del database manager
 if __name__ == "__main__":
