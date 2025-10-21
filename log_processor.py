@@ -17,8 +17,12 @@ from app import SVXLinkLogAnalyzer
 class LogProcessor:
     """Processore automatico per file log SVXLink"""
     
-    def __init__(self, data_dir: str = 'data', db_path: str = 'data/svxlink_stats.db'):
+    def __init__(self, data_dir: str = 'data', db_path: str = None):
         self.data_dir = Path(data_dir)
+        # Usa variabile d'ambiente se db_path non specificato
+        if db_path is None:
+            import os
+            db_path = os.getenv('DATABASE_PATH', 'data/svxlink_stats.db')
         self.db_manager = DatabaseManager(db_path)
         self.analyzer = SVXLinkLogAnalyzer()
         
