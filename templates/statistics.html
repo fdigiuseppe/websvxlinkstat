@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Statistiche SVXLink - Log Analyzer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/date-fns@2.29.3/index.min.js"></script>
+    <style>
+        .stat-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 15px;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        .chart-container {
+            position: relative;
+            height: 400px;
+            margin-bottom: 2rem;
+        }
+        .period-selector {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 1rem;
+            margin-bottom: 2rem;
+        }
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 2rem;
+        }
+        .data-range-info {
+            background: #e3f2fd;
+            border-left: 4px solid #2196F3;
+            padding: 1rem;
+            border-radius: 5px;
+            margin-bottom: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="{{ url_for('index') }}">
+                <i class="fas fa-chart-line"></i> SVXLink Log Analyzer
+            </a>
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link" href="{{ url_for('index') }}">
+                    <i class="fas fa-upload"></i> Upload
+                </a>
+                <a class="nav-link active" href="{{ url_for('statistics') }}">
+                    <i class="fas fa-chart-bar"></i> Statistiche
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="mb-4">
+                    <i class="fas fa-chart-line text-primary"></i> 
+                    Statistiche Storiche SVXLink
+                </h1>
+            </div>
+        </div>
+
+        <!-- Info Range Dati -->
+        {% if date_range %}
+        <div class="data-range-info">
+            <h5><i class="fas fa-info-circle"></i> Informazioni Database</h5>
+            <div class="row">
+                <div class="col-md-4">
+                    <strong>Prima registrazione:</strong> {{ date_range.first_date or 'N/A' }}
+                </div>
+                <div class="col-md-4">
+                    <strong>Ultima registrazione:</strong> {{ date_range.last_date or 'N/A' }}
+                </div>
+                <div class="col-md-4">
+                    <strong>Giorni totali:</strong> {{ date_range.total_days or 0 }}
+                </div>
+            </div>
+        </div>
+        {% endif %}
+
+        <!-- Selettore Periodo -->
+        <div class="period-selector">
+            <h5><i class="fas fa-calendar-alt"></i> Seleziona Periodo</h5>
+            <div class="row">
+                <div class="col-md-3">
+                    <label for="viewType" class="form-label">Tipo Vista:</label>
+                    <select class="form-select" id="viewType" onchange="updateView()">
+                        <option value="daily">Giornaliera</option>
+                        <option value="monthly">Mensile</option>
+                        <option value="yearly">Annuale</option>
+                    </select>
+                </div>
+                <div class="col-md-3" id="dateRangeInputs">
+                    <label for="startDate" class="form-label">Da:</label>
+                    <input type="date" class="form-control" id="startDate" onchange="loadStatistics()">
+                </div>
+                <div class="col-md-3" id="endDateInput">
+                    <label for="endDate" class="form-label">A:</label>
+                    <input type="date" class="form-control" id="endDate" onchange="loadStatistics()">
+                </div>
+                <div class="col-md-3" id="monthYearInputs" style="display: none;">
+                    <label for="monthSelect" class="form-label">Mese:</label>
+                    <select class="form-select" id="monthSelect" onchange="loadStatistics()">
+                        <option value="1">Gennaio</option>
+                        <option value="2">Febbraio</option>
+                        <option value="3">Marzo</option>
+                        <option value="4">Aprile</option>
+                        <option value="5">Maggio</option>
+                        <option value="6">Giugno</option>
+                        <option value="7">Luglio</option>
+                        <option value="8">Agosto</option>
+                        <option value="9">Settembre</option>
+                        <option value="10">Ottobre</option>
+                        <option value="11">Novembre</option>
+                        <option value="12">Dicembre</option>
+                    </select>
+                </div>
+                <div class="col-md-3" id="yearInput" style="display: none;">
+                    <label for="yearSelect" class="form-label">Anno:</label>
+                    <select class="form-select" id="yearSelect" onchange="loadStatistics()">
+                        <!-- Popolato dinamicamente -->
+                    </select>
+                </div>
+                <div class="col-md-3 d-flex align-items-end">
+                    <button class="btn btn-primary" onclick="loadStatistics()">
+                        <i class="fas fa-search"></i> Aggiorna
+                    </button>
+                    <button class="btn btn-success ms-2" onclick="processNewFiles()" title="Processa nuovi file">
+                        <i class="fas fa-sync"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Loading indicator -->
+        <div class="loading" id="loadingIndicator">
+            <div class="spinner-border text-primary" role="status">
+                <span class="visually-hidden">Caricamento...</span>
+            </div>
+            <p class="mt-2">Caricamento statistiche...</p>
+        </div>
+
+        <!-- Statistiche Riepilogative -->
+        <div id="summaryStats" class="row mb-4">
+            <!-- Popolato dinamicamente -->
+        </div>
+
+        <!-- Grafici -->
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="card">
+                    <div class="card-header">
+                        <h5><i class="fas fa-chart-line"></i> Trend Trasmissioni</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="chart-container">
+                            <canvas id="transmissionsChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h5><i class="fas fa-chart-pie"></i> Distribuzione QSO</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="chart-container">
+                            <canvas id="qsoChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tabella Dettagliata -->
+        <div class="row mt-4">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h5><i class="fas fa-table"></i> Dettagli Statistiche</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table table-striped table-hover" id="statisticsTable">
+                                <thead class="table-dark">
+                                    <tr id="tableHeaders">
+                                        <!-- Headers popolati dinamicamente -->
+                                    </tr>
+                                </thead>
+                                <tbody id="tableBody">
+                                    <!-- Dati popolati dinamicamente -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Processing Summary -->
+        {% if processing_summary %}
+        <div class="row mt-4">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h5><i class="fas fa-cog"></i> Stato Processamento</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <strong>File totali:</strong> {{ processing_summary.total_files }}
+                            </div>
+                            <div class="col-md-3">
+                                <strong>Date processate:</strong> {{ processing_summary.processed_dates }}
+                            </div>
+                            <div class="col-md-3">
+                                <strong>File da processare:</strong> {{ processing_summary.unprocessed_files }}
+                            </div>
+                            <div class="col-md-3">
+                                <button class="btn btn-info btn-sm" onclick="processNewFiles()">
+                                    <i class="fas fa-sync"></i> Processa Nuovi
+                                </button>
+                            </div>
+                        </div>
+                        {% if processing_summary.unprocessed_list %}
+                        <div class="mt-3">
+                            <strong>File in attesa:</strong>
+                            <small class="text-muted">
+                                {% for filename in processing_summary.unprocessed_list %}
+                                {{ filename }}{% if not loop.last %}, {% endif %}
+                                {% endfor %}
+                            </small>
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script>
+        let transmissionsChart = null;
+        let qsoChart = null;
+        
+        // Inizializzazione
+        document.addEventListener('DOMContentLoaded', function() {
+            initializePage();
+        });
+        
+        function initializePage() {
+            // Imposta date di default (ultimi 30 giorni)
+            const today = new Date();
+            const thirtyDaysAgo = new Date(today.getTime() - (30 * 24 * 60 * 60 * 1000));
+            
+            document.getElementById('endDate').value = today.toISOString().split('T')[0];
+            document.getElementById('startDate').value = thirtyDaysAgo.toISOString().split('T')[0];
+            
+            // Popola anni
+            populateYears();
+            
+            // Carica statistiche iniziali
+            loadStatistics();
+        }
+        
+        function populateYears() {
+            const yearSelect = document.getElementById('yearSelect');
+            const currentYear = new Date().getFullYear();
+            
+            yearSelect.innerHTML = '';
+            for (let year = currentYear; year >= 2020; year--) {
+                const option = document.createElement('option');
+                option.value = year;
+                option.textContent = year;
+                if (year === currentYear) option.selected = true;
+                yearSelect.appendChild(option);
+            }
+            
+            // Imposta mese corrente
+            document.getElementById('monthSelect').value = new Date().getMonth() + 1;
+        }
+        
+        function updateView() {
+            const viewType = document.getElementById('viewType').value;
+            
+            // Nascondi tutti gli input
+            document.getElementById('dateRangeInputs').style.display = 'none';
+            document.getElementById('endDateInput').style.display = 'none';
+            document.getElementById('monthYearInputs').style.display = 'none';
+            document.getElementById('yearInput').style.display = 'none';
+            
+            // Mostra input appropriati
+            if (viewType === 'daily') {
+                document.getElementById('dateRangeInputs').style.display = 'block';
+                document.getElementById('endDateInput').style.display = 'block';
+            } else if (viewType === 'monthly') {
+                document.getElementById('monthYearInputs').style.display = 'block';
+                document.getElementById('yearInput').style.display = 'block';
+            } else if (viewType === 'yearly') {
+                document.getElementById('yearInput').style.display = 'block';
+            }
+            
+            loadStatistics();
+        }
+        
+        function loadStatistics() {
+            const viewType = document.getElementById('viewType').value;
+            
+            showLoading(true);
+            
+            let url = '';
+            if (viewType === 'daily') {
+                const startDate = document.getElementById('startDate').value;
+                const endDate = document.getElementById('endDate').value;
+                url = `/api/statistics/daily?start_date=${startDate}&end_date=${endDate}`;
+            } else if (viewType === 'monthly') {
+                const year = document.getElementById('yearSelect').value;
+                const month = document.getElementById('monthSelect').value;
+                url = `/api/statistics/monthly?year=${year}&month=${month}`;
+            } else if (viewType === 'yearly') {
+                const year = document.getElementById('yearSelect').value;
+                url = `/api/statistics/yearly?year=${year}`;
+            }
+            
+            fetch(url)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        updateStatistics(data, viewType);
+                    } else {
+                        console.error('Errore:', data.error);
+                        alert('Errore nel caricamento delle statistiche: ' + data.error);
+                    }
+                })
+                .catch(error => {
+                    console.error('Errore fetch:', error);
+                    alert('Errore nella comunicazione con il server');
+                })
+                .finally(() => {
+                    showLoading(false);
+                });
+        }
+        
+        function updateStatistics(data, viewType) {
+            if (viewType === 'daily') {
+                updateDailyStatistics(data);
+            } else if (viewType === 'monthly') {
+                updateMonthlyStatistics(data);
+            } else if (viewType === 'yearly') {
+                updateYearlyStatistics(data);
+            }
+        }
+        
+        function updateDailyStatistics(data) {
+            const stats = data.data;
+            
+            // Calcola statistiche aggregate
+            const totalTransmissions = stats.reduce((sum, day) => sum + (day.total_transmissions || 0), 0);
+            const totalTime = stats.reduce((sum, day) => sum + (day.total_transmission_time || 0), 0);
+            const totalQSO = stats.reduce((sum, day) => sum + (day.total_qso || 0), 0);
+            const avgTransmissions = stats.length > 0 ? (totalTransmissions / stats.length).toFixed(1) : 0;
+            
+            updateSummaryCards([
+                { title: 'Giorni Analizzati', value: data.total_days, icon: 'calendar-alt' },
+                { title: 'Trasmissioni Totali', value: totalTransmissions, icon: 'broadcast-tower' },
+                { title: 'Tempo Totale', value: formatDuration(totalTime), icon: 'clock' },
+                { title: 'QSO Totali', value: totalQSO, icon: 'comments' }
+            ]);
+            
+            // Aggiorna grafici
+            updateTransmissionsChart(stats.map(s => ({ x: s.date, y: s.total_transmissions || 0 })), 'Trasmissioni per Giorno');
+            updateQSOChart(stats.map(s => ({ label: s.date, value: s.total_qso || 0 })));
+            
+            // Aggiorna tabella
+            updateDailyTable(stats);
+        }
+        
+        function updateMonthlyStatistics(data) {
+            const stats = data.data;
+            
+            updateSummaryCards([
+                { title: 'Giorni nel Mese', value: stats.total_days || 0, icon: 'calendar-alt' },
+                { title: 'Trasmissioni Totali', value: stats.total_transmissions || 0, icon: 'broadcast-tower' },
+                { title: 'Tempo Totale', value: formatDuration(stats.total_time || 0), icon: 'clock' },
+                { title: 'Media Giornaliera', value: (stats.avg_daily_transmissions || 0).toFixed(1), icon: 'chart-line' }
+            ]);
+            
+            // Per le statistiche mensili, mostra i top CTCSS e TG se disponibili
+            if (stats.top_ctcss) {
+                const ctcssData = stats.top_ctcss.map(c => ({ label: c.ctcss_frequency + ' Hz', value: c.total_count }));
+                updateQSOChart(ctcssData, 'Top CTCSS');
+            }
+            
+            updateMonthlyTable(stats);
+        }
+        
+        function updateYearlyStatistics(data) {
+            const stats = data.data;
+            
+            updateSummaryCards([
+                { title: 'Giorni nell\'Anno', value: stats.total_days || 0, icon: 'calendar-alt' },
+                { title: 'Trasmissioni Totali', value: stats.total_transmissions || 0, icon: 'broadcast-tower' },
+                { title: 'Tempo Totale', value: formatDuration(stats.total_time || 0), icon: 'clock' },
+                { title: 'Media Giornaliera', value: (stats.avg_daily_transmissions || 0).toFixed(1), icon: 'chart-line' }
+            ]);
+            
+            updateYearlyTable(stats);
+        }
+        
+        function updateSummaryCards(cards) {
+            const container = document.getElementById('summaryStats');
+            container.innerHTML = '';
+            
+            cards.forEach(card => {
+                const cardHtml = `
+                    <div class="col-md-3">
+                        <div class="stat-card text-center">
+                            <i class="fas fa-${card.icon} fa-2x mb-2"></i>
+                            <h3>${card.value}</h3>
+                            <p class="mb-0">${card.title}</p>
+                        </div>
+                    </div>
+                `;
+                container.innerHTML += cardHtml;
+            });
+        }
+        
+        function updateTransmissionsChart(data, label = 'Trasmissioni') {
+            const ctx = document.getElementById('transmissionsChart').getContext('2d');
+            
+            if (transmissionsChart) {
+                transmissionsChart.destroy();
+            }
+            
+            transmissionsChart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    datasets: [{
+                        label: label,
+                        data: data,
+                        borderColor: 'rgb(102, 126, 234)',
+                        backgroundColor: 'rgba(102, 126, 234, 0.1)',
+                        tension: 0.1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        x: {
+                            type: 'time',
+                            time: {
+                                parser: 'YYYY-MM-DD'
+                            }
+                        },
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+        }
+        
+        function updateQSOChart(data, title = 'Distribuzione QSO') {
+            const ctx = document.getElementById('qsoChart').getContext('2d');
+            
+            if (qsoChart) {
+                qsoChart.destroy();
+            }
+            
+            if (data.length === 0) {
+                return;
+            }
+            
+            qsoChart = new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: data.map(d => d.label),
+                    datasets: [{
+                        data: data.map(d => d.value),
+                        backgroundColor: [
+                            '#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0',
+                            '#9966FF', '#FF9F40', '#FF6384', '#C9CBCF'
+                        ]
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: title
+                        }
+                    }
+                }
+            });
+        }
+        
+        function updateDailyTable(data) {
+            const headers = `
+                <th>Data</th>
+                <th>Trasmissioni</th>
+                <th>Tempo Totale</th>
+                <th>QSO</th>
+                <th>Tempo Medio</th>
+                <th>File</th>
+            `;
+            
+            const tbody = document.getElementById('tableBody');
+            tbody.innerHTML = '';
+            
+            data.forEach(day => {
+                const row = `
+                    <tr>
+                        <td>${day.date}</td>
+                        <td>${day.total_transmissions || 0}</td>
+                        <td>${formatDuration(day.total_transmission_time || 0)}</td>
+                        <td>${day.total_qso || 0}</td>
+                        <td>${(day.avg_transmission_time || 0).toFixed(1)}s</td>
+                        <td><small class="text-muted">${day.filename || 'N/A'}</small></td>
+                    </tr>
+                `;
+                tbody.innerHTML += row;
+            });
+            
+            document.getElementById('tableHeaders').innerHTML = headers;
+        }
+        
+        function updateMonthlyTable(data) {
+            const headers = `
+                <th>Statistica</th>
+                <th>Valore</th>
+            `;
+            
+            const tbody = document.getElementById('tableBody');
+            tbody.innerHTML = `
+                <tr><td>Giorni totali</td><td>${data.total_days || 0}</td></tr>
+                <tr><td>Trasmissioni totali</td><td>${data.total_transmissions || 0}</td></tr>
+                <tr><td>Tempo totale</td><td>${formatDuration(data.total_time || 0)}</td></tr>
+                <tr><td>QSO totali</td><td>${data.total_qso || 0}</td></tr>
+                <tr><td>Media giornaliera trasmissioni</td><td>${(data.avg_daily_transmissions || 0).toFixed(1)}</td></tr>
+                <tr><td>Picco giornaliero</td><td>${data.peak_transmissions || 0}</td></tr>
+                <tr><td>Minimo giornaliero</td><td>${data.min_transmissions || 0}</td></tr>
+            `;
+            
+            document.getElementById('tableHeaders').innerHTML = headers;
+        }
+        
+        function updateYearlyTable(data) {
+            updateMonthlyTable(data); // Stessa struttura per ora
+        }
+        
+        function formatDuration(seconds) {
+            if (!seconds) return '0s';
+            
+            const hours = Math.floor(seconds / 3600);
+            const minutes = Math.floor((seconds % 3600) / 60);
+            const secs = Math.floor(seconds % 60);
+            
+            if (hours > 0) {
+                return `${hours}h ${minutes}m ${secs}s`;
+            } else if (minutes > 0) {
+                return `${minutes}m ${secs}s`;
+            } else {
+                return `${secs}s`;
+            }
+        }
+        
+        function showLoading(show) {
+            document.getElementById('loadingIndicator').style.display = show ? 'block' : 'none';
+        }
+        
+        function processNewFiles() {
+            if (!confirm('Processare nuovi file log? Questa operazione potrebbe richiedere del tempo.')) {
+                return;
+            }
+            
+            showLoading(true);
+            
+            fetch('/api/statistics/process')
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        alert(`Processamento completato: ${data.message}`);
+                        loadStatistics(); // Ricarica le statistiche
+                    } else {
+                        alert('Errore nel processamento: ' + data.error);
+                    }
+                })
+                .catch(error => {
+                    console.error('Errore:', error);
+                    alert('Errore nella comunicazione con il server');
+                })
+                .finally(() => {
+                    showLoading(false);
+                });
+        }
+    </script>
+</body>
+</html>

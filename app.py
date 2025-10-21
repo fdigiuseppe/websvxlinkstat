@@ -8,17 +8,29 @@ Questa applicazione analizza i file di log SVXLink per determinare:
 - Statistiche dettagliate delle trasmissioni
 """
 
-from flask import Flask, render_template, request, flash, redirect, url_for
+from flask import Flask, render_template, request, flash, redirect, url_for, jsonify
 import os
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, date
 import re
 from collections import defaultdict
 import tempfile
+
+# Import per database e statistiche - importazione differita per evitare cicli
+try:
+    from database import DatabaseManager
+    # LogProcessor sarà importato dopo la definizione della classe SVXLinkLogAnalyzer
+    DB_AVAILABLE = True
+except ImportError:
+    print("⚠️ Database modules non disponibili. Funzionalità statistiche limitate.")
+    DB_AVAILABLE = False
 
 app = Flask(__name__)
 app.secret_key = 'svxlink_analyzer_secret_key_2024'
 app.config['UPLOAD_FOLDER'] = tempfile.gettempdir()
 app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024  # 16MB max file size
+
+# Le inizializzazioni di log_processor e scheduler saranno fatte dopo 
+# la definizione della classe SVXLinkLogAnalyzer per evitare importazioni circolari
 
 class SVXLinkLogAnalyzer:
     def __init__(self):
@@ -256,6 +268,210 @@ class SVXLinkLogAnalyzer:
             'events': dict(self.stats),
             'transmissions': self.transmissions[:50]  # Mostra solo le prime 50 per performance
         }
+    
+    def analyze_log(self, content):
+        """Analizza il contenuto del log (compatibilità con log_processor.py)"""
+        # Reset delle statistiche
+        self.transmissions = []
+        self.carriers_opened = 0
+        self.total_transmission_time = timedelta()
+        self.stats = defaultdict(int)
+        self.ctcss_tones = defaultdict(int)
+        self.talk_groups = defaultdict(int)
+        self.qso_sessions = []
+        self.active_tg = None
+        self.qso_start = None
+        
+        tx_sessions = []  # Per tracciare le sessioni ON/OFF
+        
+        try:
+            lines = content.strip().split('\n')
+                
+            for line in lines:
+                line = line.strip()
+                if not line:
+                    continue
+                    
+                # Parse del timestamp e del messaggio
+                match = re.match(r'^(\w{3} \w{3} \d{1,2} \d{2}:\d{2}:\d{2} \d{4}): (.+)$', line)
+                if not match:
+                    continue
+                    
+                timestamp_str, message = match.groups()
+                timestamp = datetime.strptime(timestamp_str, '%a %b %d %H:%M:%S %Y')
+                
+                # === ANALISI SUBTONI CTCSS ===
+                ctcss_match = re.search(r'(\d+\.?\d*) Hz CTCSS tone detected', message)
+                if ctcss_match:
+                    tone_freq = float(ctcss_match.group(1))
+                    self.ctcss_tones[tone_freq] += 1
+                    self.stats['ctcss_detections'] += 1
+                
+                # === ANALISI TALK GROUPS ===
+                tg_match = re.search(r'Selecting TG #(\d+)', message)
+                if tg_match:
+                    tg_id = int(tg_match.group(1))
+                    self.talk_groups[tg_id] += 1
+                    self.active_tg = tg_id
+                    self.stats['tg_selections'] += 1
+                
+                # === IDENTIFICAZIONE QSO ===
+                talker_start_match = re.search(r'Talker start on TG #(\d+): (.+)', message)
+                if talker_start_match and not self.qso_start:
+                    tg_id = int(talker_start_match.group(1))
+                    call_sign = talker_start_match.group(2).strip()
+                    self.qso_start = {
+                        'tg': tg_id,
+                        'call_sign': call_sign,
+                        'start_time': timestamp,
+                        'start_line': line
+                    }
+                    self.stats['talker_starts'] += 1
+                
+                talker_stop_match = re.search(r'Talker stop on TG #(\d+): (.+)', message)
+                if talker_stop_match and self.qso_start:
+                    tg_id = int(talker_stop_match.group(1))
+                    call_sign = talker_stop_match.group(2).strip()
+                    
+                    if (tg_id == self.qso_start['tg'] and 
+                        call_sign == self.qso_start['call_sign']):
+                        
+                        duration = (timestamp - self.qso_start['start_time']).total_seconds()
+                        
+                        if duration >= 1:  # QSO valido solo se >= 1 secondo
+                            self.qso_sessions.append({
+                                'tg': tg_id,
+                                'call_sign': call_sign,
+                                'start_time': self.qso_start['start_time'],
+                                'end_time': timestamp,
+                                'duration_seconds': duration,
+                                'start_line': self.qso_start['start_line'],
+                                'end_line': line
+                            })
+                            self.stats['valid_qso'] += 1
+                        
+                        self.qso_start = None
+                        self.stats['talker_stops'] += 1
+                
+                # === ANALISI TRASMISSIONE ===
+                if 'Turning the transmitter ON' in message:
+                    tx_sessions.append({
+                        'start_time': timestamp,
+                        'start_line': line
+                    })
+                    self.stats['tx_on'] += 1
+                
+                elif 'Turning the transmitter OFF' in message and tx_sessions:
+                    last_session = tx_sessions[-1]
+                    if 'end_time' not in last_session:
+                        duration = timestamp - last_session['start_time']
+                        duration_seconds = duration.total_seconds()
+                        
+                        if duration_seconds >= 0.1:  # Filtro rumore
+                            self.transmissions.append({
+                                'start_time': last_session['start_time'],
+                                'end_time': timestamp,
+                                'duration': duration,
+                                'duration_seconds': duration_seconds,
+                                'start_line': last_session['start_line'],
+                                'end_line': line
+                            })
+                            self.total_transmission_time += duration
+                        
+                        last_session['end_time'] = timestamp
+                        self.stats['tx_off'] += 1
+                
+                # === CONTEGGIO PORTANTI ===
+                if 'The squelch is OPEN' in message:
+                    self.carriers_opened += 1
+                    self.stats['squelch_open'] += 1
+                elif 'The squelch is CLOSED' in message:
+                    self.stats['squelch_closed'] += 1
+                
+        except Exception as e:
+            print(f"Errore durante l'analisi: {e}")
+            
+        # Statistiche finali - converti timedelta in secondi
+        total_seconds = self.total_transmission_time.total_seconds()
+        
+        # Calcola statistiche durata trasmissioni
+        durations = [t['duration_seconds'] for t in self.transmissions]
+        avg_duration = sum(durations) / len(durations) if durations else 0
+        min_duration = min(durations) if durations else 0
+        max_duration = max(durations) if durations else 0
+        
+        # Calcola statistiche QSO
+        qso_durations = [q['duration_seconds'] for q in self.qso_sessions]
+        qso_total_time = sum(qso_durations)
+        
+        # Prepara i subtoni per il display con formato compatibile (ordinati per frequenza)
+        total_ctcss_detections = sum(self.ctcss_tones.values())
+        sorted_ctcss = []
+        for freq, count in sorted(self.ctcss_tones.items(), key=lambda x: x[1], reverse=True):
+            percentage = (count / total_ctcss_detections * 100) if total_ctcss_detections > 0 else 0
+            sorted_ctcss.append((freq, {'count': count, 'percentage': round(percentage, 2)}))
+        
+        # Prepara i TG per il display con formato compatibile (ordinati per frequenza)
+        total_tg_selections = sum(self.talk_groups.values())
+        sorted_tg = []
+        for tg_id, count in sorted(self.talk_groups.items(), key=lambda x: x[1], reverse=True):
+            percentage = (count / total_tg_selections * 100) if total_tg_selections > 0 else 0
+            sorted_tg.append((tg_id, {'count': count, 'percentage': round(percentage, 2)}))
+        
+        # Formato compatibile con log_processor.py
+        return {
+            'basic': {
+                'total_transmissions': len(self.transmissions),
+                'total_transmission_time': total_seconds,
+                'avg_transmission_time': avg_duration,
+                'max_transmission_time': max_duration,
+                'min_transmission_time': min_duration,
+                'carriers_opened': self.carriers_opened
+            },
+            'ctcss': {
+                'total_detections': sum(self.ctcss_tones.values()),
+                'unique_tones': len(self.ctcss_tones),
+                'ctcss_list': sorted_ctcss
+            },
+            'tg': {
+                'total_selections': sum(self.talk_groups.values()),
+                'unique_tgs': len(self.talk_groups),
+                'tg_list': sorted_tg
+            },
+            'qso': {
+                'total_qso': len(self.qso_sessions),
+                'total_qso_time': qso_total_time,
+                'qso_sessions': self.qso_sessions
+            },
+            'events': dict(self.stats)
+        }
+
+# =============================================================================
+# FUNZIONI HELPER PER ANALISI LOG
+# =============================================================================
+
+def analyze_log_content(content):
+    """Funzione helper per analizzare il contenuto di un log"""
+    analyzer = SVXLinkLogAnalyzer()
+    return analyzer.analyze_log(content)
+
+# =============================================================================
+# INIZIALIZZAZIONE MODULI DOPO LA DEFINIZIONE DELLA CLASSE
+# =============================================================================
+
+# Ora possiamo importare e inizializzare i moduli che dipendono da SVXLinkLogAnalyzer
+if DB_AVAILABLE:
+    try:
+        from log_processor import LogProcessor
+        from scheduler import init_scheduler, get_scheduler
+        
+        db_manager = DatabaseManager()
+        log_processor = LogProcessor()
+        scheduler = init_scheduler()
+        print("✅ Database, Log Processor e Scheduler inizializzati")
+    except Exception as e:
+        print(f"⚠️ Errore inizializzazione database: {e}")
+        DB_AVAILABLE = False
 
 @app.route('/')
 def index():
@@ -344,6 +560,199 @@ def api_analyze():
         if os.path.exists(filepath):
             os.remove(filepath)
         return {'error': f'Errore durante l\'analisi: {str(e)}'}, 500
+
+# =============================================================================
+# ROUTE PER STATISTICHE STORICHE
+# =============================================================================
+
+@app.route('/statistics')
+def statistics():
+    """Pagina principale delle statistiche storiche"""
+    if not DB_AVAILABLE:
+        flash('Database non disponibile. Funzionalità statistiche non attive.', 'warning')
+        return redirect(url_for('index'))
+    
+    try:
+        # Ottieni range di date disponibili
+        date_range = db_manager.get_date_range_stats()
+        
+        # Ottieni riepilogo processamento
+        processing_summary = log_processor.get_processing_summary()
+        
+        return render_template('statistics.html', 
+                             date_range=date_range,
+                             processing_summary=processing_summary)
+    except Exception as e:
+        flash(f'Errore caricamento statistiche: {str(e)}', 'error')
+        return redirect(url_for('index'))
+
+@app.route('/api/statistics/daily')
+def api_daily_statistics():
+    """API per statistiche giornaliere"""
+    if not DB_AVAILABLE:
+        return jsonify({'error': 'Database non disponibile'}), 503
+    
+    try:
+        start_date = request.args.get('start_date')
+        end_date = request.args.get('end_date')
+        
+        # Default: ultimi 30 giorni
+        if not start_date or not end_date:
+            end_date = date.today().isoformat()
+            start_date = (date.today() - timedelta(days=30)).isoformat()
+        
+        # Valida date
+        try:
+            datetime.strptime(start_date, '%Y-%m-%d')
+            datetime.strptime(end_date, '%Y-%m-%d')
+        except ValueError:
+            return jsonify({'error': 'Formato data non valido. Usa YYYY-MM-DD'}), 400
+        
+        # Recupera statistiche
+        daily_stats = db_manager.get_daily_stats(start_date, end_date)
+        
+        return jsonify({
+            'success': True,
+            'period': {'start': start_date, 'end': end_date},
+            'total_days': len(daily_stats),
+            'data': daily_stats
+        })
+        
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/statistics/monthly')
+def api_monthly_statistics():
+    """API per statistiche mensili"""
+    if not DB_AVAILABLE:
+        return jsonify({'error': 'Database non disponibile'}), 503
+    
+    try:
+        year = int(request.args.get('year', date.today().year))
+        month = int(request.args.get('month', date.today().month))
+        
+        # Valida parametri
+        if not (1 <= month <= 12):
+            return jsonify({'error': 'Mese non valido (1-12)'}), 400
+        
+        if not (2020 <= year <= 2030):
+            return jsonify({'error': 'Anno non valido'}), 400
+        
+        # Recupera statistiche aggregate mensili
+        monthly_stats = db_manager.get_monthly_aggregated_stats(year, month)
+        
+        return jsonify({
+            'success': True,
+            'period': {'year': year, 'month': month},
+            'data': monthly_stats
+        })
+        
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/statistics/yearly')
+def api_yearly_statistics():
+    """API per statistiche annuali"""
+    if not DB_AVAILABLE:
+        return jsonify({'error': 'Database non disponibile'}), 503
+    
+    try:
+        year = int(request.args.get('year', date.today().year))
+        
+        # Valida anno
+        if not (2020 <= year <= 2030):
+            return jsonify({'error': 'Anno non valido'}), 400
+        
+        # Recupera statistiche aggregate annuali
+        yearly_stats = db_manager.get_yearly_aggregated_stats(year)
+        
+        return jsonify({
+            'success': True,
+            'period': {'year': year},
+            'data': yearly_stats
+        })
+        
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/statistics/process')
+def api_process_logs():
+    """API per processare nuovi file log"""
+    if not DB_AVAILABLE:
+        return jsonify({'error': 'Database non disponibile'}), 503
+    
+    try:
+        # Processa file non elaborati
+        result = log_processor.process_all_files()
+        
+        return jsonify({
+            'success': True,
+            'processed': result['processed'],
+            'errors': result['errors'],
+            'message': f"Processati {result['processed']} file, {result['errors']} errori"
+        })
+        
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/statistics/dates')
+def api_available_dates():
+    """API per ottenere date disponibili"""
+    if not DB_AVAILABLE:
+        return jsonify({'error': 'Database non disponibile'}), 503
+    
+    try:
+        dates = db_manager.get_available_dates()
+        date_range = db_manager.get_date_range_stats()
+        
+        return jsonify({
+            'success': True,
+            'available_dates': dates,
+            'date_range': date_range,
+            'total_days': len(dates)
+        })
+        
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/statistics/scheduler')
+def api_scheduler_status():
+    """API per stato dello scheduler"""
+    if not DB_AVAILABLE:
+        return jsonify({'error': 'Database non disponibile'}), 503
+    
+    try:
+        scheduler = get_scheduler()
+        
+        return jsonify({
+            'success': True,
+            'running': scheduler.running,
+            'next_jobs': scheduler.get_next_runs(),
+            'processor_summary': log_processor.get_processing_summary()
+        })
+        
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/statistics/force-process', methods=['POST'])
+def api_force_process():
+    """API per forzare processamento immediato"""
+    if not DB_AVAILABLE:
+        return jsonify({'error': 'Database non disponibile'}), 503
+    
+    try:
+        scheduler = get_scheduler()
+        result = scheduler.force_process()
+        
+        return jsonify({
+            'success': True,
+            'processed': result['processed'],
+            'errors': result['errors'],
+            'message': f"Processamento forzato: {result['processed']} file elaborati"
+        })
+        
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
 
 if __name__ == '__main__':
     import os

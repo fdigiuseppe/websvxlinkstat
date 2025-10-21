@@ -23,6 +23,9 @@ COPY . .
 # Rendi eseguibile lo script di entrypoint
 RUN chmod +x docker-entrypoint.sh
 
+# Crea directory per database e dati
+RUN mkdir -p /app/data /app/data/db /app/logs
+
 # Crea un utente non-root per sicurezza
 RUN adduser --disabled-password --gecos '' appuser && \
     chown -R appuser:appuser /app

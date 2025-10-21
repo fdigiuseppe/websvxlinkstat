@@ -1,0 +1,27 @@
+2025-10-21 19:11:02,399 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.193:5000
+2025-10-21 19:11:02,401 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-21 19:11:20,418 - INFO - 127.0.0.1 - - [21/Oct/2025 19:11:20] "GET / HTTP/1.1" 200 -
+2025-10-21 19:11:20,567 - INFO - 127.0.0.1 - - [21/Oct/2025 19:11:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-21 19:11:25,210 - INFO - 127.0.0.1 - - [21/Oct/2025 19:11:25] "[32mGET /statistics HTTP/1.1[0m" 302 -
+2025-10-21 19:11:25,222 - INFO - 127.0.0.1 - - [21/Oct/2025 19:11:25] "GET / HTTP/1.1" 200 -
+2025-10-21 19:13:34,149 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.193:5000
+2025-10-21 19:13:34,150 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-21 19:13:37,203 - INFO - 127.0.0.1 - - [21/Oct/2025 19:13:37] "GET / HTTP/1.1" 200 -
+2025-10-21 19:13:37,510 - INFO - 127.0.0.1 - - [21/Oct/2025 19:13:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-21 19:13:40,496 - INFO - 127.0.0.1 - - [21/Oct/2025 19:13:40] "[32mGET /statistics HTTP/1.1[0m" 302 -
+2025-10-21 19:13:40,506 - INFO - 127.0.0.1 - - [21/Oct/2025 19:13:40] "GET / HTTP/1.1" 200 -
+2025-10-21 19:13:48,882 - INFO - 127.0.0.1 - - [21/Oct/2025 19:13:48] "POST /upload HTTP/1.1" 200 -
+2025-10-21 19:13:54,158 - INFO - 127.0.0.1 - - [21/Oct/2025 19:13:54] "GET / HTTP/1.1" 200 -
+2025-10-21 19:13:59,508 - INFO - 127.0.0.1 - - [21/Oct/2025 19:13:59] "[32mGET /statistics HTTP/1.1[0m" 302 -
+2025-10-21 19:13:59,515 - INFO - 127.0.0.1 - - [21/Oct/2025 19:13:59] "GET / HTTP/1.1" 200 -
+2025-10-21 19:14:16,265 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.193:5000
+2025-10-21 19:14:16,265 - INFO - [33mPress CTRL+C to quit[0m
