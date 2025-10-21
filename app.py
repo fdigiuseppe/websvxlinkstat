@@ -825,6 +825,33 @@ def api_force_process():
     except Exception as e:
         return jsonify({'error': str(e)}), 500
 
+@app.route('/api/reload-db', methods=['POST'])
+def reload_database():
+    """Ricarica il database manager per sincronizzare con i dati aggiornati"""
+    global db_manager, DB_AVAILABLE
+    
+    try:
+        # Crea nuova istanza del database manager
+        new_db_manager = DatabaseManager()
+        dates = new_db_manager.get_available_dates()
+        
+        # Aggiorna le variabili globali
+        db_manager = new_db_manager
+        DB_AVAILABLE = len(dates) > 0
+        
+        return jsonify({
+            'success': True,
+            'message': f'Database ricaricato: {len(dates)} date disponibili',
+            'dates_count': len(dates),
+            'db_available': DB_AVAILABLE
+        })
+        
+    except Exception as e:
+        return jsonify({
+            'success': False, 
+            'error': str(e)
+        }), 500
+
 @app.route('/status')
 def status():
     """Mostra lo stato dell'applicazione"""
