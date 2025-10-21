@@ -447,12 +447,17 @@
                 transmissionsChart.destroy();
             }
             
+            // Prepara i dati per un grafico lineare semplice
+            const labels = data.map(d => d.x);
+            const values = data.map(d => d.y);
+            
             transmissionsChart = new Chart(ctx, {
                 type: 'line',
                 data: {
+                    labels: labels,
                     datasets: [{
                         label: label,
-                        data: data,
+                        data: values,
                         borderColor: 'rgb(102, 126, 234)',
                         backgroundColor: 'rgba(102, 126, 234, 0.1)',
                         tension: 0.1
@@ -463,13 +468,18 @@
                     maintainAspectRatio: false,
                     scales: {
                         x: {
-                            type: 'time',
-                            time: {
-                                parser: 'YYYY-MM-DD'
+                            display: true,
+                            title: {
+                                display: true,
+                                text: 'Data'
                             }
                         },
                         y: {
-                            beginAtZero: true
+                            beginAtZero: true,
+                            title: {
+                                display: true,
+                                text: 'Trasmissioni'
+                            }
                         }
                     }
                 }
