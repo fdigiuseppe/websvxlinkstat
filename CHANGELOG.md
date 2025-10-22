@@ -5,6 +5,57 @@ Tutte le modifiche importanti a questo progetto saranno documentate in questo fi
 Il formato è basato su [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 e questo progetto aderisce al [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.1.0] - 2025-10-22
+
+### 🎉 Nuove Funzionalità
+
+#### 📊 Sezioni Avanzate Dashboard Statistiche
+- **Sezione Subtoni CTCSS Rilevati** nella pagina `/statistics`
+  - Tabella con frequenze CTCSS, rilevazioni totali e percentuali medie
+  - Aggiornamento automatico in base al range date selezionato
+  - Ordinamento per numero rilevazioni (decrescente)
+- **Sezione Talk Groups Utilizzati** nella pagina `/statistics`
+  - Tabella con TG, numero trasmissioni, durata totale e QSO
+  - Visualizzazione durate formattate (ore, minuti, secondi)
+  - Badge colorati per indicatori visivi
+- **Sezione Riepilogo Talk Groups** con grafici interattivi
+  - **Grafico a barre**: Distribuzione trasmissioni per TG
+  - **Grafico a torta**: Visualizzazione durate totali per TG
+  - Grafici responsive e interattivi con Chart.js
+
+#### 🔌 Nuove API REST
+- `GET /api/statistics/ctcss` - Statistiche CTCSS aggregate per range date
+  - Parametri: `start_date`, `end_date` (opzionali)
+  - Ritorna: frequenze, conteggi totali, percentuali medie
+- `GET /api/statistics/talkgroups` - Statistiche Talk Groups aggregate
+  - Parametri: `start_date`, `end_date` (opzionali)
+  - Ritorna: TG, trasmissioni, durate, QSO, medie
+
+### 🔧 Miglioramenti
+
+#### 🐛 Bug Fix Critici
+- **Fix calcolo durate Talk Groups**: Risolto bug dove le durate TG erano sempre 0
+  - Implementato calcolo corretto basato sui QSO tracciati
+  - Le durate ora vengono calcolate correttamente da timestamp start/stop
+  - I grafici "Durata Totale per TG" ora mostrano dati reali
+
+#### 🗄️ Database
+- Aggiunti metodi `get_ctcss_stats()` e `get_tg_stats()` in DatabaseManager
+- Query ottimizzate con aggregazioni e GROUP BY per performance
+- Supporto per range date flessibili nelle query
+
+#### 🎨 UI/UX
+- Sezioni nascoste di default e mostrate solo quando ci sono dati
+- Messaggi "Nessun dato" quando non ci sono CTCSS o TG nel periodo
+- Layout responsive a due colonne per CTCSS e TG
+- Grafici con altezza ottimizzata per visualizzazione migliore
+
+### 📚 Documentazione
+- Aggiornato README.md con nuove sezioni dashboard
+- Aggiornato API-DOCS.md con documentazione completa nuovi endpoint
+- Esempi cURL, Python e JavaScript per nuove API
+- Descrizioni dettagliate formato response
+
 ## [2.0.0] - 2025-10-21
 
 ### 🎉 Nuove Funzionalità Principali

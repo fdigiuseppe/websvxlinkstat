@@ -10,6 +10,10 @@ Una web application completa in Python Flask che analizza i file di log SVXLink 
 - **Analisi multi-periodo**: Statistiche giornaliere, mensili e annuali
 - **Range date personalizzabile**: Filtra dati per periodi specifici
 - **Processamento automatico**: Import automatico di nuovi file log
+- **Sezioni Avanzate Dashboard**:
+  - **Subtoni CTCSS Rilevati**: Tabella con frequenze, rilevazioni totali e percentuali medie
+  - **Talk Groups Utilizzati**: Visualizzazione TG con trasmissioni, durate totali e QSO
+  - **Riepilogo Talk Groups**: Grafici interattivi (barre e torta) per distribuzione trasmissioni e durate per TG
 
 ### 🔍 Analisi Avanzate Log SVXLink
 - **Analisi del tempo di trasmissione**: Calcola il tempo totale di utilizzo del ponte per le trasmissioni QSO
@@ -187,6 +191,12 @@ GET /api/statistics/monthly?year=2025&month=10
 
 # Statistiche annuali
 GET /api/statistics/yearly?year=2025
+
+# Statistiche CTCSS (Subtoni)
+GET /api/statistics/ctcss?start_date=2025-10-19&end_date=2025-10-21
+
+# Statistiche Talk Groups
+GET /api/statistics/talkgroups?start_date=2025-10-19&end_date=2025-10-21
 ```
 
 ### Gestione Database

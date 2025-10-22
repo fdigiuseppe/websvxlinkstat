@@ -201,6 +201,126 @@ Statistiche aggregate annuali.
 
 ---
 
+### GET /api/statistics/ctcss
+
+Recupera statistiche aggregate sui subtoni CTCSS per un range di date.
+
+#### Parameters
+
+| Parameter | Type | Required | Description |
+|-----------|------|----------|-------------|
+| start_date | string | No | Data inizio (YYYY-MM-DD). Default: 30 giorni fa |
+| end_date | string | No | Data fine (YYYY-MM-DD). Default: oggi |
+
+#### Response
+
+```json
+{
+  "success": true,
+  "period": {
+    "start": "2025-10-19",
+    "end": "2025-10-21"
+  },
+  "total_tones": 5,
+  "data": [
+    {
+      "ctcss_frequency": 85.4,
+      "total_count": 177,
+      "avg_percentage": 66.33
+    },
+    {
+      "ctcss_frequency": 123.0,
+      "total_count": 65,
+      "avg_percentage": 17.01
+    },
+    {
+      "ctcss_frequency": 88.5,
+      "total_count": 24,
+      "avg_percentage": 10.63
+    }
+  ]
+}
+```
+
+#### Esempi
+
+```bash
+# Ultimi 3 giorni
+curl "http://localhost:5000/api/statistics/ctcss?start_date=2025-10-19&end_date=2025-10-21"
+
+# Python
+import requests
+response = requests.get('http://localhost:5000/api/statistics/ctcss', 
+                       params={'start_date': '2025-10-19', 'end_date': '2025-10-21'})
+print(response.json())
+```
+
+---
+
+### GET /api/statistics/talkgroups
+
+Recupera statistiche aggregate sui Talk Groups per un range di date.
+
+#### Parameters
+
+| Parameter | Type | Required | Description |
+|-----------|------|----------|-------------|
+| start_date | string | No | Data inizio (YYYY-MM-DD). Default: 30 giorni fa |
+| end_date | string | No | Data fine (YYYY-MM-DD). Default: oggi |
+
+#### Response
+
+```json
+{
+  "success": true,
+  "period": {
+    "start": "2025-10-19",
+    "end": "2025-10-21"
+  },
+  "total_tgs": 6,
+  "data": [
+    {
+      "tg_number": 0,
+      "total_transmissions": 186,
+      "total_duration": 0,
+      "total_qso": 0,
+      "avg_duration": 0.0,
+      "avg_percentage": 72.55
+    },
+    {
+      "tg_number": 61100,
+      "total_transmissions": 48,
+      "total_duration": 503,
+      "total_qso": 65,
+      "avg_duration": 6.59,
+      "avg_percentage": 18.38
+    },
+    {
+      "tg_number": 222,
+      "total_transmissions": 13,
+      "total_duration": 58,
+      "total_qso": 15,
+      "avg_duration": 3.2,
+      "avg_percentage": 7.89
+    }
+  ]
+}
+```
+
+#### Esempi
+
+```bash
+# Range personalizzato
+curl "http://localhost:5000/api/statistics/talkgroups?start_date=2025-10-19&end_date=2025-10-21"
+
+# JavaScript (Fetch API)
+fetch('/api/statistics/talkgroups?start_date=2025-10-19&end_date=2025-10-21')
+  .then(response => response.json())
+  .then(data => console.log(data.data));
+```
+
+---
+
 ## 🔧 Gestione Database
 
 ### POST /api/reload-db
