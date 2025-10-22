@@ -209,6 +209,93 @@
             </div>
         </div>
 
+        <!-- Statistiche CTCSS e Talk Groups -->
+        <div class="row mt-4" id="advancedStats" style="display:none;">
+            <!-- Subtoni CTCSS -->
+            <div class="col-lg-6 mb-4">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h5><i class="fas fa-broadcast-tower"></i> Subtoni CTCSS Rilevati</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table table-sm table-hover" id="ctcssTable">
+                                <thead class="table-light">
+                                    <tr>
+                                        <th>Frequenza</th>
+                                        <th>Rilevazioni</th>
+                                        <th>Media %</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="ctcssTableBody">
+                                    <!-- Popolato dinamicamente -->
+                                </tbody>
+                            </table>
+                        </div>
+                        <div id="noCTCSS" class="text-muted text-center py-3" style="display:none;">
+                            Nessun subtono CTCSS rilevato
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Talk Groups -->
+            <div class="col-lg-6 mb-4">
+                <div class="card">
+                    <div class="card-header bg-success text-white">
+                        <h5><i class="fas fa-users"></i> Talk Groups Utilizzati</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table table-sm table-hover" id="tgTable">
+                                <thead class="table-light">
+                                    <tr>
+                                        <th>TG</th>
+                                        <th>Trasmissioni</th>
+                                        <th>Durata Tot.</th>
+                                        <th>QSO</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="tgTableBody">
+                                    <!-- Popolato dinamicamente -->
+                                </tbody>
+                            </table>
+                        </div>
+                        <div id="noTG" class="text-muted text-center py-3" style="display:none;">
+                            Nessun Talk Group utilizzato
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Riepilogo Talk Groups con Grafici -->
+        <div class="row mt-4" id="tgChartsSection" style="display:none;">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header bg-info text-white">
+                        <h5><i class="fas fa-chart-bar"></i> Riepilogo Talk Groups</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <h6 class="text-center">Distribuzione Trasmissioni per TG</h6>
+                                <div class="chart-container" style="height: 300px;">
+                                    <canvas id="tgTransmissionsChart"></canvas>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <h6 class="text-center">Durata Totale per TG</h6>
+                                <div class="chart-container" style="height: 300px;">
+                                    <canvas id="tgDurationChart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Processing Summary -->
         {% if processing_summary %}
         <div class="row mt-4">
@@ -391,6 +478,11 @@
             
             // Aggiorna tabella
             updateDailyTable(stats);
+            
+            // Carica statistiche avanzate (CTCSS e TG)
+            if (data.period) {
+                loadAdvancedStatistics(data.period.start, data.period.end);
+            }
         }
         
         function updateMonthlyStatistics(data) {
@@ -597,6 +689,132 @@
         
         function showLoading(show) {
             document.getElementById('loadingIndicator').style.display = show ? 'block' : 'none';
+        }
+        
+        
+        // Funzioni per caricare statistiche CTCSS e Talk Groups
+        function loadAdvancedStatistics(startDate, endDate) {
+            // Carica statistiche CTCSS
+            fetch(`/api/statistics/ctcss?start_date=${startDate}&end_date=${endDate}`)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success && data.data.length > 0) {
+                        updateCTCSSTable(data.data);
+                        document.getElementById('advancedStats').style.display = 'flex';
+                    } else {
+                        document.getElementById('noCTCSS').style.display = 'block';
+                        document.getElementById('ctcssTableBody').innerHTML = '';
+                    }
+                })
+                .catch(error => console.error('Errore caricamento CTCSS:', error));
+            
+            // Carica statistiche Talk Groups
+            fetch(`/api/statistics/talkgroups?start_date=${startDate}&end_date=${endDate}`)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success && data.data.length > 0) {
+                        updateTGTable(data.data);
+                        updateTGCharts(data.data);
+                        document.getElementById('advancedStats').style.display = 'flex';
+                        document.getElementById('tgChartsSection').style.display = 'block';
+                    } else {
+                        document.getElementById('noTG').style.display = 'block';
+                        document.getElementById('tgTableBody').innerHTML = '';
+                        document.getElementById('tgChartsSection').style.display = 'none';
+                    }
+                })
+                .catch(error => console.error('Errore caricamento TG:', error));
+        }
+        
+        function updateCTCSSTable(ctcssData) {
+            const tbody = document.getElementById('ctcssTableBody');
+            tbody.innerHTML = '';
+            document.getElementById('noCTCSS').style.display = 'none';
+            
+            ctcssData.forEach(ctcss => {
+                const row = `
+                    <tr>
+                        <td><strong>${ctcss.ctcss_frequency} Hz</strong></td>
+                        <td><span class="badge bg-primary">${ctcss.total_count}</span></td>
+                        <td>${(ctcss.avg_percentage || 0).toFixed(1)}%</td>
+                    </tr>
+                `;
+                tbody.innerHTML += row;
+            });
+        }
+        
+        function updateTGTable(tgData) {
+            const tbody = document.getElementById('tgTableBody');
+            tbody.innerHTML = '';
+            document.getElementById('noTG').style.display = 'none';
+            
+            tgData.forEach(tg => {
+                const duration = formatDuration(tg.total_duration || 0);
+                const row = `
+                    <tr>
+                        <td><strong>TG ${tg.tg_number}</strong></td>
+                        <td><span class="badge bg-success">${tg.total_transmissions}</span></td>
+                        <td>${duration}</td>
+                        <td><span class="badge bg-info">${tg.total_qso || 0}</span></td>
+                    </tr>
+                `;
+                tbody.innerHTML += row;
+            });
+        }
+        
+        function updateTGCharts(tgData) {
+            // Grafico distribuzione trasmissioni
+            const txCtx = document.getElementById('tgTransmissionsChart').getContext('2d');
+            if (window.tgTxChart) window.tgTxChart.destroy();
+            
+            window.tgTxChart = new Chart(txCtx, {
+                type: 'bar',
+                data: {
+                    labels: tgData.map(tg => `TG ${tg.tg_number}`),
+                    datasets: [{
+                        label: 'Trasmissioni',
+                        data: tgData.map(tg => tg.total_transmissions),
+                        backgroundColor: 'rgba(40, 167, 69, 0.6)',
+                        borderColor: 'rgba(40, 167, 69, 1)',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { display: false }
+                    }
+                }
+            });
+            
+            // Grafico durata totale
+            const durCtx = document.getElementById('tgDurationChart').getContext('2d');
+            if (window.tgDurChart) window.tgDurChart.destroy();
+            
+            window.tgDurChart = new Chart(durCtx, {
+                type: 'pie',
+                data: {
+                    labels: tgData.map(tg => `TG ${tg.tg_number}`),
+                    datasets: [{
+                        data: tgData.map(tg => tg.total_duration || 0),
+                        backgroundColor: [
+                            'rgba(255, 99, 132, 0.6)',
+                            'rgba(54, 162, 235, 0.6)',
+                            'rgba(255, 206, 86, 0.6)',
+                            'rgba(75, 192, 192, 0.6)',
+                            'rgba(153, 102, 255, 0.6)'
+                        ]
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { position: 'right' }
+                    }
+                }
+            });
         }
         
         function processNewFiles() {

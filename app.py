@@ -727,6 +727,62 @@ def api_yearly_statistics():
     except Exception as e:
         return jsonify({'error': str(e)}), 500
 
+@app.route('/api/statistics/ctcss')
+def api_ctcss_statistics():
+    """API per statistiche CTCSS"""
+    if not is_database_available():
+        return jsonify({'error': 'Database non disponibile'}), 503
+    
+    try:
+        start_date = request.args.get('start_date')
+        end_date = request.args.get('end_date')
+        
+        # Default: ultimi 30 giorni
+        if not start_date or not end_date:
+            end_date = date.today().isoformat()
+            start_date = (date.today() - timedelta(days=30)).isoformat()
+        
+        # Recupera statistiche CTCSS
+        ctcss_stats = db_manager.get_ctcss_stats(start_date, end_date)
+        
+        return jsonify({
+            'success': True,
+            'period': {'start': start_date, 'end': end_date},
+            'total_tones': len(ctcss_stats),
+            'data': ctcss_stats
+        })
+        
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/statistics/talkgroups')
+def api_talkgroups_statistics():
+    """API per statistiche Talk Groups"""
+    if not is_database_available():
+        return jsonify({'error': 'Database non disponibile'}), 503
+    
+    try:
+        start_date = request.args.get('start_date')
+        end_date = request.args.get('end_date')
+        
+        # Default: ultimi 30 giorni
+        if not start_date or not end_date:
+            end_date = date.today().isoformat()
+            start_date = (date.today() - timedelta(days=30)).isoformat()
+        
+        # Recupera statistiche TG
+        tg_stats = db_manager.get_tg_stats(start_date, end_date)
+        
+        return jsonify({
+            'success': True,
+            'period': {'start': start_date, 'end': end_date},
+            'total_tgs': len(tg_stats),
+            'data': tg_stats
+        })
+        
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
 @app.route('/api/statistics/process')
 def api_process_logs():
     """API per processare nuovi file log"""

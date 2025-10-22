@@ -379,6 +379,49 @@ class DatabaseManager:
             print(f"❌ Errore reset database: {e}")
             raise e
     
+    def get_ctcss_stats(self, start_date: str, end_date: str) -> List[Dict]:
+        """Recupera statistiche CTCSS aggregate per range di date"""
+        try:
+            with self.get_connection() as conn:
+                cursor = conn.execute("""
+                    SELECT 
+                        ctcss_frequency,
+                        SUM(count) as total_count,
+                        AVG(percentage) as avg_percentage
+                    FROM daily_ctcss_stats
+                    WHERE log_date BETWEEN ? AND ?
+                    GROUP BY ctcss_frequency
+                    ORDER BY total_count DESC
+                """, (start_date, end_date))
+                
+                return [dict(row) for row in cursor.fetchall()]
+        except Exception as e:
+            print(f"❌ Errore recupero statistiche CTCSS: {e}")
+            return []
+    
+    def get_tg_stats(self, start_date: str, end_date: str) -> List[Dict]:
+        """Recupera statistiche Talk Group aggregate per range di date"""
+        try:
+            with self.get_connection() as conn:
+                cursor = conn.execute("""
+                    SELECT 
+                        tg_number,
+                        SUM(transmission_count) as total_transmissions,
+                        SUM(total_duration) as total_duration,
+                        SUM(qso_count) as total_qso,
+                        AVG(avg_duration) as avg_duration,
+                        AVG(percentage) as avg_percentage
+                    FROM daily_tg_stats
+                    WHERE log_date BETWEEN ? AND ?
+                    GROUP BY tg_number
+                    ORDER BY total_transmissions DESC
+                """, (start_date, end_date))
+                
+                return [dict(row) for row in cursor.fetchall()]
+        except Exception as e:
+            print(f"❌ Errore recupero statistiche TG: {e}")
+            return []
+    
     def get_all_daily_stats(self):
         """Recupera tutte le statistiche giornaliere (per conteggio record)"""
         try:
