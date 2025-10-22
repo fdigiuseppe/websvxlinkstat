@@ -423,6 +423,27 @@ class SVXLinkLogAnalyzer:
             percentage = (count / total_tg_selections * 100) if total_tg_selections > 0 else 0
             sorted_tg.append((tg_id, {'count': count, 'percentage': round(percentage, 2)}))
         
+        # Calcola durate per TG basandosi sui QSO
+        tg_durations = {}
+        for qso in self.qso_sessions:
+            tg = qso.get('tg', 0)
+            if tg not in tg_durations:
+                tg_durations[tg] = {
+                    'total_seconds': 0,
+                    'qso_count': 0,
+                    'avg_duration': 0
+                }
+            tg_durations[tg]['total_seconds'] += qso['duration_seconds']
+            tg_durations[tg]['qso_count'] += 1
+        
+        # Calcola durate medie per TG
+        for tg in tg_durations:
+            avg_seconds = tg_durations[tg]['total_seconds'] / tg_durations[tg]['qso_count']
+            tg_durations[tg]['avg_duration'] = avg_seconds
+        
+        # Ordina TG per durata totale (decrescente)
+        sorted_tg_by_duration = sorted(tg_durations.items(), key=lambda x: x[1]['total_seconds'], reverse=True)
+        
         # Formato compatibile con log_processor.py
         return {
             'basic': {
@@ -442,7 +463,7 @@ class SVXLinkLogAnalyzer:
                 'total_selections': sum(self.talk_groups.values()),
                 'unique_tgs': len(self.talk_groups),
                 'tg_list': sorted_tg,
-                'tg_durations': []  # Placeholder per compatibilità
+                'tg_durations': sorted_tg_by_duration
             },
             'qso': {
                 'total_qso': len(self.qso_sessions),
