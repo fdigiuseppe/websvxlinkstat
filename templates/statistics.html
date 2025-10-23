@@ -542,23 +542,52 @@
                 transmissionsChart.destroy();
             }
             
+            // Controllo se ci sono dati
+            if (!data || data.length === 0) {
+                // Mostra grafico vuoto con messaggio
+                transmissionsChart = new Chart(ctx, {
+                    type: 'bar',
+                    data: {
+                        labels: ['Nessun dato'],
+                        datasets: [{
+                            label: label,
+                            data: [0],
+                            backgroundColor: 'rgba(200, 200, 200, 0.3)'
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: {
+                            title: {
+                                display: true,
+                                text: 'Nessun dato disponibile per il periodo selezionato'
+                            }
+                        }
+                    }
+                });
+                return;
+            }
+            
             // Inverti l'ordine dei dati: data più recente a destra, meno recente a sinistra
             const reversedData = [...data].reverse();
             
-            // Prepara i dati per un grafico lineare semplice
+            // Prepara i dati per il grafico
             const labels = reversedData.map(d => d.x);
             const values = reversedData.map(d => d.y);
             
-            transmissionsChart = new Chart(ctx, {
-                type: 'line',
+            // Usa grafico a barre per un singolo giorno, lineare per più giorni
+            const chartType = data.length === 1 ? 'bar' : 'line';
+            const chartConfig = {
+                type: chartType,
                 data: {
                     labels: labels,
                     datasets: [{
                         label: label,
                         data: values,
                         borderColor: 'rgb(102, 126, 234)',
-                        backgroundColor: 'rgba(102, 126, 234, 0.1)',
-                        tension: 0.1
+                        backgroundColor: chartType === 'bar' ? 'rgba(102, 126, 234, 0.6)' : 'rgba(102, 126, 234, 0.1)',
+                        tension: chartType === 'line' ? 0.1 : undefined
                     }]
                 },
                 options: {
@@ -579,9 +608,17 @@
                                 text: 'Trasmissioni'
                             }
                         }
+                    },
+                    plugins: {
+                        title: {
+                            display: data.length === 1,
+                            text: `Trasmissioni del ${labels[0]}`
+                        }
                     }
                 }
-            });
+            };
+            
+            transmissionsChart = new Chart(ctx, chartConfig);
         }
         
         function updateQSOChart(data, title = 'Distribuzione QSO') {
@@ -591,33 +628,122 @@
                 qsoChart.destroy();
             }
             
-            if (data.length === 0) {
+            if (!data || data.length === 0) {
+                // Mostra grafico vuoto con messaggio
+                qsoChart = new Chart(ctx, {
+                    type: 'doughnut',
+                    data: {
+                        labels: ['Nessun dato'],
+                        datasets: [{
+                            data: [1],
+                            backgroundColor: ['rgba(200, 200, 200, 0.3)']
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: {
+                            title: {
+                                display: true,
+                                text: 'Nessun dato QSO disponibile'
+                            },
+                            legend: {
+                                display: false
+                            }
+                        }
+                    }
+                });
                 return;
             }
             
-            qsoChart = new Chart(ctx, {
-                type: 'doughnut',
-                data: {
-                    labels: data.map(d => d.label),
-                    datasets: [{
-                        data: data.map(d => d.value),
-                        backgroundColor: [
-                            '#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0',
-                            '#9966FF', '#FF9F40', '#FF6384', '#C9CBCF'
-                        ]
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    plugins: {
-                        title: {
-                            display: true,
-                            text: title
+            // Filtra dati con valori > 0 per evitare grafici vuoti
+            const filteredData = data.filter(d => d.value > 0);
+            
+            if (filteredData.length === 0) {
+                // Tutti i valori sono 0
+                qsoChart = new Chart(ctx, {
+                    type: 'doughnut',
+                    data: {
+                        labels: ['Nessun QSO'],
+                        datasets: [{
+                            data: [1],
+                            backgroundColor: ['rgba(200, 200, 200, 0.3)']
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: {
+                            title: {
+                                display: true,
+                                text: title + ' - Nessun QSO registrato'
+                            },
+                            legend: {
+                                display: false
+                            }
                         }
                     }
-                }
-            });
+                });
+                return;
+            }
+            
+            // Se c'è un solo elemento, usa un grafico a barre
+            if (filteredData.length === 1) {
+                qsoChart = new Chart(ctx, {
+                    type: 'bar',
+                    data: {
+                        labels: [filteredData[0].label],
+                        datasets: [{
+                            label: title,
+                            data: [filteredData[0].value],
+                            backgroundColor: ['#36A2EB']
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: {
+                            title: {
+                                display: true,
+                                text: title
+                            },
+                            legend: {
+                                display: false
+                            }
+                        },
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        }
+                    }
+                });
+            } else {
+                // Grafico a ciambella per più elementi
+                qsoChart = new Chart(ctx, {
+                    type: 'doughnut',
+                    data: {
+                        labels: filteredData.map(d => d.label),
+                        datasets: [{
+                            data: filteredData.map(d => d.value),
+                            backgroundColor: [
+                                '#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0',
+                                '#9966FF', '#FF9F40', '#FF6384', '#C9CBCF'
+                            ]
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: {
+                            title: {
+                                display: true,
+                                text: title
+                            }
+                        }
+                    }
+                });
+            }
         }
         
         function updateDailyTable(data) {
