@@ -412,7 +412,7 @@ class DatabaseManager:
                         AVG(avg_duration) as avg_duration,
                         AVG(percentage) as avg_percentage
                     FROM daily_tg_stats
-                    WHERE log_date BETWEEN ? AND ?
+                    WHERE log_date BETWEEN ? AND ? AND tg_number != 0
                     GROUP BY tg_number
                     ORDER BY total_transmissions DESC
                 """, (start_date, end_date))
