@@ -318,7 +318,7 @@ class SVXLinkLogAnalyzer:
                     tg_id = int(tg_match.group(1))
                     if tg_id != 0:  # Solo per TG diversi da 0
                         self.talk_groups[tg_id] += 1
-                    self.stats['tg_selections'] += 1
+                        self.stats['tg_selections'] += 1
                 
                 # === IDENTIFICAZIONE QSO ===
                 # QSO più restrittivo: solo con sequenza CTCSS -> TG selection -> TG #0
