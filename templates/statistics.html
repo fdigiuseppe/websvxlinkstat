@@ -351,10 +351,17 @@
         });
         
         function initializePage() {
-            // Imposta date di default basate sui dati disponibili
-            // Dal 19 ottobre al 21 ottobre 2025 (date con dati reali)
-            document.getElementById('endDate').value = '2025-10-21';
-            document.getElementById('startDate').value = '2025-10-19';
+            // Imposta date di default: oggi e una settimana fa
+            const today = new Date();
+            const oneWeekAgo = new Date();
+            oneWeekAgo.setDate(today.getDate() - 7);
+            
+            // Formatta le date in formato YYYY-MM-DD
+            const todayStr = today.toISOString().split('T')[0];
+            const oneWeekAgoStr = oneWeekAgo.toISOString().split('T')[0];
+            
+            document.getElementById('endDate').value = todayStr;      // A: oggi
+            document.getElementById('startDate').value = oneWeekAgoStr;  // DA: una settimana fa
             
             // Popola anni
             populateYears();
