@@ -321,42 +321,39 @@ class SVXLinkLogAnalyzer:
                     self.stats['tg_selections'] += 1
                 
                 # === IDENTIFICAZIONE QSO ===
-                talker_start_match = re.search(r'Talker start on TG #(\d+): (.+)', message)
-                if talker_start_match and not self.qso_start:
-                    tg_id = int(talker_start_match.group(1))
-                    call_sign = talker_start_match.group(2).strip()
-                    self.qso_start = {
-                        'tg': tg_id,
-                        'call_sign': call_sign,
-                        'start_time': timestamp,
-                        'start_line': line
-                    }
-                    self.stats['talker_starts'] += 1
+                # Usa lo stesso algoritmo di parse_log_file() basato su CTCSS + TG selection
                 
-                talker_stop_match = re.search(r'Talker stop on TG #(\d+): (.+)', message)
-                if talker_stop_match and self.qso_start:
-                    tg_id = int(talker_stop_match.group(1))
-                    call_sign = talker_stop_match.group(2).strip()
+                # Inizio QSO da CTCSS (se non già iniziato)
+                if ctcss_match and not self.qso_start:
+                    self.qso_start = timestamp
+                
+                # Gestione Talk Groups per QSO
+                if tg_match:
+                    tg_id = int(tg_match.group(1))
                     
-                    if (tg_id == self.qso_start['tg'] and 
-                        call_sign == self.qso_start['call_sign']):
-                        
-                        duration = (timestamp - self.qso_start['start_time']).total_seconds()
-                        
-                        if duration >= 1:  # QSO valido solo se >= 1 secondo
-                            self.qso_sessions.append({
-                                'tg': tg_id,
-                                'call_sign': call_sign,
-                                'start_time': self.qso_start['start_time'],
-                                'end_time': timestamp,
-                                'duration_seconds': duration,
-                                'start_line': self.qso_start['start_line'],
-                                'end_line': line
-                            })
-                            self.stats['valid_qso'] += 1
+                    if tg_id == 0:
+                        # TG #0 = fine QSO
+                        if self.active_tg is not None and self.qso_start is not None:
+                            duration = (timestamp - self.qso_start).total_seconds()
+                            
+                            if duration >= 1:  # QSO valido solo se >= 1 secondo
+                                self.qso_sessions.append({
+                                    'tg': self.active_tg,
+                                    'start_time': self.qso_start,
+                                    'end_time': timestamp,
+                                    'duration_seconds': duration
+                                })
+                                self.stats['valid_qso'] += 1
                         
                         self.qso_start = None
-                        self.stats['talker_stops'] += 1
+                        self.active_tg = None
+                    else:
+                        # TG diverso da 0 = inizio/cambio QSO
+                        self.active_tg = tg_id
+                        
+                        # Se non c'è un QSO start, lo impostiamo ora
+                        if self.qso_start is None:
+                            self.qso_start = timestamp
                 
                 # === ANALISI TRASMISSIONE ===
                 if 'Turning the transmitter ON' in message:
