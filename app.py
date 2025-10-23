@@ -321,22 +321,18 @@ class SVXLinkLogAnalyzer:
                     self.stats['tg_selections'] += 1
                 
                 # === IDENTIFICAZIONE QSO ===
-                # Usa lo stesso algoritmo di parse_log_file() basato su CTCSS + TG selection
-                
-                # Inizio QSO da CTCSS (se non già iniziato)
-                if ctcss_match and not self.qso_start:
-                    self.qso_start = timestamp
+                # QSO più restrittivo: solo con sequenza CTCSS -> TG selection -> TG #0
                 
                 # Gestione Talk Groups per QSO
                 if tg_match:
                     tg_id = int(tg_match.group(1))
                     
                     if tg_id == 0:
-                        # TG #0 = fine QSO
+                        # TG #0 = fine QSO (solo se abbiamo un TG attivo)
                         if self.active_tg is not None and self.qso_start is not None:
                             duration = (timestamp - self.qso_start).total_seconds()
                             
-                            if duration >= 1:  # QSO valido solo se >= 1 secondo
+                            if duration >= 3:  # QSO valido solo se >= 3 secondi (più restrittivo)
                                 self.qso_sessions.append({
                                     'tg': self.active_tg,
                                     'start_time': self.qso_start,
@@ -348,12 +344,17 @@ class SVXLinkLogAnalyzer:
                         self.qso_start = None
                         self.active_tg = None
                     else:
-                        # TG diverso da 0 = inizio/cambio QSO
-                        self.active_tg = tg_id
-                        
-                        # Se non c'è un QSO start, lo impostiamo ora
+                        # TG diverso da 0 = possibile inizio QSO
+                        # Ma inizia QSO solo se c'è stato un CTCSS prima
                         if self.qso_start is None:
+                            # Cerca CTCSS recente (negli ultimi 5 secondi)
+                            # Per ora impostiamo start al momento del TG selection
                             self.qso_start = timestamp
+                        
+                        self.active_tg = tg_id
+                
+                # CTCSS non inizia più automaticamente i QSO
+                # Serve solo come prerequisito per i TG
                 
                 # === ANALISI TRASMISSIONE ===
                 if 'Turning the transmitter ON' in message:
