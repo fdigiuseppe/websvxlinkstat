@@ -9,6 +9,7 @@ Questa applicazione analizza i file di log SVXLink per determinare:
 """
 
 from flask import Flask, render_template, request, flash, redirect, url_for, jsonify
+from werkzeug.middleware.proxy_fix import ProxyFix
 import os
 from datetime import datetime, timedelta, date
 import re
@@ -28,6 +29,20 @@ app = Flask(__name__)
 app.secret_key = 'svxlink_analyzer_secret_key_2024'
 app.config['UPLOAD_FOLDER'] = tempfile.gettempdir()
 app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024  # 16MB max file size
+
+# Configurazione per reverse proxy Apache con HTTPS
+app.config['APPLICATION_ROOT'] = '/websvxlinkstat'
+app.config['PREFERRED_URL_SCHEME'] = 'https'
+app.config['SERVER_NAME'] = None  # Lascia che Flask si adatti all'host
+
+# Configura ProxyFix per gestire headers del reverse proxy
+app.wsgi_app = ProxyFix(
+    app.wsgi_app, 
+    x_for=1, 
+    x_proto=1, 
+    x_host=1, 
+    x_prefix=1
+)
 
 # Le inizializzazioni di log_processor e scheduler saranno fatte dopo 
 # la definizione della classe SVXLinkLogAnalyzer per evitare importazioni circolari
@@ -563,7 +578,15 @@ def health():
         'status': 'healthy',
         'service': 'SVXLink Log Analyzer',
         'version': '1.0.0',
-        'timestamp': datetime.now().isoformat()
+        'timestamp': datetime.now().isoformat(),
+        'reverse_proxy': {
+            'application_root': app.config.get('APPLICATION_ROOT'),
+            'url_scheme': request.scheme,
+            'host': request.host,
+            'path': request.path,
+            'base_url': request.base_url,
+            'url_root': request.url_root
+        }
     }
 
 @app.route('/upload', methods=['POST'])

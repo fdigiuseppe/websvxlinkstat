@@ -9,6 +9,9 @@ FLASK_PORT=${FLASK_PORT:-5000}
 FLASK_HOST=${FLASK_HOST:-0.0.0.0}
 FLASK_ENV=${FLASK_ENV:-production}
 
+# Configurazione per reverse proxy
+export SCRIPT_NAME="/websvxlinkstat"
+
 echo "📡 Server in ascolto su ${FLASK_HOST}:${FLASK_PORT}"
 echo "🛠️ Environment: ${FLASK_ENV}"
 echo "🌐 Accessibile da: http://localhost:${FLASK_PORT}"
