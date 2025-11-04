@@ -75,11 +75,14 @@ class SVXLinkLogAnalyzer:
                     continue
                     
                 # Parse del timestamp e del messaggio
-                match = re.match(r'^(\w{3} \w{3} \d{1,2} \d{2}:\d{2}:\d{2} \d{4}): (.+)$', line)
+                # Supporta sia "Oct 21" che "Nov  1" (con spazio extra per giorni a cifra singola)
+                match = re.match(r'^(\w{3} \w{3} \s*\d{1,2} \d{2}:\d{2}:\d{2} \d{4}): (.+)$', line)
                 if not match:
                     continue
                     
                 timestamp_str, message = match.groups()
+                # Normalizza gli spazi extra nel timestamp prima del parsing
+                timestamp_str = re.sub(r'\s+', ' ', timestamp_str.strip())
                 timestamp = datetime.strptime(timestamp_str, '%a %b %d %H:%M:%S %Y')
                 
                 # === ANALISI SUBTONI CTCSS ===
@@ -298,11 +301,14 @@ class SVXLinkLogAnalyzer:
                     continue
                     
                 # Parse del timestamp e del messaggio
-                match = re.match(r'^(\w{3} \w{3} \d{1,2} \d{2}:\d{2}:\d{2} \d{4}): (.+)$', line)
+                # Supporta sia "Oct 21" che "Nov  1" (con spazio extra per giorni a cifra singola)
+                match = re.match(r'^(\w{3} \w{3} \s*\d{1,2} \d{2}:\d{2}:\d{2} \d{4}): (.+)$', line)
                 if not match:
                     continue
                     
                 timestamp_str, message = match.groups()
+                # Normalizza gli spazi extra nel timestamp prima del parsing
+                timestamp_str = re.sub(r'\s+', ' ', timestamp_str.strip())
                 timestamp = datetime.strptime(timestamp_str, '%a %b %d %H:%M:%S %Y')
                 
                 # === ANALISI SUBTONI CTCSS ===
