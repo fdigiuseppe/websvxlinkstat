@@ -38,13 +38,14 @@ Una web application completa in Python Flask che analizza i file di log SVXLink 
 
 ## Installazione
 
+
 ### Metodo 1: Installazione Tradizionale
 
 1. Clona o scarica il repository
 2. Installa le dipendenze:
-```bash
-pip install -r requirements.txt
-```
+  ```bash
+  pip install -r requirements.txt
+  ```
 
 ### Metodo 2: Docker (Raccomandato) 🐳
 
@@ -61,6 +62,23 @@ docker-compose up -d
 # http://localhost:5000
 ```
 
+**Deployment in produzione con HTTPS e Reverse Proxy Apache:**
+
+L'applicazione può essere servita in HTTPS e sotto un path dedicato (`/websvxlinkstat`) tramite Apache come reverse proxy.
+
+1. **Configura Apache** usando il file di esempio `config/apache-reverse-proxy.conf`.
+2. **Abilita i moduli Apache** richiesti:
+  ```bash
+  sudo a2enmod proxy proxy_http headers rewrite
+  sudo systemctl reload apache2
+  ```
+3. **Avvia l'applicazione Docker** come sopra.
+4. **Accedi tramite HTTPS**:
+  - `https://<tuo-dominio>/websvxlinkstat`
+  - Health check: `https://<tuo-dominio>/websvxlinkstat/health`
+
+Per dettagli e troubleshooting vedi [docs/reverse-proxy-deployment.md](docs/reverse-proxy-deployment.md).
+
 **Oppure con Docker direttamente:**
 ```bash
 # Build dell'immagine
@@ -74,15 +92,18 @@ docker run -d -p 5000:5000 svxlink-analyzer
 
 ## Utilizzo
 
-1. Avvia l'applicazione:
-```bash
-python app.py
-```
 
-2. Apri il browser all'indirizzo: http://localhost:5000
+1. Avvia l'applicazione:
+  ```bash
+  python app.py
+  ```
+
+2. Apri il browser all'indirizzo:
+  - Locale: `http://localhost:5000`
+  - Reverse proxy: `https://<tuo-dominio>/websvxlinkstat`
 
 3. **Per analisi singola**: Carica file di log dalla pagina principale
-4. **Per statistiche storiche**: Vai su `/statistics` per la dashboard completa
+4. **Per statistiche storiche**: Vai su `/statistics` (o `/websvxlinkstat/statistics` via proxy) per la dashboard completa
 5. **Processamento automatico**: I file nella cartella `data/` vengono processati automaticamente
 
 ## Analisi Supportate
@@ -174,50 +195,73 @@ Sun Oct 19 08:02:43 2025: Tx1: Turning the transmitter OFF
 
 ## 🔌 API REST Complete
 
+
 ### Analisi Singola
 ```bash
 # Analizza un singolo file
 POST /api/analyze
 curl -X POST -F "file=@svxlink_log.txt" http://localhost:5000/api/analyze
+# Oppure tramite reverse proxy:
+curl -X POST -F "file=@svxlink_log.txt" https://<tuo-dominio>/websvxlinkstat/api/analyze
 ```
 
 ### Statistiche Storiche
 ```bash
 # Statistiche giornaliere
 GET /api/statistics/daily?start_date=2025-10-19&end_date=2025-10-21
+# Reverse proxy:
+GET /websvxlinkstat/api/statistics/daily?start_date=2025-10-19&end_date=2025-10-21
 
 # Statistiche mensili  
 GET /api/statistics/monthly?year=2025&month=10
+# Reverse proxy:
+GET /websvxlinkstat/api/statistics/monthly?year=2025&month=10
 
 # Statistiche annuali
 GET /api/statistics/yearly?year=2025
+# Reverse proxy:
+GET /websvxlinkstat/api/statistics/yearly?year=2025
 
 # Statistiche CTCSS (Subtoni)
 GET /api/statistics/ctcss?start_date=2025-10-19&end_date=2025-10-21
+# Reverse proxy:
+GET /websvxlinkstat/api/statistics/ctcss?start_date=2025-10-19&end_date=2025-10-21
 
 # Statistiche Talk Groups
 GET /api/statistics/talkgroups?start_date=2025-10-19&end_date=2025-10-21
+# Reverse proxy:
+GET /websvxlinkstat/api/statistics/talkgroups?start_date=2025-10-19&end_date=2025-10-21
 ```
 
 ### Gestione Database
 ```bash
 # Ricarica stato database
 POST /api/reload-db
+# Reverse proxy:
+POST /websvxlinkstat/api/reload-db
 
 # Reset completo database (⚠️ ATTENZIONE)
 POST /api/reset-db
+# Reverse proxy:
+POST /websvxlinkstat/api/reset-db
 
 # Processamento forzato nuovi file
 POST /api/statistics/process
+# Reverse proxy:
+POST /websvxlinkstat/api/statistics/process
 ```
 
 ### Monitoraggio Sistema
 ```bash
 # Stato applicazione
 GET /status
+# Reverse proxy:
+GET /websvxlinkstat/status
 
 # Health check
 GET /health
+# Reverse proxy:
+GET /websvxlinkstat/health
 ```
 
 ## Struttura Progetto
@@ -345,9 +389,12 @@ docker exec -it websvxlinkstat-app-1 sh
 
 ## 📚 Documentazione Completa
 
+
 - **[API Documentation](API-DOCS.md)** - Guida completa alle API REST
 - **[Changelog](CHANGELOG.md)** - Cronologia versioni e modifiche
-- **[Docker Setup](DOCKER-README.md)** - Guida deployment Docker (se presente)
+- **[Docker Setup](DOCKER-README.md)** - Guida deployment Docker
+- **[Reverse Proxy Deployment](docs/reverse-proxy-deployment.md)** - Guida configurazione HTTPS/Apache
+- **[Esempio Configurazione Apache](config/apache-reverse-proxy.conf)**
 
 ## 🤝 Contributi
 

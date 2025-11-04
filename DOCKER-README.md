@@ -1,6 +1,12 @@
 # 🐳 SVXLink Log Analyzer - Docker
 
-Containerizzazione dell'applicazione SVXLink Log Analyzer per deployment semplice e portabile.
+
+Containerizzazione dell'applicazione SVXLink Log Analyzer per deployment semplice, portabile e sicuro.
+
+## 🌐 Supporto HTTPS & Reverse Proxy
+
+L'applicazione può essere servita in HTTPS e sotto un path dedicato (`/websvxlinkstat`) tramite Apache come reverse proxy.
+Consulta la guida [docs/reverse-proxy-deployment.md](docs/reverse-proxy-deployment.md) e il file di esempio `config/apache-reverse-proxy.conf` per la configurazione.
 
 ## 🚀 Quick Start
 
