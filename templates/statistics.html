@@ -561,8 +561,18 @@
             data.data.forEach(period => {
                 const row = document.createElement('tr');
                 
-                const statusClass = period.status === 'ongoing' ? 'warning' : 'success';
-                const statusText = period.status === 'ongoing' ? 'In corso' : 'Concluso';
+                // Determina classe e testo stato
+                let statusClass, statusText;
+                if (period.status === 'ongoing') {
+                    statusClass = 'warning';
+                    statusText = 'In corso';
+                } else if (period.status === 'disconnected') {
+                    statusClass = 'danger';
+                    statusText = 'Disconnesso';
+                } else {
+                    statusClass = 'success';
+                    statusText = 'Concluso';
+                }
                 
                 // Formatta i timestamp (mostra solo l'ora)
                 const startTimeText = period.start_time ? period.start_time.split('T')[1] : '-';

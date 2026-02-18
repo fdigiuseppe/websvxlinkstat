@@ -222,7 +222,12 @@ class SVXLinkLogAnalyzer:
                     self.current_disconnection['last_disconnection'] - 
                     self.current_disconnection['start']
                 ).total_seconds()
-                self.current_disconnection['status'] = 'resolved'
+                # Se la disconnessione arriva fino alle 23:50 o oltre, stato disconnesso
+                end_time = self.current_disconnection['last_disconnection']
+                if end_time.hour == 23 and end_time.minute >= 50:
+                    self.current_disconnection['status'] = 'disconnected'
+                else:
+                    self.current_disconnection['status'] = 'resolved'
                 self.disconnections.append(self.current_disconnection)
                 self.current_disconnection = None
                     
@@ -510,7 +515,12 @@ class SVXLinkLogAnalyzer:
                     self.current_disconnection['last_disconnection'] - 
                     self.current_disconnection['start']
                 ).total_seconds()
-                self.current_disconnection['status'] = 'resolved'
+                # Se la disconnessione arriva fino alle 23:50 o oltre, stato disconnesso
+                end_time = self.current_disconnection['last_disconnection']
+                if end_time.hour == 23 and end_time.minute >= 50:
+                    self.current_disconnection['status'] = 'disconnected'
+                else:
+                    self.current_disconnection['status'] = 'resolved'
                 self.disconnections.append(self.current_disconnection)
                 self.current_disconnection = None
                 

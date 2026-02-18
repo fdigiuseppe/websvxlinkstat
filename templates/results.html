@@ -215,7 +215,7 @@
                                                 </thead>
                                                 <tbody>
                                                     {% for disc in stats.disconnections.periods %}
-                                                    <tr class="{% if disc.status == 'ongoing' %}table-warning{% endif %}">
+                                                    <tr class="{% if disc.status == 'ongoing' %}table-warning{% elif disc.status == 'disconnected' %}table-danger{% endif %}">
                                                         <td>
                                                             <i class="fas fa-calendar-alt me-1 text-muted"></i>
                                                             {{ disc.start }}
@@ -237,8 +237,10 @@
                                                         <td class="text-center">
                                                             {% if disc.status == 'ongoing' %}
                                                                 <span class="badge bg-warning">In corso</span>
+                                                            {% elif disc.status == 'disconnected' %}
+                                                                <span class="badge bg-danger">Disconnesso</span>
                                                             {% else %}
-                                                                <span class="badge bg-success">Risolto</span>
+                                                                <span class="badge bg-success">Concluso</span>
                                                             {% endif %}
                                                         </td>
                                                     </tr>
