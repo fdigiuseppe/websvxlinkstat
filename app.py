@@ -64,6 +64,9 @@ class SVXLinkLogAnalyzer:
         self.qso_sessions = []  # QSO completi identificati
         self.active_tg = None  # TG attualmente attivo
         self.qso_start = None  # Inizio QSO corrente
+        # Tracciamento disconnessioni
+        self.disconnections = []  # Periodi di disconnessione
+        self.current_disconnection = None  # Disconnessione attualmente in corso
         
     def parse_log_file(self, file_path):
         """Analizza il file di log SVXLink"""
@@ -77,6 +80,9 @@ class SVXLinkLogAnalyzer:
         self.qso_sessions = []
         self.active_tg = None
         self.qso_start = None
+        # Reset disconnessioni
+        self.disconnections = []
+        self.current_disconnection = None
         
         tx_sessions = []  # Per tracciare le sessioni ON/OFF
         
@@ -177,12 +183,48 @@ class SVXLinkLogAnalyzer:
                     self.stats['talker_start'] += 1
                 elif "Talker stop" in message:
                     self.stats['talker_stop'] += 1
-                elif "Node joined" in message:
-                    self.stats['nodes_joined'] += 1
-                elif "Node left" in message:
-                    self.stats['nodes_left'] += 1
+                elif "Node joined" in message or "Node left" in message:
+                    # Eventi di nodi - chiudono eventuali disconnessioni in corso
+                    if self.current_disconnection:
+                        self.current_disconnection['end'] = timestamp
+                        self.current_disconnection['duration'] = (timestamp - self.current_disconnection['start']).total_seconds()
+                        self.disconnections.append(self.current_disconnection)
+                        self.current_disconnection = None
+                    
+                    if "Node joined" in message:
+                        self.stats['nodes_joined'] += 1
+                    else:
+                        self.stats['nodes_left'] += 1
                 elif "identification" in message.lower():
                     self.stats['identifications'] += 1
+                
+                # === TRACCIAMENTO DISCONNESSIONI ===
+                if "ReflectorLogic: Disconnected from" in message and "Connection timed out" in message:
+                    if self.current_disconnection is None:
+                        # Inizio nuovo periodo di disconnessione
+                        self.current_disconnection = {
+                            'start': timestamp,
+                            'end': None,
+                            'count': 1,
+                            'last_disconnection': timestamp
+                        }
+                    else:
+                        # Incrementa il contatore di disconnessioni dello stesso periodo
+                        self.current_disconnection['count'] += 1
+                        self.current_disconnection['last_disconnection'] = timestamp
+                    self.stats['disconnections'] += 1
+            
+            # Gestione disconnessioni ancora in corso alla fine del log
+            if self.current_disconnection:
+                # Chiudi il periodo con l'ultima disconnessione rilevata
+                self.current_disconnection['end'] = self.current_disconnection['last_disconnection']
+                self.current_disconnection['duration'] = (
+                    self.current_disconnection['last_disconnection'] - 
+                    self.current_disconnection['start']
+                ).total_seconds()
+                self.current_disconnection['status'] = 'resolved'
+                self.disconnections.append(self.current_disconnection)
+                self.current_disconnection = None
                     
         except Exception as e:
             raise Exception(f"Errore durante l'analisi del file: {str(e)}")
@@ -288,6 +330,21 @@ class SVXLinkLogAnalyzer:
                 },
                 'qso_sessions': self.qso_sessions[:20]  # Prime 20 QSO per performance
             },
+            'disconnections': {
+                'total_periods': len(self.disconnections),
+                'total_disconnections': sum(d['count'] for d in self.disconnections),
+                'periods': [
+                    {
+                        'start': d['start'].strftime('%Y-%m-%d %H:%M:%S'),
+                        'end': d['end'].strftime('%Y-%m-%d %H:%M:%S') if d.get('end') else 'In corso',
+                        'duration': d.get('duration'),
+                        'duration_formatted': f"{int(d['duration'] // 60)}m {int(d['duration'] % 60)}s" if d.get('duration') else 'In corso',
+                        'count': d['count'],
+                        'status': d.get('status', 'resolved')
+                    }
+                    for d in self.disconnections
+                ]
+            },
             'events': dict(self.stats),
             'transmissions': self.transmissions[:50]  # Mostra solo le prime 50 per performance
         }
@@ -304,6 +361,9 @@ class SVXLinkLogAnalyzer:
         self.qso_sessions = []
         self.active_tg = None
         self.qso_start = None
+        # Reset disconnessioni
+        self.disconnections = []
+        self.current_disconnection = None
         
         tx_sessions = []  # Per tracciare le sessioni ON/OFF
         
@@ -412,6 +472,48 @@ class SVXLinkLogAnalyzer:
                 elif 'The squelch is CLOSED' in message:
                     self.stats['squelch_closed'] += 1
                 
+                # === TRACCIAMENTO EVENTI NODI E DISCONNESSIONI ===
+                if "Node joined" in message or "Node left" in message:
+                    # Eventi di nodi - chiudono eventuali disconnessioni in corso
+                    if self.current_disconnection:
+                        self.current_disconnection['end'] = timestamp
+                        self.current_disconnection['duration'] = (timestamp - self.current_disconnection['start']).total_seconds()
+                        self.disconnections.append(self.current_disconnection)
+                        self.current_disconnection = None
+                    
+                    if "Node joined" in message:
+                        self.stats['nodes_joined'] += 1
+                    else:
+                        self.stats['nodes_left'] += 1
+                
+                # === TRACCIAMENTO DISCONNESSIONI ===
+                if "ReflectorLogic: Disconnected from" in message and "Connection timed out" in message:
+                    if self.current_disconnection is None:
+                        # Inizio nuovo periodo di disconnessione
+                        self.current_disconnection = {
+                            'start': timestamp,
+                            'end': None,
+                            'count': 1,
+                            'last_disconnection': timestamp
+                        }
+                    else:
+                        # Incrementa il contatore di disconnessioni dello stesso periodo
+                        self.current_disconnection['count'] += 1
+                        self.current_disconnection['last_disconnection'] = timestamp
+                    self.stats['disconnections'] += 1
+            
+            # Gestione disconnessioni ancora in corso alla fine del log
+            if self.current_disconnection:
+                # Chiudi il periodo con l'ultima disconnessione rilevata
+                self.current_disconnection['end'] = self.current_disconnection['last_disconnection']
+                self.current_disconnection['duration'] = (
+                    self.current_disconnection['last_disconnection'] - 
+                    self.current_disconnection['start']
+                ).total_seconds()
+                self.current_disconnection['status'] = 'resolved'
+                self.disconnections.append(self.current_disconnection)
+                self.current_disconnection = None
+                
         except Exception as e:
             print(f"Errore durante l'analisi: {e}")
             
@@ -488,6 +590,21 @@ class SVXLinkLogAnalyzer:
                 'total_qso': len(self.qso_sessions),
                 'total_qso_time': qso_total_time,
                 'qso_sessions': self.qso_sessions
+            },
+            'disconnections': {
+                'total_periods': len(self.disconnections),
+                'total_disconnections': sum(d['count'] for d in self.disconnections),
+                'periods': [
+                    {
+                        'start': d['start'],
+                        'end': d.get('end'),
+                        'duration': d.get('duration'),
+                        'duration_formatted': f"{int(d['duration'] // 60)}m {int(d['duration'] % 60)}s" if d.get('duration') else 'In corso',
+                        'count': d['count'],
+                        'status': d.get('status', 'resolved')
+                    }
+                    for d in self.disconnections
+                ]
             },
             'events': dict(self.stats)
         }
@@ -826,6 +943,59 @@ def api_talkgroups_statistics():
             'period': {'start': start_date, 'end': end_date},
             'total_tgs': len(tg_stats),
             'data': tg_stats
+        })
+        
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/statistics/disconnections')
+def api_disconnections_statistics():
+    """API per statistiche disconnessioni ReflectorLogic"""
+    if not is_database_available():
+        return jsonify({'error': 'Database non disponibile'}), 503
+    
+    try:
+        start_date = request.args.get('start_date')
+        end_date = request.args.get('end_date')
+        
+        # Default: ultimi 30 giorni
+        if not start_date or not end_date:
+            end_date = date.today().isoformat()
+            start_date = (date.today() - timedelta(days=30)).isoformat()
+        
+        # Valida date
+        try:
+            datetime.strptime(start_date, '%Y-%m-%d')
+            datetime.strptime(end_date, '%Y-%m-%d')
+        except ValueError:
+            return jsonify({'error': 'Formato data non valido. Usa YYYY-MM-DD'}), 400
+        
+        # Recupera statistiche disconnessioni
+        disconnections = db_manager.get_disconnections(start_date, end_date)
+        
+        # Calcola statistiche aggregate
+        total_periods = len(disconnections)
+        total_disconnections = sum(d.get('disconnection_count', 0) for d in disconnections)
+        
+        # Calcola durata totale (le durate sono già formattate come stringa nel DB)
+        total_duration_formatted = "In corso"
+        if disconnections:
+            # Se ci sono solo periodi ongoing, mostra "In corso"
+            has_resolved = any(d.get('status') == 'resolved' and d.get('duration') for d in disconnections)
+            if has_resolved:
+                total_duration_formatted = "Vedi dettagli"
+            elif all(d.get('status') == 'ongoing' for d in disconnections):
+                total_duration_formatted = "In corso"
+        
+        return jsonify({
+            'success': True,
+            'period': {'start': start_date, 'end': end_date},
+            'summary': {
+                'total_periods': total_periods,
+                'total_disconnections': total_disconnections,
+                'total_duration_formatted': total_duration_formatted
+            },
+            'data': disconnections
         })
         
     except Exception as e:

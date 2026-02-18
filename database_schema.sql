@@ -91,6 +91,18 @@ CREATE TABLE IF NOT EXISTS yearly_stats (
     generated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
+-- Tabella per tracciare disconnessioni ReflectorLogic
+CREATE TABLE IF NOT EXISTS daily_disconnections (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    log_date DATE NOT NULL,
+    start_time TIMESTAMP NOT NULL,
+    end_time TIMESTAMP,
+    duration INTEGER, -- secondi (NULL se disconnessione ancora in corso)
+    disconnection_count INTEGER DEFAULT 1, -- numero di disconnessioni nel periodo
+    status TEXT DEFAULT 'resolved', -- 'resolved' o 'ongoing'
+    FOREIGN KEY (log_date) REFERENCES daily_logs(date)
+);
+
 -- Indici per performance
 CREATE INDEX IF NOT EXISTS idx_daily_logs_date ON daily_logs(date);
 CREATE INDEX IF NOT EXISTS idx_ctcss_stats_date ON daily_ctcss_stats(log_date);
@@ -98,6 +110,7 @@ CREATE INDEX IF NOT EXISTS idx_tg_stats_date ON daily_tg_stats(log_date);
 CREATE INDEX IF NOT EXISTS idx_qso_events_date ON daily_qso_events(log_date);
 CREATE INDEX IF NOT EXISTS idx_qso_events_time ON daily_qso_events(start_time, end_time);
 CREATE INDEX IF NOT EXISTS idx_monthly_stats_period ON monthly_stats(year, month);
+CREATE INDEX IF NOT EXISTS idx_disconnections_date ON daily_disconnections(log_date);
 CREATE INDEX IF NOT EXISTS idx_yearly_stats_year ON yearly_stats(year);
 
 -- Views per query comuni

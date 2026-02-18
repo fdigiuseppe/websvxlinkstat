@@ -321,6 +321,69 @@ fetch('/api/statistics/talkgroups?start_date=2025-10-19&end_date=2025-10-21')
 
 ---
 
+### GET /api/statistics/disconnections
+
+Recupera statistiche sui periodi di disconnessione del ReflectorLogic per un range di date.
+
+#### Parameters
+
+| Parameter | Type | Required | Description |
+|-----------|------|----------|-------------|
+| start_date | string | No | Data inizio (YYYY-MM-DD). Default: 30 giorni fa |
+| end_date | string | No | Data fine (YYYY-MM-DD). Default: oggi |
+
+#### Response
+
+```json
+{
+  "success": true,
+  "period": {
+    "start": "2026-02-17",
+    "end": "2026-02-17"
+  },
+  "summary": {
+    "total_periods": 1,
+    "total_disconnections": 571,
+    "total_duration_formatted": "Vedi dettagli"
+  },
+  "data": [
+    {
+      "id": 4,
+      "log_date": "2026-02-17",
+      "start_time": "2026-02-17T00:00:33",
+      "end_time": "2026-02-17T23:56:43",
+      "duration": 86170,
+      "disconnection_count": 571,
+      "status": "resolved"
+    }
+  ]
+}
+```
+
+#### Note
+
+- **duration**: espresso in secondi
+- **status**: può essere `resolved` (chiuso) o `ongoing` (in corso)
+- **disconnection_count**: numero di tentativi di riconnessione durante il periodo
+- I periodi raggruppano disconnessioni consecutive dello stesso tipo
+
+#### Esempi
+
+```bash
+# Range personalizzato
+curl "http://localhost:5000/api/statistics/disconnections?start_date=2026-02-17&end_date=2026-02-17"
+
+# JavaScript (Fetch API)
+fetch('/api/statistics/disconnections?start_date=2026-02-17&end_date=2026-02-17')
+  .then(response => response.json())
+  .then(data => {
+    console.log(`Periodi: ${data.summary.total_periods}`);
+    console.log(`Disconnessioni totali: ${data.summary.total_disconnections}`);
+  });
+```
+
+---
+
 ## 🔧 Gestione Database
 
 ### POST /api/reload-db

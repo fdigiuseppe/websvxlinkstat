@@ -22,6 +22,7 @@ Una web application completa in Python Flask che analizza i file di log SVXLink 
 - **Analisi Talk Groups**: Tracciamento e statistiche dei TG aperti durante le sessioni
 - **Analisi durate TG**: Calcolo delle durate totali e medie per ogni Talk Group
 - **Rilevamento QSO avanzato**: Identificazione automatica di QSO completi basata su pattern di subtoni e TG
+- **Monitoraggio Disconnessioni ReflectorLogic**: Track disconnessioni del ponte ripetitore dal reflector con analisi dettagliata dei periodi di inattività
 
 ### 🎨 Interfaccia Moderna e Funzionale
 - **Design responsive**: Interfaccia moderna ottimizzata per desktop e mobile
@@ -146,12 +147,35 @@ docker run -d -p 5000:5000 svxlink-analyzer
   - **Percentuali di utilizzo**: Mostra quale TG è più utilizzato
 - **Ordinamento intelligente**: TG ordinati per durata totale (dal più utilizzato)
 
+### Monitoraggio Disconnessioni ReflectorLogic 🔴
+- **Pattern Detection**: Rilevamento automatico di disconnessioni dal reflector
+  - Pattern riconosciuto: `ReflectorLogic: Disconnected from 44.32.32.40:5300: Connection timed out`
+  - Raggruppamento di disconnessioni consecutive in periodi unici
+- **Metriche Disconnessioni**:
+  - **Periodi totali**: Numero di periodi di disconnessione rilevati
+  - **Conteggio disconnessioni**: Numero totale di tentativi di riconnessione falliti
+  - **Durata totale**: Tempo complessivo di inattività del ponte
+- **Chiusura Intelligente Periodi**:
+  - Periodo chiuso automaticamente con timestamp dell'ultima disconnessione
+  - Status "Concluso" per periodi terminati con successo
+  - Status "In corso" per disconnessioni attive (real-time)
+- **Dashboard Dedicata**:
+  - **Pannello rosso**: Alert visivo con card riassuntive
+  - **Tabella dettagliata**: 
+    - Data periodo
+    - Orario inizio e fine disconnessione
+    - Durata formattata (ore, minuti, secondi)
+    - Conteggio tentativi riconnessione
+    - Badge status (Concluso/In corso)
+  - **Visibilità automatica**: Pannello mostrato solo quando ci sono disconnessioni nel periodo selezionato
+
 ### Eventi Tracciati
 - Accensioni e spegnimenti del trasmettitore
 - Rilevamenti toni CTCSS con frequenza specifica
 - Aperture e chiusure del squelch
 - Eventi talker (inizio/fine trasmissione) per calcolo durate TG
 - Connessioni/disconnessioni nodi
+- **Disconnessioni ReflectorLogic**: Monitoraggio connection timeout con reflector e analisi periodi di inattività
 - Identificazioni automatiche del ripetitore
 - Selezioni Talk Group con tracciamento durate
 
@@ -184,6 +208,14 @@ Con un file di log SVXLink tipico, l'applicazione produce risultati come:
 - **Tempo totale**: 12h 15m di attività
 - **QSO totali**: 189 conversazioni complete
 - **Grafici**: Trend giornaliero + distribuzione QSO per data
+
+### 🔴 Esempio Disconnessioni ReflectorLogic
+- **Periodo analizzato**: 17 Febbraio 2026
+- **Periodi disconnessione**: 1 periodo rilevato
+- **Disconnessioni totali**: 571 tentativi di riconnessione falliti
+- **Durata periodo**: 23h 56m 10s (dalle 00:00:33 alle 23:56:43)
+- **Status**: Concluso
+- **Visualizzazione**: Pannello rosso dedicato con dettagli completi nella dashboard statistiche
 
 ## Formato File Log
 
@@ -231,6 +263,11 @@ GET /websvxlinkstat/api/statistics/ctcss?start_date=2025-10-19&end_date=2025-10-
 GET /api/statistics/talkgroups?start_date=2025-10-19&end_date=2025-10-21
 # Reverse proxy:
 GET /websvxlinkstat/api/statistics/talkgroups?start_date=2025-10-19&end_date=2025-10-21
+
+# Statistiche Disconnessioni ReflectorLogic
+GET /api/statistics/disconnections?start_date=2026-02-17&end_date=2026-02-17
+# Reverse proxy:
+GET /websvxlinkstat/api/statistics/disconnections?start_date=2026-02-17&end_date=2026-02-17
 ```
 
 ### Gestione Database

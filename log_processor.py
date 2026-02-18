@@ -11,7 +11,7 @@ from datetime import datetime, date
 from pathlib import Path
 from typing import Dict, List, Optional
 
-from database import DatabaseManager, DailyLogStats, CTCSSStats, TGStats
+from database import DatabaseManager, DailyLogStats, CTCSSStats, TGStats, DisconnectionPeriod
 from app import SVXLinkLogAnalyzer
 
 class LogProcessor:
@@ -145,6 +145,19 @@ class LogProcessor:
                         percentage=data['percentage']
                     ))
             
+            # Prepara statistiche disconnessioni
+            disconnection_stats = []
+            if stats.get('disconnections') and stats['disconnections'].get('periods'):
+                for disc in stats['disconnections']['periods']:
+                    disconnection_stats.append(DisconnectionPeriod(
+                        log_date=log_date,
+                        start_time=datetime.strptime(disc['start'].strftime('%Y-%m-%d %H:%M:%S'), '%Y-%m-%d %H:%M:%S') if isinstance(disc['start'], datetime) else datetime.strptime(disc['start'], '%Y-%m-%d %H:%M:%S'),
+                        end_time=datetime.strptime(disc['end'].strftime('%Y-%m-%d %H:%M:%S'), '%Y-%m-%d %H:%M:%S') if disc.get('end') and isinstance(disc['end'], datetime) else None,
+                        duration=int(disc.get('duration')) if disc.get('duration') else None,
+                        disconnection_count=disc.get('count', 1),
+                        status=disc.get('status', 'resolved')
+                    ))
+            
             # Salva nel database
             success = True
             success &= self.db_manager.save_daily_stats(daily_stats)
@@ -155,11 +168,15 @@ class LogProcessor:
             if tg_stats:
                 success &= self.db_manager.save_tg_stats(tg_stats)
             
+            if disconnection_stats:
+                success &= self.db_manager.save_disconnections(disconnection_stats)
+            
             if success:
                 print(f"✅ {file_path.name} processato con successo")
                 print(f"   📊 {daily_stats.total_transmissions} trasmissioni, "
                       f"{daily_stats.total_qso} QSO, "
-                      f"{len(ctcss_stats)} CTCSS, {len(tg_stats)} TG")
+                      f"{len(ctcss_stats)} CTCSS, {len(tg_stats)} TG, "
+                      f"{len(disconnection_stats)} periodi disconnessione")
             else:
                 print(f"❌ Errore nel salvataggio di {file_path.name}")
             

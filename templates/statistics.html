@@ -184,6 +184,67 @@
             </div>
         </div>
 
+        <!-- Disconnections Panel -->
+        <div class="row mt-4" id="disconnectionsPanel" style="display:none;">
+            <div class="col-12">
+                <div class="card border-danger">
+                    <div class="card-header bg-danger text-white">
+                        <h5 class="mb-0">
+                            <i class="fas fa-exclamation-triangle me-2"></i>
+                            Disconnessioni ReflectorLogic
+                        </h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="row mb-3" id="disconnectionsSummary">
+                            <div class="col-md-4">
+                                <div class="stat-card text-center">
+                                    <i class="fas fa-plug text-danger fa-2x mb-2"></i>
+                                    <div class="stat-value text-danger" id="totalPeriods">0</div>
+                                    <div class="stat-label">Periodi di disconnessione</div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="stat-card text-center">
+                                    <i class="fas fa-times-circle text-warning fa-2x mb-2"></i>
+                                    <div class="stat-value text-warning" id="totalDisconnections">0</div>
+                                    <div class="stat-label">Disconnessioni totali</div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="stat-card text-center">
+                                    <i class="fas fa-clock text-info fa-2x mb-2"></i>
+                                    <div class="stat-value text-info" id="totalDuration">0m 0s</div>
+                                    <div class="stat-label">Tempo totale disconnesso</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <h6 class="mt-4 mb-3"><i class="fas fa-list me-2"></i>Dettaglio Disconnessioni:</h6>
+                        <div class="table-responsive" style="max-height: 400px; overflow-y: auto;">
+                            <table class="table table-striped table-sm" id="disconnectionsTable">
+                                <thead class="table-light">
+                                    <tr>
+                                        <th>Data</th>
+                                        <th>Inizio</th>
+                                        <th>Fine</th>
+                                        <th>Durata</th>
+                                        <th class="text-center">N° Disconnessioni</th>
+                                        <th class="text-center">Stato</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="disconnectionsTableBody">
+                                    <!-- Popolato dinamicamente -->
+                                </tbody>
+                            </table>
+                        </div>
+                        <div id="noDisconnections" class="text-muted text-center py-3" style="display:none;">
+                            Nessuna disconnessione rilevata nel periodo selezionato
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Tabella Dettagliata -->
         <div class="row mt-4">
             <div class="col-12">
@@ -424,6 +485,9 @@
                 const startDate = document.getElementById('startDate').value;
                 const endDate = document.getElementById('endDate').value;
                 url = `${API_BASE_PATH}/statistics/daily?start_date=${startDate}&end_date=${endDate}`;
+                
+                // Carica anche le disconnessioni per la vista giornaliera
+                loadDisconnections(startDate, endDate);
             } else if (viewType === 'monthly') {
                 const year = document.getElementById('yearSelect').value;
                 const month = document.getElementById('monthSelect').value;
@@ -457,12 +521,79 @@
                 });
         }
         
+        function loadDisconnections(startDate, endDate) {
+            const url = `${API_BASE_PATH}/statistics/disconnections?start_date=${startDate}&end_date=${endDate}`;
+            
+            fetch(url)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        updateDisconnectionsPanel(data);
+                    } else {
+                        console.error('Errore caricamento disconnessioni:', data.error);
+                    }
+                })
+                .catch(error => {
+                    console.error('Errore fetch disconnessioni:', error);
+                });
+        }
+        
+        function updateDisconnectionsPanel(data) {
+            const panel = document.getElementById('disconnectionsPanel');
+            const tbody = document.getElementById('disconnectionsTableBody');
+            
+            if (!data.data || data.data.length === 0) {
+                panel.style.display = 'none';
+                return;
+            }
+            
+            // Mostra il pannello
+            panel.style.display = 'block';
+            
+            // Aggiorna le card del sommario
+            document.getElementById('totalPeriods').textContent = data.summary.total_periods;
+            document.getElementById('totalDisconnections').textContent = data.summary.total_disconnections;
+            document.getElementById('totalDuration').textContent = data.summary.total_duration_formatted;
+            
+            // Popola la tabella
+            console.log('[DEBUG] Populating table with', data.data.length, 'rows');
+            tbody.innerHTML = '';
+            data.data.forEach(period => {
+                const row = document.createElement('tr');
+                
+                const statusClass = period.status === 'ongoing' ? 'warning' : 'success';
+                const statusText = period.status === 'ongoing' ? 'In corso' : 'Concluso';
+                
+                // Formatta i timestamp (mostra solo l'ora)
+                const startTimeText = period.start_time ? period.start_time.split('T')[1] : '-';
+                const endTimeText = period.end_time ? period.end_time.split('T')[1] : '-';
+                
+                // Formatta la durata in modo leggibile
+                const durationText = period.duration ? formatDuration(period.duration) : 'In corso';
+                
+                row.innerHTML = `
+                    <td>${period.log_date}</td>
+                    <td>${startTimeText}</td>
+                    <td>${endTimeText}</td>
+                    <td>${durationText}</td>
+                    <td class="text-center">${period.disconnection_count}</td>
+                    <td class="text-center"><span class="badge bg-${statusClass}">${statusText}</span></td>
+                `;
+                
+                tbody.appendChild(row);
+            });
+        }
+        
         function updateStatistics(data, viewType) {
             if (viewType === 'daily') {
                 updateDailyStatistics(data);
             } else if (viewType === 'monthly') {
+                // Nascondi il pannello disconnessioni per vista mensile
+                document.getElementById('disconnectionsPanel').style.display = 'none';
                 updateMonthlyStatistics(data);
             } else if (viewType === 'yearly') {
+                // Nascondi il pannello disconnessioni per vista annuale
+                document.getElementById('disconnectionsPanel').style.display = 'none';
                 updateYearlyStatistics(data);
             }
         }

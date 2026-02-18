@@ -56,6 +56,16 @@ class QSOEvent:
     event_type: str = 'qso'
     details: Optional[str] = None
 
+@dataclass
+class DisconnectionPeriod:
+    """Periodo di disconnessione ReflectorLogic"""
+    log_date: str
+    start_time: datetime
+    end_time: Optional[datetime] = None
+    duration: Optional[int] = None  # secondi
+    disconnection_count: int = 1
+    status: str = 'resolved'  # 'resolved' o 'ongoing'
+
 class DatabaseManager:
     """Gestione database SQLite per statistiche SVXLink"""
     
@@ -133,9 +143,20 @@ class DatabaseManager:
             UNIQUE(log_date, tg_number)
         );
         
+        CREATE TABLE IF NOT EXISTS daily_disconnections (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            log_date DATE NOT NULL,
+            start_time TIMESTAMP NOT NULL,
+            end_time TIMESTAMP,
+            duration INTEGER,
+            disconnection_count INTEGER DEFAULT 1,
+            status TEXT DEFAULT 'resolved'
+        );
+        
         CREATE INDEX IF NOT EXISTS idx_daily_logs_date ON daily_logs(date);
         CREATE INDEX IF NOT EXISTS idx_ctcss_stats_date ON daily_ctcss_stats(log_date);
         CREATE INDEX IF NOT EXISTS idx_tg_stats_date ON daily_tg_stats(log_date);
+        CREATE INDEX IF NOT EXISTS idx_disconnections_date ON daily_disconnections(log_date);
         """
         
         with self.get_connection() as conn:
@@ -430,6 +451,46 @@ class DatabaseManager:
                 return [dict(row) for row in cursor.fetchall()]
         except Exception as e:
             print(f"❌ Errore recupero tutti i dati: {e}")
+            return []
+    
+    def save_disconnections(self, disconnections: List[DisconnectionPeriod]) -> bool:
+        """Salva periodi di disconnessione ReflectorLogic"""
+        try:
+            with self.get_connection() as conn:
+                # Cancella vecchie disconnessioni per la data
+                if disconnections:
+                    conn.execute("DELETE FROM daily_disconnections WHERE log_date = ?", 
+                               (disconnections[0].log_date,))
+                
+                # Inserisci nuove disconnessioni
+                for disc in disconnections:
+                    conn.execute("""
+                        INSERT INTO daily_disconnections 
+                        (log_date, start_time, end_time, duration, disconnection_count, status)
+                        VALUES (?, ?, ?, ?, ?, ?)
+                    """, (disc.log_date, disc.start_time.isoformat(), 
+                          disc.end_time.isoformat() if disc.end_time else None,
+                          disc.duration, disc.disconnection_count, disc.status))
+                
+                conn.commit()
+                return True
+        except Exception as e:
+            print(f"❌ Errore salvataggio disconnessioni: {e}")
+            return False
+    
+    def get_disconnections(self, start_date: str, end_date: str) -> List[Dict]:
+        """Recupera statistiche disconnessioni per periodo"""
+        try:
+            with self.get_connection() as conn:
+                cursor = conn.execute("""
+                    SELECT * FROM daily_disconnections 
+                    WHERE log_date BETWEEN ? AND ?
+                    ORDER BY start_time DESC
+                """, (start_date, end_date))
+                
+                return [dict(row) for row in cursor.fetchall()]
+        except Exception as e:
+            print(f"❌ Errore recupero disconnessioni: {e}")
             return []
 
 # Test del database manager
