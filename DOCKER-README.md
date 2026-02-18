@@ -104,6 +104,38 @@ docker-compose exec svxlink-analyzer bash
 docker-compose logs -f svxlink-analyzer
 ```
 
+### Aggiornamento Applicazione
+
+Quando aggiorni il codice con nuove funzionalità:
+
+```bash
+# 1. Scarica gli aggiornamenti
+git fetch && git pull
+
+# 2. Rebuild dell'immagine Docker senza cache
+docker-compose build --no-cache
+
+# 3. Riavvia il container
+docker-compose up -d
+
+# 4. Verifica che la migrazione sia avvenuta
+docker-compose logs svxlink-analyzer | grep "Database pronto"
+```
+
+**Nota**: Le migrazioni del database vengono eseguite **automaticamente** all'avvio del container tramite lo script `migrate_database.py`. Non è necessario perdere i dati esistenti.
+
+### Migrazione Database Manuale
+
+Se necessario, puoi eseguire manualmente la migrazione:
+
+```bash
+# Esegui migrazione nel container in esecuzione
+docker-compose exec svxlink-analyzer python migrate_database.py
+
+# Oppure reset completo del database (ATTENZIONE: cancella tutti i dati!)
+docker-compose exec svxlink-analyzer python reset_database.py --force
+```
+
 ### Debug e Troubleshooting
 
 ```bash
@@ -119,6 +151,26 @@ docker stats svxlink-analyzer
 # Cleanup completo
 docker-compose down -v
 docker system prune -f
+```
+
+### Troubleshooting Pannello Disconnessioni
+
+Se dopo un aggiornamento non vedi il **pannello Disconnessioni ReflectorLogic**:
+
+```bash
+# 1. Verifica che la tabella esista nel database
+docker-compose exec svxlink-analyzer sqlite3 /app/data/db/svxlink_stats.db \
+  "SELECT name FROM sqlite_master WHERE type='table' AND name='daily_disconnections';"
+
+# 2. Se la tabella non esiste, esegui manualmente la migrazione
+docker-compose exec svxlink-analyzer python migrate_database.py
+
+# 3. Riprocessa i log per popolare i dati
+docker-compose exec svxlink-analyzer python force_import.py
+
+# 4. Verifica che ci siano dati
+docker-compose exec svxlink-analyzer sqlite3 /app/data/db/svxlink_stats.db \
+  "SELECT COUNT(*) FROM daily_disconnections;"
 ```
 
 ## 🌐 Accesso all'Applicazione
@@ -219,6 +271,9 @@ networks:
 - **Memoria richiesta**: ~100MB
 - **CPU**: Minimal per operazioni normali
 - **Storage**: Effimero, logs non persistenti di default
+- **Database persistente**: Il volume `svxlink_db` mantiene i dati tra i riavvii
+- **Migrazioni automatiche**: Lo schema del database viene aggiornato automaticamente all'avvio
+- **Aggiornamenti**: Esegui `docker-compose build --no-cache && docker-compose up -d` per nuove versioni
 
 ## 🆘 Supporto
 

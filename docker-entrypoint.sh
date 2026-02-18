@@ -22,6 +22,15 @@ echo "=================================="
 echo "🔍 Testing network connectivity..."
 netstat -tlnp | grep :${FLASK_PORT} || echo "⚠️ Porta ${FLASK_PORT} non ancora in ascolto"
 
+# Esegui migrazioni database
+echo "📊 Verifica schema database..."
+python migrate_database.py
+if [ $? -eq 0 ]; then
+    echo "✅ Database pronto"
+else
+    echo "⚠️ Attenzione: problemi con la migrazione database"
+fi
+
 # Avvia l'applicazione Flask
 echo "🎬 Avviando applicazione Flask..."
 exec python app.py
